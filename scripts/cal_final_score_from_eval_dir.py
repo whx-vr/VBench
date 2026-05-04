@@ -1,9 +1,12 @@
 """
 Aggregate VBench final scores from evaluate.py output on disk (no zip).
 
-evaluate.py writes a single JSON: {output_path}/{name}_eval_results.json
-with one key per dimension (underscore names) and values typically
-[aggregate_score, per_video_details].
+evaluate.py typically writes one pair per run:
+  {output_path}/results_<time>_eval_results.json
+Often each file has one dimension key when running one dimension at a time
+(e.g. evaluate.sh). This script merges all ``*_eval_results.json`` under
+``--output_dir``, matching scripts/cal_final_score.py behavior over multiple
+JSON files (later files overwrite duplicate dimension keys).
 """
 
 import argparse
@@ -38,45 +41,46 @@ def load_from_eval_output(output_dir, results_json=None):
     """
     Build upload_data dict (space-separated dimension names) from evaluate output.
 
-    If results_json is None, picks the newest *_eval_results.json under output_dir.
+    If results_json is None: load and merge every ``*_eval_results.json`` under
+    output_dir (sorted paths for stable merge order; same dimension in multiple
+    files keeps the last file's value).
+
+    If results_json is set: load that single file only.
     """
     output_dir = os.path.abspath(output_dir)
     if not os.path.isdir(output_dir):
         raise FileNotFoundError(f"Not a directory: {output_dir}")
 
     if results_json:
-        path = (
+        paths = [
             results_json
             if os.path.isabs(results_json)
             else os.path.join(output_dir, results_json)
-        )
+        ]
     else:
-        candidates = glob.glob(os.path.join(output_dir, "*_eval_results.json"))
-        if not candidates:
+        paths = sorted(glob.glob(os.path.join(output_dir, "*_eval_results.json")))
+        if not paths:
             raise FileNotFoundError(
                 f"No '*_eval_results.json' under {output_dir}. "
-                "Set --results_json to the file from evaluate.py (e.g. results_*_eval_results.json)."
+                "Set --results_json to a specific file from evaluate.py."
             )
-        path = max(candidates, key=os.path.getmtime)
-
-    if not os.path.isfile(path):
-        raise FileNotFoundError(f"Results file not found: {path}")
-
-    with open(path, encoding="utf-8") as f:
-        cur_json = json.load(f)
-
-    if not isinstance(cur_json, dict):
-        raise ValueError(f"Expected a JSON object in {path}, got {type(cur_json)}")
 
     upload_data = {}
-    for key in cur_json:
-        upload_data[key.replace("_", " ")] = _scalar_from_dimension_value(cur_json[key])
+    for path in paths:
+        if not os.path.isfile(path):
+            raise FileNotFoundError(f"Results file not found: {path}")
+        with open(path, encoding="utf-8") as f:
+            cur_json = json.load(f)
+        if not isinstance(cur_json, dict):
+            raise ValueError(f"Expected a JSON object in {path}, got {type(cur_json)}")
+        for key in cur_json:
+            upload_data[key.replace("_", " ")] = _scalar_from_dimension_value(cur_json[key])
 
     for key in TASK_INFO:
         if key not in upload_data:
             upload_data[key] = 0
 
-    return upload_data, path
+    return upload_data, paths
 
 
 if __name__ == "__main__":
@@ -93,14 +97,16 @@ if __name__ == "__main__":
         "--results_json",
         type=str,
         default=None,
-        help="Optional: exact results file name or path. "
+        help="Optional: exact results file name or path (single file). "
         "If relative, resolved under --output_dir. "
-        "If omitted, uses the newest *_eval_results.json in output_dir.",
+        "If omitted, merges every *_eval_results.json in output_dir.",
     )
     args = parser.parse_args()
 
-    upload_dict, used_path = load_from_eval_output(args.output_dir, args.results_json)
-    print(f"Loaded results from: {used_path}")
+    upload_dict, used_paths = load_from_eval_output(args.output_dir, args.results_json)
+    print(f"Loaded results from {len(used_paths)} file(s):")
+    for p in used_paths:
+        print(f"  {p}")
     print(f"your submission info: \n{upload_dict} \n")
 
     normalized_score = get_nomalized_score(upload_dict)

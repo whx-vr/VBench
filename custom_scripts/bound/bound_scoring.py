@@ -46,8 +46,15 @@ def _video_dict_from_dimension_result(dim_result: Any) -> Tuple[Optional[float],
     if not isinstance(dim_result, (list, tuple)) or len(dim_result) < 2:
         return official, out
     head = dim_result[0]
-    if isinstance(head, (int, float, bool)):
-        official = float(head) if not isinstance(head, bool) else (1.0 if head else 0.0)
+    if isinstance(head, bool):
+        official = 1.0 if head else 0.0
+    elif isinstance(head, (int, float)):
+        official = float(head)
+    else:
+        try:
+            official = float(head)  # numpy scalar etc. from some json pipelines
+        except (TypeError, ValueError):
+            official = None
     per_video = dim_result[1]
     if not isinstance(per_video, list):
         return official, out
@@ -58,6 +65,12 @@ def _video_dict_from_dimension_result(dim_result: Any) -> Tuple[Optional[float],
         if not path:
             continue
         s = _scalar_from_video_results(entry.get("video_results"))
+        if s is None:
+            capv = entry.get("cor_num_per_video")
+            if isinstance(capv, bool):
+                s = 1.0 if capv else 0.0
+            elif isinstance(capv, (int, float)):
+                s = float(capv)
         if s is None:
             continue
         out[normalize_path(str(path))] = s
@@ -105,8 +118,19 @@ def bound_scores_from_pair(
     full_info_path: str,
     eval_results_path: str,
     mode: BoundMode,
+    *,
+    fallback_official_scalar: bool = True,
 ) -> Dict[str, float]:
-    """Return dimension_name (underscore) -> bound scalar for dims present in eval JSON."""
+    """
+    Return dimension_name (underscore) -> scalar for each dim in eval JSON.
+
+    Primary: per-prompt max/min over per-video scores, then mean across prompts
+    (see aggregate_one_dimension). When ``fallback_official_scalar`` is True and
+    there are no usable per-video scores or aggregation yields nothing, fall back
+    to the official aggregate ``dim_result[0]`` — same scalar as
+    ``cal_final_score_from_eval_dir`` / ``cal_final_score.submission`` use, so
+    missing dimensions are not silently scored as 0.0 due to path mismatch alone.
+    """
     with open(full_info_path, "r", encoding="utf-8") as f:
         full_info = json.load(f)
     if not isinstance(full_info, list):
@@ -120,13 +144,14 @@ def bound_scores_from_pair(
     for dim_key, dim_result in eval_results.items():
         if not isinstance(dim_key, str):
             continue
-        _, video_map = _video_dict_from_dimension_result(dim_result)
-        if not video_map:
-            continue
-        agg = aggregate_one_dimension(full_info, video_map, mode)
-        if agg is None:
-            continue
-        out[dim_key] = agg
+        official, video_map = _video_dict_from_dimension_result(dim_result)
+        agg: Optional[float] = None
+        if video_map:
+            agg = aggregate_one_dimension(full_info, video_map, mode)
+        if agg is not None:
+            out[dim_key] = agg
+        elif fallback_official_scalar and official is not None:
+            out[dim_key] = float(official)
     return out
 
 

@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 """
-Compute VBench-style total / quality / semantic scores using per-prompt
-max or min over samples (from *_full_info.json + *_eval_results.json pairs).
+Compute VBench-style total / quality / semantic scores.
+
+Modes:
+  1) Default (--bound max|min): per-prompt max/min over per-video scores, then
+     mean across prompts (custom bound). When per-video data is missing or
+     aggregation fails, falls back to official dim_result[0] (same as
+     cal_final_score_from_eval_dir) so dimensions are not silently 0.
+  2) --eval-scalars-only: merge official [0] from *_eval_results.json only —
+     matches scripts/cal_final_score_from_eval_dir.py (no full_info / bound).
 
 Example:
   python custom_scripts/bound/cal_bound_score.py \\
     --results_dir ./evaluation_results --bound max
 
   python custom_scripts/bound/cal_bound_score.py \\
-    --pair ./evaluation_results/results_2025-01-01_full_info.json \\
-          ./evaluation_results/results_2025-01-01_eval_results.json \\
-    --bound min --write_submission ./bound_submission_min.json
+    --results_dir ./evaluation_results --eval-scalars-only
 """
 from __future__ import annotations
 
@@ -54,13 +59,15 @@ def write_submission_json(path: str, dim_scores: dict) -> None:
     payload = {}
     for k, v in dim_scores.items():
         payload[k] = [float(v), []]
-    os.makedirs(os.path.dirname(os.path.abspath(path)) or ".", exist_ok=True)
+    d = os.path.dirname(os.path.abspath(path))
+    if d:
+        os.makedirs(d, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2)
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Per-prompt max/min bound scores for VBench")
+    parser = argparse.ArgumentParser(description="Per-prompt max/min bound or official eval scalars")
     src = parser.add_mutually_exclusive_group(required=True)
     src.add_argument(
         "--results_dir",
@@ -76,8 +83,13 @@ def main() -> None:
     parser.add_argument(
         "--bound",
         choices=("max", "min"),
-        required=True,
-        help="Within each prompt, take max or min over available sample videos",
+        default=None,
+        help="Within each prompt, take max or min over sample videos (ignored with --eval-scalars-only)",
+    )
+    parser.add_argument(
+        "--eval-scalars-only",
+        action="store_true",
+        help="Use merged official [0] from *_eval_results.json only (same as cal_final_score_from_eval_dir.py)",
     )
     parser.add_argument(
         "--write_submission",
@@ -87,17 +99,38 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    if args.pair:
-        full_info_path, eval_path = args.pair
-        merged = bound_scores_from_pair(full_info_path, eval_path, args.bound)
+    if args.eval_scalars_only:
+        if args.bound is not None:
+            parser.error("Do not pass --bound together with --eval-scalars-only")
+        from cal_final_score_from_eval_dir import load_from_eval_output  # noqa: E402
+
+        if args.pair:
+            eval_path = os.path.abspath(args.pair[1])
+            out_dir = os.path.dirname(eval_path)
+            base = os.path.basename(eval_path)
+            upload, used_paths = load_from_eval_output(out_dir, base)
+        else:
+            upload, used_paths = load_from_eval_output(args.results_dir, None)
+        merged = {k.replace(" ", "_"): float(upload[k]) for k in TASK_INFO}
+        print("mode: eval_json [0] scalars only (matches cal_final_score_from_eval_dir)")
+        print(f"Loaded {len(used_paths)} eval result file(s)")
+        for p in used_paths:
+            print(f"  {p}")
     else:
-        pairs = pair_paths_in_dir(args.results_dir)
-        if not pairs:
-            raise SystemExit(
-                f"No paired *_eval_results.json + *_full_info.json under {args.results_dir!r}"
-            )
-        maps = [bound_scores_from_pair(fp, ep, args.bound) for fp, ep in sorted(pairs)]
-        merged = merge_bound_maps(maps)
+        if args.bound is None:
+            parser.error("Pass --bound max|min, or use --eval-scalars-only")
+        if args.pair:
+            full_info_path, eval_path = args.pair
+            merged = bound_scores_from_pair(full_info_path, eval_path, args.bound)
+        else:
+            pairs = pair_paths_in_dir(args.results_dir)
+            if not pairs:
+                raise SystemExit(
+                    f"No paired *_eval_results.json + *_full_info.json under {args.results_dir!r}"
+                )
+            maps = [bound_scores_from_pair(fp, ep, args.bound) for fp, ep in sorted(pairs)]
+            merged = merge_bound_maps(maps)
+        print(f"bound mode: {args.bound} (with official [0] fallback when per-video bound is unavailable)")
 
     upload = upload_dict_from_dim_scores(merged)
     normalized = get_nomalized_score(upload)
@@ -105,11 +138,10 @@ def main() -> None:
     semantic = get_semantic_score(normalized)
     final = get_final_score(quality, semantic)
 
-    print(f"bound mode: {args.bound}")
-    print(f"dimensions with non-zero re-aggregated raw scores: {len(merged)}")
+    print(f"dimensions with non-zero raw scores in dict: {sum(1 for k in TASK_INFO if upload[k] != 0.0)}")
     if len(merged) < len(TASK_INFO):
         missing = [k.replace(" ", "_") for k in TASK_INFO if k.replace(" ", "_") not in merged]
-        print(f"warning: missing {len(missing)} dimensions in merged eval; they count as 0.0")
+        print(f"warning: missing {len(missing)} dimension keys in merged; they count as 0.0")
     print("+------------------|------------------+")
     print(f"|     quality score|{quality}|")
     print(f"|    semantic score|{semantic}|")

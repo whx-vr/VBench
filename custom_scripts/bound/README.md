@@ -2,7 +2,11 @@
 
 在 **VBench 官方每维标量**之外，提供一种「按 prompt 在多样本里取最好/最差」的 **上界 / 下界** 重聚合，并用与排行榜一致的 **归一化与 Quality / Semantic / Total** 公式打分（见 `scripts/constant.py` 与 `scripts/cal_final_score.py`）。
 
-**说明**：该标量**不是**官方 `compute_*` 里对多视频/多帧的池化方式；同一维度的 `[0]` 与逐视频列表 `[1]` 的算术关系因维度而异。本工具仅用于「若每个 prompt 只上报最好/最差一条样本」时的对比分析。
+**说明**：`--bound max|min` 下的重聚合**一般不等于**官方 `compute_*` 写在 `eval_results` 里的 `[0]`（例如 `dynamic_degree` 官方是全体样本上 bool 的均值，而「每 prompt 再 max 再对 prompt 平均」会得到另一套数）。因此与 `scripts/cal_final_score_from_eval_dir.py`（只读各 json 的 `[0]`）对比时，总分差异是**定义不同**导致的，不一定是实现 bug。
+
+**与官方对齐的用法**：`cal_bound_score.py` 支持 **`--eval-scalars-only`**，行为与 `scripts/cal_final_score_from_eval_dir.py` 一致（合并目录下所有 `*_eval_results.json` 的 `[0]`，不读 `full_info`、不做 per-prompt max/min）。
+
+**回退逻辑**：在 `--bound` 模式下，若某维没有可用的逐视频分或无法与 `full_info` 对齐，会自动使用该维 json 里的 **官方 `[0]`** 作为该维标量，避免整条维度被当成 0 拉崩总分（仅缓解路径/缺字段等问题；**不**改变「有 bound 时仍以 bound 为主」的语义）。
 
 ## 文件说明
 
@@ -51,6 +55,11 @@ python3 custom_scripts/bound/cal_bound_score.py \
 python3 custom_scripts/bound/cal_bound_score.py \
   --results_dir ./evaluation_results \
   --bound min
+
+# 与 cal_final_score_from_eval_dir 完全一致（只合并各维官方 [0]）
+python3 custom_scripts/bound/cal_bound_score.py \
+  --results_dir ./evaluation_results \
+  --eval-scalars-only
 ```
 
 可选 `--write_submission ./bound_max.json`：写出 `{ "subject_consistency": [标量, []], ... }`，便于再打包 zip 用 `scripts/cal_final_score.py` 核对格式。
@@ -58,4 +67,5 @@ python3 custom_scripts/bound/cal_bound_score.py \
 ## 注意事项
 
 - `--results_dir` 会合并目录下**所有**成对文件；请避免把不相关评测混在同一目录导致维度被错误覆盖。
-- 与官方总分不一致是预期行为；对比时请标明使用的是 **bound (max/min)** 聚合。
+- 与官方总分不一致时：若要对齐 leaderboard 口径，请用 **`--eval-scalars-only`** 或直接用 `scripts/cal_final_score_from_eval_dir.py`。
+- 使用 **`--bound`** 时请在报告里标明为 **bound 重聚合**；与官方 `[0]` 对比差异大时，先确认是否属于上面说的定义差异。

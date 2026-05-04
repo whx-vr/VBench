@@ -36,10 +36,18 @@ def _scalar_from_video_results(raw: Any) -> Optional[float]:
     return None
 
 
-def _video_dict_from_dimension_result(dim_result: Any) -> Tuple[Optional[float], Dict[str, float]]:
+def _video_dict_from_dimension_result(
+    dim_result: Any, dimension_key: str = ""
+) -> Tuple[Optional[float], Dict[str, float]]:
     """
     Parse one dimension's evaluate() return as stored in JSON (tuple -> list).
     Returns (official_scalar_or_none, path_norm -> per_video_scalar).
+
+    ``imaging_quality`` stores per-video ``video_results`` on the same 0–100
+    scale as inside ``technical_quality`` before the final ``/100`` applied to
+    ``all_results`` only (see vbench/imaging_quality.py). Per-video entries are
+    not divided by 100, so we scale here so bound aggregation matches the
+    official 0–1 ``[0]`` scale.
     """
     official: Optional[float] = None
     out: Dict[str, float] = {}
@@ -73,6 +81,8 @@ def _video_dict_from_dimension_result(dim_result: Any) -> Tuple[Optional[float],
                 s = float(capv)
         if s is None:
             continue
+        if dimension_key == "imaging_quality":
+            s = s / 100.0
         out[normalize_path(str(path))] = s
     return official, out
 
@@ -144,7 +154,7 @@ def bound_scores_from_pair(
     for dim_key, dim_result in eval_results.items():
         if not isinstance(dim_key, str):
             continue
-        official, video_map = _video_dict_from_dimension_result(dim_result)
+        official, video_map = _video_dict_from_dimension_result(dim_result, dim_key)
         agg: Optional[float] = None
         if video_map:
             agg = aggregate_one_dimension(full_info, video_map, mode)

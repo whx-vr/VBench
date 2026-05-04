@@ -278,7 +278,7 @@ def scores_from_pair(
     for dim_key, dim_result in eval_results.items():
         if not isinstance(dim_key, str):
             continue
-        _, video_map = _video_dict_from_dimension_result(dim_result)
+        _, video_map = _video_dict_from_dimension_result(dim_result, dim_key)
         if not video_map:
             continue
         agg, stats = aggregate_dimension(

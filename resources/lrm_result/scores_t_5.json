@@ -1,0 +1,6624 @@
+{
+  "In a still frame, a stop sign|temporal_flickering": {
+    "0": -0.68994140625,
+    "1": -1.50390625,
+    "2": -1.7626953125,
+    "3": -1.9912109375,
+    "4": -0.322021484375
+  },
+  "a toilet, frozen in time|temporal_flickering": {
+    "0": 0.06451416015625,
+    "1": -0.94580078125,
+    "2": -0.330322265625,
+    "3": -0.48779296875,
+    "4": -1.595703125
+  },
+  "a laptop, frozen in time|temporal_flickering": {
+    "0": -0.234619140625,
+    "1": -1.5439453125,
+    "2": -1.412109375,
+    "3": -1.021484375,
+    "4": -1.732421875
+  },
+  "A tranquil tableau of alley|temporal_flickering": {
+    "0": -0.6591796875,
+    "1": -1.8056640625,
+    "2": -0.312744140625,
+    "3": -0.6259765625,
+    "4": -0.384033203125
+  },
+  "A tranquil tableau of bar|temporal_flickering": {
+    "0": -1.15625,
+    "1": -0.755859375,
+    "2": -1.3134765625,
+    "3": -0.4638671875,
+    "4": 0.064208984375
+  },
+  "A tranquil tableau of barn|temporal_flickering": {
+    "0": -0.8515625,
+    "1": -0.1617431640625,
+    "2": -0.3544921875,
+    "3": -0.62548828125,
+    "4": -0.0894775390625
+  },
+  "A tranquil tableau of bathroom|temporal_flickering": {
+    "0": -0.62841796875,
+    "1": -2.306640625,
+    "2": -0.96240234375,
+    "3": -0.765625,
+    "4": 0.53515625
+  },
+  "A tranquil tableau of bedroom|temporal_flickering": {
+    "0": -0.7939453125,
+    "1": -0.8701171875,
+    "2": -1.8447265625,
+    "3": -0.0134124755859375,
+    "4": -1.45703125
+  },
+  "A tranquil tableau of cliff|temporal_flickering": {
+    "0": -0.10675048828125,
+    "1": 0.015289306640625,
+    "2": -0.53173828125,
+    "3": -0.30615234375,
+    "4": 0.11627197265625
+  },
+  "In a still frame, courtyard|temporal_flickering": {
+    "0": -0.1949462890625,
+    "1": -0.65185546875,
+    "2": 0.150390625,
+    "3": -1.595703125,
+    "4": -0.467041015625
+  },
+  "In a still frame, gas station|temporal_flickering": {
+    "0": -0.4345703125,
+    "1": -1.4267578125,
+    "2": -0.64111328125,
+    "3": -0.386474609375,
+    "4": -0.681640625
+  },
+  "A tranquil tableau of house|temporal_flickering": {
+    "0": -0.82275390625,
+    "1": -0.97509765625,
+    "2": -0.455810546875,
+    "3": -0.01511383056640625,
+    "4": -2.080078125
+  },
+  "indoor gymnasium, frozen in time|temporal_flickering": {
+    "0": 0.024200439453125,
+    "1": -0.8330078125,
+    "2": -2.12890625,
+    "3": -0.8720703125,
+    "4": -1.8134765625
+  },
+  "A tranquil tableau of indoor library|temporal_flickering": {
+    "0": -1.1142578125,
+    "1": -0.256591796875,
+    "2": -1.375,
+    "3": -0.888671875,
+    "4": -0.475341796875
+  },
+  "A tranquil tableau of kitchen|temporal_flickering": {
+    "0": -1.2041015625,
+    "1": -1.646484375,
+    "2": -1.123046875,
+    "3": -1.59375,
+    "4": -1.07421875
+  },
+  "A tranquil tableau of palace|temporal_flickering": {
+    "0": -1.7265625,
+    "1": -0.685546875,
+    "2": -2.166015625,
+    "3": -0.6787109375,
+    "4": -1.041015625
+  },
+  "In a still frame, parking lot|temporal_flickering": {
+    "0": -1.998046875,
+    "1": -0.60986328125,
+    "2": -0.344970703125,
+    "3": -0.47607421875,
+    "4": -1.3955078125
+  },
+  "In a still frame, phone booth|temporal_flickering": {
+    "0": -1.5390625,
+    "1": -1.076171875,
+    "2": -1.9208984375,
+    "3": -1.5283203125,
+    "4": -0.24169921875
+  },
+  "A tranquil tableau of restaurant|temporal_flickering": {
+    "0": -1.4072265625,
+    "1": -1.4970703125,
+    "2": -1.2197265625,
+    "3": -1.1943359375,
+    "4": -0.96435546875
+  },
+  "A tranquil tableau of tower|temporal_flickering": {
+    "0": -0.654296875,
+    "1": -1.3115234375,
+    "2": -1.4111328125,
+    "3": -2.099609375,
+    "4": -0.97802734375
+  },
+  "A tranquil tableau of a bowl|temporal_flickering": {
+    "0": -1.5205078125,
+    "1": -1.072265625,
+    "2": -0.4599609375,
+    "3": -0.548828125,
+    "4": -0.355712890625
+  },
+  "A tranquil tableau of an apple|temporal_flickering": {
+    "0": -1.8740234375,
+    "1": -1.2705078125,
+    "2": -1.423828125,
+    "3": -1.505859375,
+    "4": -1.427734375
+  },
+  "A tranquil tableau of a bench|temporal_flickering": {
+    "0": -2.001953125,
+    "1": -1.4609375,
+    "2": -0.9921875,
+    "3": -0.99755859375,
+    "4": -1.6748046875
+  },
+  "A tranquil tableau of a bed|temporal_flickering": {
+    "0": -0.8583984375,
+    "1": -1.2333984375,
+    "2": -0.3330078125,
+    "3": -1.5390625,
+    "4": 0.30078125
+  },
+  "A tranquil tableau of a chair|temporal_flickering": {
+    "0": 0.93994140625,
+    "1": -0.02716064453125,
+    "2": -0.90966796875,
+    "3": -0.771484375,
+    "4": -0.947265625
+  },
+  "A tranquil tableau of a cup|temporal_flickering": {
+    "0": -0.4013671875,
+    "1": -1.02734375,
+    "2": -1.5732421875,
+    "3": -1.83203125,
+    "4": -1.4912109375
+  },
+  "A tranquil tableau of a dining table|temporal_flickering": {
+    "0": 0.2088623046875,
+    "1": -0.560546875,
+    "2": -1.5830078125,
+    "3": -0.095703125,
+    "4": -0.69384765625
+  },
+  "In a still frame, a pear|temporal_flickering": {
+    "0": -0.1712646484375,
+    "1": -1.6826171875,
+    "2": -1.46484375,
+    "3": -1.90625,
+    "4": -0.4873046875
+  },
+  "A tranquil tableau of a bunch of grapes|temporal_flickering": {
+    "0": -1.5546875,
+    "1": -0.50634765625,
+    "2": -0.1077880859375,
+    "3": -1.9501953125,
+    "4": -0.349365234375
+  },
+  "A tranquil tableau of a bowl on the kitchen counter|temporal_flickering": {
+    "0": -0.4326171875,
+    "1": -1.671875,
+    "2": 0.0311431884765625,
+    "3": -0.98193359375,
+    "4": -1.548828125
+  },
+  "A tranquil tableau of a beautiful, handcrafted ceramic bowl|temporal_flickering": {
+    "0": 0.106201171875,
+    "1": -1.8115234375,
+    "2": -1.578125,
+    "3": -1.5498046875,
+    "4": -0.36376953125
+  },
+  "A tranquil tableau of an antique bowl|temporal_flickering": {
+    "0": -0.66162109375,
+    "1": -0.317626953125,
+    "2": -0.459228515625,
+    "3": -1.3115234375,
+    "4": 1.134765625
+  },
+  "A tranquil tableau of an exquisite mahogany dining table|temporal_flickering": {
+    "0": -0.50341796875,
+    "1": -2.013671875,
+    "2": -0.55029296875,
+    "3": -1.6240234375,
+    "4": -1.69921875
+  },
+  "A tranquil tableau of a wooden bench in the park|temporal_flickering": {
+    "0": -1.3681640625,
+    "1": -0.460693359375,
+    "2": -1.4931640625,
+    "3": -0.55078125,
+    "4": -0.018341064453125
+  },
+  "A tranquil tableau of a beautiful wrought-iron bench surrounded by blooming flowers|temporal_flickering": {
+    "0": -1.34375,
+    "1": -1.0732421875,
+    "2": -0.5390625,
+    "3": -1.8330078125,
+    "4": -1.26171875
+  },
+  "In a still frame, a park bench with a view of the lake|temporal_flickering": {
+    "0": -2.07421875,
+    "1": -1.0458984375,
+    "2": -0.6533203125,
+    "3": -1.4755859375,
+    "4": -0.88818359375
+  },
+  "A tranquil tableau of a vintage rocking chair was placed on the porch|temporal_flickering": {
+    "0": -0.90380859375,
+    "1": 0.05511474609375,
+    "2": -0.293212890625,
+    "3": -1.484375,
+    "4": -0.56640625
+  },
+  "A tranquil tableau of the jail cell was small and dimly lit, with cold, steel bars|temporal_flickering": {
+    "0": -0.517578125,
+    "1": -1.169921875,
+    "2": 0.42529296875,
+    "3": -1.462890625,
+    "4": -0.517578125
+  },
+  "A tranquil tableau of the phone booth was tucked away in a quiet alley|temporal_flickering": {
+    "0": -0.48388671875,
+    "1": -1.89453125,
+    "2": -0.91455078125,
+    "3": -1.9296875,
+    "4": -1.7138671875
+  },
+  "a dilapidated phone booth stood as a relic of a bygone era on the sidewalk, frozen in time|temporal_flickering": {
+    "0": -0.81787109375,
+    "1": -1.341796875,
+    "2": -0.51171875,
+    "3": -0.59912109375,
+    "4": -0.357421875
+  },
+  "A tranquil tableau of the old red barn stood weathered and iconic against the backdrop of the countryside|temporal_flickering": {
+    "0": -0.75244140625,
+    "1": -0.386962890625,
+    "2": -1.306640625,
+    "3": -1.9892578125,
+    "4": 0.2462158203125
+  },
+  "A tranquil tableau of a picturesque barn was painted a warm shade of red and nestled in a picturesque meadow|temporal_flickering": {
+    "0": -1.6767578125,
+    "1": -1.404296875,
+    "2": -1.419921875,
+    "3": -1.3125,
+    "4": -2.044921875
+  },
+  "In a still frame, within the desolate desert, an oasis unfolded, characterized by the stoic presence of palm trees and a motionless, glassy pool of water|temporal_flickering": {
+    "0": -1.7705078125,
+    "1": -1.5732421875,
+    "2": -1.3759765625,
+    "3": -1.1455078125,
+    "4": -1.5712890625
+  },
+  "In a still frame, the Parthenon's majestic Doric columns stand in serene solitude atop the Acropolis, framed by the tranquil Athenian landscape|temporal_flickering": {
+    "0": -0.8623046875,
+    "1": -1.7890625,
+    "2": -0.23046875,
+    "3": -1.6103515625,
+    "4": -2.169921875
+  },
+  "In a still frame, the Temple of Hephaestus, with its timeless Doric grace, stands stoically against the backdrop of a quiet Athens|temporal_flickering": {
+    "0": -1.2041015625,
+    "1": 0.03564453125,
+    "2": -1.09765625,
+    "3": 0.2022705078125,
+    "4": -0.7734375
+  },
+  "In a still frame, the ornate Victorian streetlamp stands solemnly, adorned with intricate ironwork and stained glass panels|temporal_flickering": {
+    "0": -1.0654296875,
+    "1": -0.8427734375,
+    "2": -1.646484375,
+    "3": -0.9814453125,
+    "4": -1.361328125
+  },
+  "A tranquil tableau of the Stonehenge presented itself as an enigmatic puzzle, each colossal stone meticulously placed against the backdrop of tranquility|temporal_flickering": {
+    "0": -1.9111328125,
+    "1": -1.34375,
+    "2": -0.7451171875,
+    "3": -0.53173828125,
+    "4": -1.7333984375
+  },
+  "In a still frame, in the vast desert, an oasis nestled among dunes, featuring tall palm trees and an air of serenity|temporal_flickering": {
+    "0": -1.046875,
+    "1": -0.845703125,
+    "2": -1.216796875,
+    "3": -0.07415771484375,
+    "4": -1.4365234375
+  },
+  "static view on a desert scene with an oasis, palm trees, and a clear, calm pool of water|temporal_flickering": {
+    "0": -1.763671875,
+    "1": -0.8564453125,
+    "2": -0.005344390869140625,
+    "3": -1.8515625,
+    "4": -1.771484375
+  },
+  "A tranquil tableau of an ornate Victorian streetlamp standing on a cobblestone street corner, illuminating the empty night|temporal_flickering": {
+    "0": -0.195556640625,
+    "1": -0.53173828125,
+    "2": 0.03668212890625,
+    "3": 0.264404296875,
+    "4": -1.13671875
+  },
+  "A tranquil tableau of a tranquil lakeside cabin nestled among tall pines, its reflection mirrored perfectly in the calm water|temporal_flickering": {
+    "0": 0.026275634765625,
+    "1": -1.8603515625,
+    "2": -0.53857421875,
+    "3": -0.339111328125,
+    "4": -1.2919921875
+  },
+  "In a still frame, a vintage gas lantern, adorned with intricate details, gracing a historic cobblestone square|temporal_flickering": {
+    "0": -0.302978515625,
+    "1": -0.315673828125,
+    "2": 0.2030029296875,
+    "3": -0.467041015625,
+    "4": -1.3505859375
+  },
+  "In a still frame, a tranquil Japanese tea ceremony room, with tatami mats, a delicate tea set, and a bonsai tree in the corner|temporal_flickering": {
+    "0": -0.6123046875,
+    "1": -1.1328125,
+    "2": -1.05859375,
+    "3": -1.0087890625,
+    "4": 0.09814453125
+  },
+  "A tranquil tableau of the Parthenon stands resolute in its classical elegance, a timeless symbol of Athens' cultural legacy|temporal_flickering": {
+    "0": -2.3125,
+    "1": -1.5751953125,
+    "2": 0.53271484375,
+    "3": -0.306396484375,
+    "4": -0.82666015625
+  },
+  "A tranquil tableau of in the heart of Plaka, the neoclassical architecture of the old city harmonizes with the ancient ruins|temporal_flickering": {
+    "0": -0.493408203125,
+    "1": -1.8642578125,
+    "2": -1.59375,
+    "3": -1.654296875,
+    "4": -1.380859375
+  },
+  "A tranquil tableau of in the desolate beauty of the American Southwest, Chaco Canyon's ancient ruins whispered tales of an enigmatic civilization that once thrived amidst the arid landscapes|temporal_flickering": {
+    "0": -1.5458984375,
+    "1": -1.5859375,
+    "2": -1.265625,
+    "3": -0.888671875,
+    "4": -1.05078125
+  },
+  "A tranquil tableau of at the edge of the Arabian Desert, the ancient city of Petra beckoned with its enigmatic rock-carved façades|temporal_flickering": {
+    "0": -1.1552734375,
+    "1": -1.21875,
+    "2": -1.9697265625,
+    "3": -0.8095703125,
+    "4": -1.4482421875
+  },
+  "In a still frame, amidst the cobblestone streets, an Art Nouveau lamppost stood tall|temporal_flickering": {
+    "0": -0.496826171875,
+    "1": -1.32421875,
+    "2": -0.262939453125,
+    "3": -1.2939453125,
+    "4": -0.1712646484375
+  },
+  "A tranquil tableau of in the quaint village square, a traditional wrought-iron streetlamp featured delicate filigree patterns and amber-hued glass panels|temporal_flickering": {
+    "0": -0.90087890625,
+    "1": -1.2470703125,
+    "2": -0.287109375,
+    "3": -0.86083984375,
+    "4": 0.6728515625
+  },
+  "A tranquil tableau of the lampposts were adorned with Art Deco motifs, their geometric shapes and frosted glass creating a sense of vintage glamour|temporal_flickering": {
+    "0": -1.8994140625,
+    "1": -0.1812744140625,
+    "2": -2.01953125,
+    "3": -1.0029296875,
+    "4": -2.134765625
+  },
+  "In a still frame, in the picturesque square, a Gothic-style lamppost adorned with intricate stone carvings added a touch of medieval charm to the setting|temporal_flickering": {
+    "0": -0.1915283203125,
+    "1": -1.25390625,
+    "2": -0.5068359375,
+    "3": -1.2880859375,
+    "4": -0.755859375
+  },
+  "In a still frame, in the heart of the old city, a row of ornate lantern-style streetlamps bathed the narrow alleyway in a warm, welcoming light|temporal_flickering": {
+    "0": -1.005859375,
+    "1": -1.87890625,
+    "2": 0.83349609375,
+    "3": -0.93505859375,
+    "4": -0.67333984375
+  },
+  "A tranquil tableau of in the heart of the Utah desert, a massive sandstone arch spanned the horizon|temporal_flickering": {
+    "0": -0.045989990234375,
+    "1": -0.96533203125,
+    "2": 0.0172576904296875,
+    "3": -1.4052734375,
+    "4": -1.205078125
+  },
+  "A tranquil tableau of in the Arizona desert, a massive stone bridge arched across a rugged canyon|temporal_flickering": {
+    "0": 0.253662109375,
+    "1": -1.556640625,
+    "2": -1.404296875,
+    "3": -2.369140625,
+    "4": -0.5615234375
+  },
+  "A tranquil tableau of in the corner of the minimalist tea room, a bonsai tree added a touch of nature's beauty to the otherwise simple and elegant space|temporal_flickering": {
+    "0": -1.7880859375,
+    "1": -1.0,
+    "2": -0.59423828125,
+    "3": -0.7255859375,
+    "4": 0.11895751953125
+  },
+  "In a still frame, amidst the hushed ambiance of the traditional tea room, a meticulously arranged tea set awaited, with porcelain cups, a bamboo whisk|temporal_flickering": {
+    "0": -0.5419921875,
+    "1": -0.75390625,
+    "2": -1.0830078125,
+    "3": -1.564453125,
+    "4": -0.46728515625
+  },
+  "In a still frame, nestled in the Zen garden, a rustic teahouse featured tatami seating and a traditional charcoal brazier|temporal_flickering": {
+    "0": -0.58154296875,
+    "1": -1.7646484375,
+    "2": -0.66650390625,
+    "3": -1.1279296875,
+    "4": -1.904296875
+  },
+  "A tranquil tableau of a country estate's library featured elegant wooden shelves|temporal_flickering": {
+    "0": -0.344970703125,
+    "1": -1.5009765625,
+    "2": -1.10546875,
+    "3": -0.91748046875,
+    "4": -0.470947265625
+  },
+  "A tranquil tableau of beneath the shade of a solitary oak tree, an old wooden park bench sat patiently|temporal_flickering": {
+    "0": -0.286376953125,
+    "1": -0.1990966796875,
+    "2": -0.72314453125,
+    "3": -1.8427734375,
+    "4": -1.0478515625
+  },
+  "A tranquil tableau of beside a tranquil pond, a weeping willow tree draped its branches gracefully over the water's surface, creating a serene tableau of reflection and calm|temporal_flickering": {
+    "0": -1.2255859375,
+    "1": -1.193359375,
+    "2": -1.8427734375,
+    "3": -1.4970703125,
+    "4": -2.43359375
+  },
+  "A tranquil tableau of in the Zen garden, a perfectly raked gravel path led to a serene rock garden|temporal_flickering": {
+    "0": -0.7431640625,
+    "1": 0.11285400390625,
+    "2": -1.2275390625,
+    "3": -0.81298828125,
+    "4": -1.548828125
+  },
+  "In a still frame, a tranquil pond was fringed by weeping cherry trees, their blossoms drifting lazily onto the glassy surface|temporal_flickering": {
+    "0": -0.049407958984375,
+    "1": -0.09613037109375,
+    "2": -2.302734375,
+    "3": 0.007236480712890625,
+    "4": -1.873046875
+  },
+  "In a still frame, within the historic library's reading room, rows of antique leather chairs and mahogany tables offered a serene haven for literary contemplation|temporal_flickering": {
+    "0": -1.7939453125,
+    "1": 0.12060546875,
+    "2": -1.0927734375,
+    "3": -1.8125,
+    "4": -0.35107421875
+  },
+  "A tranquil tableau of a peaceful orchid garden showcased a variety of delicate blooms|temporal_flickering": {
+    "0": -0.73583984375,
+    "1": 0.123779296875,
+    "2": -1.107421875,
+    "3": -0.1976318359375,
+    "4": -0.1983642578125
+  },
+  "A tranquil tableau of in the serene courtyard, a centuries-old stone well stood as a symbol of a bygone era, its mossy stones bearing witness to the passage of time|temporal_flickering": {
+    "0": -0.958984375,
+    "1": -0.71337890625,
+    "2": -0.6484375,
+    "3": -0.296630859375,
+    "4": -0.6455078125
+  },
+  "a bird and a cat|multiple_objects": {
+    "0": -0.7109375,
+    "1": -0.151611328125,
+    "2": -1.0322265625,
+    "3": -0.2161865234375,
+    "4": -0.8984375
+  },
+  "a cat and a dog|multiple_objects": {
+    "0": -1.4501953125,
+    "1": -0.9521484375,
+    "2": -2.25,
+    "3": -0.93115234375,
+    "4": -1.5615234375
+  },
+  "a dog and a horse|multiple_objects": {
+    "0": -1.4638671875,
+    "1": -1.3173828125,
+    "2": -0.541015625,
+    "3": -0.95751953125,
+    "4": -0.9111328125
+  },
+  "a horse and a sheep|multiple_objects": {
+    "0": -1.2607421875,
+    "1": -1.853515625,
+    "2": 0.060516357421875,
+    "3": -1.3193359375,
+    "4": -0.72998046875
+  },
+  "a sheep and a cow|multiple_objects": {
+    "0": -0.703125,
+    "1": -1.6259765625,
+    "2": -2.12109375,
+    "3": -0.322509765625,
+    "4": -0.87109375
+  },
+  "a cow and an elephant|multiple_objects": {
+    "0": -1.43359375,
+    "1": -1.5419921875,
+    "2": -2.05078125,
+    "3": -0.044891357421875,
+    "4": -1.5927734375
+  },
+  "an elephant and a bear|multiple_objects": {
+    "0": -0.39501953125,
+    "1": -0.6416015625,
+    "2": -1.6416015625,
+    "3": -1.2783203125,
+    "4": -2.259765625
+  },
+  "a bear and a zebra|multiple_objects": {
+    "0": -0.18408203125,
+    "1": -1.1962890625,
+    "2": -0.271484375,
+    "3": -0.76904296875,
+    "4": -0.71826171875
+  },
+  "a zebra and a giraffe|multiple_objects": {
+    "0": -1.30078125,
+    "1": 0.3330078125,
+    "2": -1.5068359375,
+    "3": -1.6064453125,
+    "4": -1.1806640625
+  },
+  "a giraffe and a bird|multiple_objects": {
+    "0": -0.8984375,
+    "1": -1.9296875,
+    "2": -2.052734375,
+    "3": -0.693359375,
+    "4": -1.3701171875
+  },
+  "a chair and a couch|multiple_objects": {
+    "0": -1.2568359375,
+    "1": 0.60693359375,
+    "2": -0.2427978515625,
+    "3": -1.2626953125,
+    "4": -1.00390625
+  },
+  "a couch and a potted plant|multiple_objects": {
+    "0": 0.306396484375,
+    "1": -1.68359375,
+    "2": -0.1927490234375,
+    "3": -0.81591796875,
+    "4": -1.44140625
+  },
+  "a potted plant and a tv|multiple_objects": {
+    "0": -1.5302734375,
+    "1": -1.0244140625,
+    "2": -1.6357421875,
+    "3": -0.73291015625,
+    "4": -1.552734375
+  },
+  "a tv and a laptop|multiple_objects": {
+    "0": -1.2041015625,
+    "1": 0.08819580078125,
+    "2": -0.485107421875,
+    "3": -1.443359375,
+    "4": -0.61767578125
+  },
+  "a laptop and a remote|multiple_objects": {
+    "0": -1.26171875,
+    "1": -0.230712890625,
+    "2": -0.5029296875,
+    "3": -1.6455078125,
+    "4": -1.57421875
+  },
+  "a remote and a keyboard|multiple_objects": {
+    "0": -1.2568359375,
+    "1": -0.375244140625,
+    "2": -0.79833984375,
+    "3": -1.095703125,
+    "4": -1.7587890625
+  },
+  "a keyboard and a cell phone|multiple_objects": {
+    "0": -1.193359375,
+    "1": -1.0166015625,
+    "2": -1.34375,
+    "3": -1.3701171875,
+    "4": -1.1591796875
+  },
+  "a cell phone and a book|multiple_objects": {
+    "0": -1.5537109375,
+    "1": -1.8779296875,
+    "2": -1.2294921875,
+    "3": -1.625,
+    "4": -2.3203125
+  },
+  "a book and a clock|multiple_objects": {
+    "0": -1.357421875,
+    "1": 0.195556640625,
+    "2": -0.60693359375,
+    "3": -0.75927734375,
+    "4": -0.28955078125
+  },
+  "a clock and a backpack|multiple_objects": {
+    "0": -1.0361328125,
+    "1": -1.26953125,
+    "2": 0.26708984375,
+    "3": -0.07135009765625,
+    "4": -0.685546875
+  },
+  "a backpack and an umbrella|multiple_objects": {
+    "0": -1.5673828125,
+    "1": -1.677734375,
+    "2": -0.638671875,
+    "3": 0.1329345703125,
+    "4": -0.638671875
+  },
+  "an umbrella and a handbag|multiple_objects": {
+    "0": -1.86328125,
+    "1": -1.31640625,
+    "2": -1.923828125,
+    "3": -1.658203125,
+    "4": -1.98828125
+  },
+  "a handbag and a tie|multiple_objects": {
+    "0": -1.4794921875,
+    "1": -1.7001953125,
+    "2": -0.73828125,
+    "3": -1.5625,
+    "4": -2.439453125
+  },
+  "a tie and a suitcase|multiple_objects": {
+    "0": -0.712890625,
+    "1": -0.62109375,
+    "2": -1.3447265625,
+    "3": -1.1455078125,
+    "4": -0.2430419921875
+  },
+  "a suitcase and a vase|multiple_objects": {
+    "0": -1.873046875,
+    "1": -1.443359375,
+    "2": -1.2890625,
+    "3": -1.2568359375,
+    "4": -1.216796875
+  },
+  "a vase and scissors|multiple_objects": {
+    "0": -0.9443359375,
+    "1": -0.056121826171875,
+    "2": 0.49169921875,
+    "3": -1.5771484375,
+    "4": -0.1639404296875
+  },
+  "scissors and a teddy bear|multiple_objects": {
+    "0": -0.31591796875,
+    "1": -0.71142578125,
+    "2": -1.6201171875,
+    "3": -1.68359375,
+    "4": 0.103759765625
+  },
+  "a teddy bear and a frisbee|multiple_objects": {
+    "0": -1.375,
+    "1": -1.6533203125,
+    "2": -1.185546875,
+    "3": -0.9228515625,
+    "4": -0.1446533203125
+  },
+  "a frisbee and skis|multiple_objects": {
+    "0": -1.501953125,
+    "1": -0.81884765625,
+    "2": -0.117431640625,
+    "3": -2.23046875,
+    "4": -1.0107421875
+  },
+  "skis and a snowboard|multiple_objects": {
+    "0": -0.5224609375,
+    "1": -0.5576171875,
+    "2": -1.3369140625,
+    "3": -1.3369140625,
+    "4": -1.142578125
+  },
+  "a snowboard and a sports ball|multiple_objects": {
+    "0": -0.407470703125,
+    "1": -0.030364990234375,
+    "2": -0.18017578125,
+    "3": -1.8037109375,
+    "4": -1.654296875
+  },
+  "a sports ball and a kite|multiple_objects": {
+    "0": -1.4765625,
+    "1": -0.035400390625,
+    "2": -1.5390625,
+    "3": -1.4873046875,
+    "4": -1.3515625
+  },
+  "a kite and a baseball bat|multiple_objects": {
+    "0": -0.76318359375,
+    "1": -1.8759765625,
+    "2": -1.525390625,
+    "3": -0.2069091796875,
+    "4": -1.2763671875
+  },
+  "a baseball bat and a baseball glove|multiple_objects": {
+    "0": -0.320068359375,
+    "1": -0.58154296875,
+    "2": 0.0677490234375,
+    "3": 0.03240966796875,
+    "4": 0.40234375
+  },
+  "a baseball glove and a skateboard|multiple_objects": {
+    "0": -1.125,
+    "1": -0.67724609375,
+    "2": -1.515625,
+    "3": -0.4755859375,
+    "4": -0.2939453125
+  },
+  "a skateboard and a surfboard|multiple_objects": {
+    "0": -1.1240234375,
+    "1": -1.482421875,
+    "2": -0.166748046875,
+    "3": -1.783203125,
+    "4": -1.3564453125
+  },
+  "a surfboard and a tennis racket|multiple_objects": {
+    "0": -2.060546875,
+    "1": -1.015625,
+    "2": -1.8017578125,
+    "3": -0.640625,
+    "4": -1.484375
+  },
+  "a tennis racket and a bottle|multiple_objects": {
+    "0": -1.556640625,
+    "1": -0.57666015625,
+    "2": -1.4150390625,
+    "3": -0.927734375,
+    "4": -0.1448974609375
+  },
+  "a bottle and a chair|multiple_objects": {
+    "0": -2.265625,
+    "1": -0.58544921875,
+    "2": -0.64306640625,
+    "3": -0.52587890625,
+    "4": -1.751953125
+  },
+  "an airplane and a train|multiple_objects": {
+    "0": -1.8037109375,
+    "1": -1.751953125,
+    "2": -0.2445068359375,
+    "3": -0.34619140625,
+    "4": -1.7470703125
+  },
+  "a train and a boat|multiple_objects": {
+    "0": -0.791015625,
+    "1": -1.490234375,
+    "2": 0.21826171875,
+    "3": -1.0751953125,
+    "4": -0.658203125
+  },
+  "a boat and an airplane|multiple_objects": {
+    "0": -2.421875,
+    "1": -0.7060546875,
+    "2": 0.1365966796875,
+    "3": -0.04595947265625,
+    "4": -2.169921875
+  },
+  "a bicycle and a car|multiple_objects": {
+    "0": -0.673828125,
+    "1": -1.1279296875,
+    "2": -0.499755859375,
+    "3": -1.1669921875,
+    "4": -1.6318359375
+  },
+  "a car and a motorcycle|multiple_objects": {
+    "0": -1.470703125,
+    "1": 0.443359375,
+    "2": -1.072265625,
+    "3": -0.74560546875,
+    "4": -0.2364501953125
+  },
+  "a motorcycle and a bus|multiple_objects": {
+    "0": -0.11407470703125,
+    "1": -1.6748046875,
+    "2": -1.978515625,
+    "3": -0.09814453125,
+    "4": -1.716796875
+  },
+  "a bus and a traffic light|multiple_objects": {
+    "0": -1.1484375,
+    "1": -1.162109375,
+    "2": -1.9541015625,
+    "3": -1.4736328125,
+    "4": -1.4169921875
+  },
+  "a traffic light and a fire hydrant|multiple_objects": {
+    "0": -0.615234375,
+    "1": -1.4267578125,
+    "2": -1.5361328125,
+    "3": -1.4677734375,
+    "4": -0.67822265625
+  },
+  "a fire hydrant and a stop sign|multiple_objects": {
+    "0": -0.76611328125,
+    "1": -1.498046875,
+    "2": -1.859375,
+    "3": -1.66796875,
+    "4": -1.8310546875
+  },
+  "a stop sign and a parking meter|multiple_objects": {
+    "0": -0.11761474609375,
+    "1": -1.4130859375,
+    "2": -1.9052734375,
+    "3": -1.2314453125,
+    "4": -1.5654296875
+  },
+  "a parking meter and a truck|multiple_objects": {
+    "0": -0.2496337890625,
+    "1": -0.984375,
+    "2": -0.2164306640625,
+    "3": -0.157470703125,
+    "4": -1.123046875
+  },
+  "a truck and a bicycle|multiple_objects": {
+    "0": -1.2216796875,
+    "1": -1.43359375,
+    "2": -0.78515625,
+    "3": -1.998046875,
+    "4": -0.80029296875
+  },
+  "a toilet and a hair drier|multiple_objects": {
+    "0": -1.76953125,
+    "1": 0.6689453125,
+    "2": -0.57080078125,
+    "3": -0.060546875,
+    "4": -1.01953125
+  },
+  "a hair drier and a toothbrush|multiple_objects": {
+    "0": 0.67919921875,
+    "1": -1.7060546875,
+    "2": -1.400390625,
+    "3": -0.341552734375,
+    "4": -0.984375
+  },
+  "a toothbrush and a sink|multiple_objects": {
+    "0": -0.85302734375,
+    "1": -1.6669921875,
+    "2": -0.99169921875,
+    "3": -0.85009765625,
+    "4": -2.29296875
+  },
+  "a sink and a toilet|multiple_objects": {
+    "0": -0.2144775390625,
+    "1": -0.1822509765625,
+    "2": -2.23828125,
+    "3": -0.284423828125,
+    "4": -1.92578125
+  },
+  "a wine glass and a chair|multiple_objects": {
+    "0": -0.1778564453125,
+    "1": -1.8154296875,
+    "2": -0.408447265625,
+    "3": -2.05859375,
+    "4": -0.89892578125
+  },
+  "a cup and a couch|multiple_objects": {
+    "0": -0.9169921875,
+    "1": -1.2978515625,
+    "2": -1.201171875,
+    "3": -0.9091796875,
+    "4": -1.927734375
+  },
+  "a fork and a potted plant|multiple_objects": {
+    "0": -0.74462890625,
+    "1": -0.6630859375,
+    "2": -0.81689453125,
+    "3": -0.439453125,
+    "4": -0.9169921875
+  },
+  "a knife and a tv|multiple_objects": {
+    "0": -1.5732421875,
+    "1": -0.642578125,
+    "2": -0.365966796875,
+    "3": -1.0771484375,
+    "4": -0.65283203125
+  },
+  "a spoon and a laptop|multiple_objects": {
+    "0": -1.7578125,
+    "1": -0.349365234375,
+    "2": -0.9951171875,
+    "3": -0.26806640625,
+    "4": -1.7890625
+  },
+  "a bowl and a remote|multiple_objects": {
+    "0": -1.3173828125,
+    "1": -1.41015625,
+    "2": -0.7421875,
+    "3": -1.384765625,
+    "4": -1.6591796875
+  },
+  "a banana and a keyboard|multiple_objects": {
+    "0": -1.5,
+    "1": -0.27587890625,
+    "2": -0.7314453125,
+    "3": -0.4736328125,
+    "4": -1.41015625
+  },
+  "an apple and a cell phone|multiple_objects": {
+    "0": -2.05859375,
+    "1": -0.73193359375,
+    "2": -1.3603515625,
+    "3": -1.43359375,
+    "4": 0.0234527587890625
+  },
+  "a sandwich and a book|multiple_objects": {
+    "0": -1.6220703125,
+    "1": -1.609375,
+    "2": -1.6943359375,
+    "3": -0.56982421875,
+    "4": -0.560546875
+  },
+  "an orange and a clock|multiple_objects": {
+    "0": -0.90087890625,
+    "1": -1.150390625,
+    "2": -1.1142578125,
+    "3": -1.5302734375,
+    "4": -0.38818359375
+  },
+  "broccoli and a backpack|multiple_objects": {
+    "0": -1.822265625,
+    "1": -0.96875,
+    "2": -1.47265625,
+    "3": -1.439453125,
+    "4": -0.3037109375
+  },
+  "a carrot and an umbrella|multiple_objects": {
+    "0": -1.876953125,
+    "1": -1.234375,
+    "2": -0.21435546875,
+    "3": -0.56982421875,
+    "4": -1.494140625
+  },
+  "a hot dog and a handbag|multiple_objects": {
+    "0": -1.3037109375,
+    "1": -0.88037109375,
+    "2": -0.94677734375,
+    "3": -0.453125,
+    "4": -0.06842041015625
+  },
+  "a pizza and a tie|multiple_objects": {
+    "0": -1.16796875,
+    "1": -0.30322265625,
+    "2": -1.2626953125,
+    "3": -1.65234375,
+    "4": -0.810546875
+  },
+  "a donut and a suitcase|multiple_objects": {
+    "0": -0.759765625,
+    "1": -1.3212890625,
+    "2": -1.2705078125,
+    "3": 0.4462890625,
+    "4": -1.654296875
+  },
+  "a cake and a vase|multiple_objects": {
+    "0": -1.802734375,
+    "1": -1.046875,
+    "2": -1.1904296875,
+    "3": -1.6328125,
+    "4": -1.9736328125
+  },
+  "an oven and scissors|multiple_objects": {
+    "0": -0.54443359375,
+    "1": -0.4345703125,
+    "2": -1.6533203125,
+    "3": -1.1318359375,
+    "4": -1.7802734375
+  },
+  "a toaster and a teddy bear|multiple_objects": {
+    "0": -1.8837890625,
+    "1": -1.23828125,
+    "2": -1.3515625,
+    "3": -0.138671875,
+    "4": -1.1162109375
+  },
+  "a microwave and a frisbee|multiple_objects": {
+    "0": -0.2347412109375,
+    "1": -0.98583984375,
+    "2": -0.90234375,
+    "3": -0.07135009765625,
+    "4": -1.1171875
+  },
+  "a refrigerator and skis|multiple_objects": {
+    "0": -0.88134765625,
+    "1": -2.201171875,
+    "2": -0.7060546875,
+    "3": 0.033416748046875,
+    "4": -0.923828125
+  },
+  "a bicycle and an airplane|multiple_objects": {
+    "0": -0.385498046875,
+    "1": -0.65625,
+    "2": -1.15625,
+    "3": -1.2998046875,
+    "4": -0.74609375
+  },
+  "a car and a train|multiple_objects": {
+    "0": -0.68505859375,
+    "1": -1.05078125,
+    "2": -1.7119140625,
+    "3": -0.91845703125,
+    "4": -0.6328125
+  },
+  "a motorcycle and a boat|multiple_objects": {
+    "0": -2.171875,
+    "1": -1.30859375,
+    "2": -1.4677734375,
+    "3": -1.6201171875,
+    "4": -1.0390625
+  },
+  "a person and a toilet|multiple_objects": {
+    "0": -0.54541015625,
+    "1": -1.2578125,
+    "2": -1.5478515625,
+    "3": -1.3916015625,
+    "4": -0.736328125
+  },
+  "a person and a hair drier|multiple_objects": {
+    "0": -1.001953125,
+    "1": -0.63525390625,
+    "2": -0.385009765625,
+    "3": -1.2041015625,
+    "4": -1.5771484375
+  },
+  "a person and a toothbrush|multiple_objects": {
+    "0": 0.07916259765625,
+    "1": -1.619140625,
+    "2": -1.4970703125,
+    "3": -0.71923828125,
+    "4": -1.576171875
+  },
+  "a person and a sink|multiple_objects": {
+    "0": -0.763671875,
+    "1": -1.3759765625,
+    "2": -1.7509765625,
+    "3": -1.1953125,
+    "4": -0.81494140625
+  },
+  "A person is riding a bike|human_action": {
+    "0": -0.36865234375,
+    "1": -1.1259765625,
+    "2": -1.5205078125,
+    "3": -0.53076171875,
+    "4": -1.505859375
+  },
+  "A person is marching|human_action": {
+    "0": -1.234375,
+    "1": -0.5908203125,
+    "2": -0.89306640625,
+    "3": -0.91796875,
+    "4": -0.96533203125
+  },
+  "A person is roller skating|human_action": {
+    "0": -1.869140625,
+    "1": -0.310546875,
+    "2": -0.646484375,
+    "3": -1.095703125,
+    "4": -1.1826171875
+  },
+  "A person is tasting beer|human_action": {
+    "0": -1.7607421875,
+    "1": -1.3310546875,
+    "2": -0.1231689453125,
+    "3": -0.6611328125,
+    "4": -0.179931640625
+  },
+  "A person is clapping|human_action": {
+    "0": -0.10675048828125,
+    "1": -0.8447265625,
+    "2": -1.4404296875,
+    "3": -1.34765625,
+    "4": -1.5126953125
+  },
+  "A person is drawing|human_action": {
+    "0": -2.357421875,
+    "1": -1.94921875,
+    "2": -0.4404296875,
+    "3": -1.0810546875,
+    "4": -0.783203125
+  },
+  "A person is petting animal (not cat)|human_action": {
+    "0": -0.919921875,
+    "1": -0.94970703125,
+    "2": -0.255615234375,
+    "3": -0.95751953125,
+    "4": -1.6220703125
+  },
+  "A person is eating watermelon|human_action": {
+    "0": -1.3291015625,
+    "1": -1.1767578125,
+    "2": -1.205078125,
+    "3": -1.5615234375,
+    "4": 0.094482421875
+  },
+  "A person is playing harp|human_action": {
+    "0": -1.494140625,
+    "1": -0.458251953125,
+    "2": -1.5,
+    "3": 0.490478515625,
+    "4": -0.102294921875
+  },
+  "A person is wrestling|human_action": {
+    "0": -0.76416015625,
+    "1": -0.83837890625,
+    "2": -1.1513671875,
+    "3": -0.08563232421875,
+    "4": -0.97021484375
+  },
+  "A person is riding scooter|human_action": {
+    "0": -1.8447265625,
+    "1": -0.9521484375,
+    "2": -1.392578125,
+    "3": 0.393798828125,
+    "4": -0.297119140625
+  },
+  "A person is sweeping floor|human_action": {
+    "0": -0.1273193359375,
+    "1": -0.861328125,
+    "2": -1.166015625,
+    "3": -0.1175537109375,
+    "4": -1.169921875
+  },
+  "A person is skateboarding|human_action": {
+    "0": -1.0517578125,
+    "1": -1.462890625,
+    "2": -1.34765625,
+    "3": -0.88232421875,
+    "4": -1.9580078125
+  },
+  "A person is dunking basketball|human_action": {
+    "0": -1.115234375,
+    "1": -1.0615234375,
+    "2": -0.99755859375,
+    "3": -0.4169921875,
+    "4": -0.41162109375
+  },
+  "A person is playing flute|human_action": {
+    "0": -0.52587890625,
+    "1": -1.9638671875,
+    "2": -0.97802734375,
+    "3": -1.5283203125,
+    "4": -0.73583984375
+  },
+  "A person is stretching leg|human_action": {
+    "0": -0.180419921875,
+    "1": -0.78564453125,
+    "2": -1.7265625,
+    "3": -1.9140625,
+    "4": -0.51025390625
+  },
+  "A person is tying tie|human_action": {
+    "0": 0.15380859375,
+    "1": -1.4296875,
+    "2": -1.36328125,
+    "3": -0.7216796875,
+    "4": -0.1549072265625
+  },
+  "A person is skydiving|human_action": {
+    "0": -0.95263671875,
+    "1": -0.93115234375,
+    "2": -0.72509765625,
+    "3": -1.0751953125,
+    "4": -1.595703125
+  },
+  "A person is shooting goal (soccer)|human_action": {
+    "0": -0.63671875,
+    "1": -0.875,
+    "2": 0.37890625,
+    "3": -1.1552734375,
+    "4": -1.3759765625
+  },
+  "A person is playing piano|human_action": {
+    "0": 0.013580322265625,
+    "1": -0.85546875,
+    "2": -0.69482421875,
+    "3": -1.5888671875,
+    "4": -1.6689453125
+  },
+  "A person is finger snapping|human_action": {
+    "0": -0.39404296875,
+    "1": 0.0013589859008789062,
+    "2": -0.3212890625,
+    "3": -0.95458984375,
+    "4": 0.031829833984375
+  },
+  "A person is canoeing or kayaking|human_action": {
+    "0": -0.30859375,
+    "1": -1.2431640625,
+    "2": 0.41552734375,
+    "3": -0.947265625,
+    "4": -1.01171875
+  },
+  "A person is laughing|human_action": {
+    "0": -0.90185546875,
+    "1": -1.7841796875,
+    "2": -1.625,
+    "3": -1.51171875,
+    "4": -0.943359375
+  },
+  "A person is digging|human_action": {
+    "0": -1.0576171875,
+    "1": -0.1910400390625,
+    "2": -0.38671875,
+    "3": -0.330078125,
+    "4": -0.7841796875
+  },
+  "A person is clay pottery making|human_action": {
+    "0": -0.10870361328125,
+    "1": -1.0498046875,
+    "2": -0.183837890625,
+    "3": -0.384765625,
+    "4": -0.7353515625
+  },
+  "A person is shooting basketball|human_action": {
+    "0": -0.60009765625,
+    "1": -1.2001953125,
+    "2": -0.9306640625,
+    "3": -1.3193359375,
+    "4": -1.6240234375
+  },
+  "A person is bending back|human_action": {
+    "0": -0.461181640625,
+    "1": -1.17578125,
+    "2": -0.7255859375,
+    "3": -0.90478515625,
+    "4": -0.6611328125
+  },
+  "A person is shaking hands|human_action": {
+    "0": -2.255859375,
+    "1": 0.254150390625,
+    "2": -1.8017578125,
+    "3": -0.04461669921875,
+    "4": -1.796875
+  },
+  "A person is bandaging|human_action": {
+    "0": -1.73046875,
+    "1": -1.5751953125,
+    "2": -0.281494140625,
+    "3": 0.0019063949584960938,
+    "4": -1.2275390625
+  },
+  "A person is push up|human_action": {
+    "0": -0.02581787109375,
+    "1": -1.0,
+    "2": -1.1455078125,
+    "3": -1.1982421875,
+    "4": -0.77294921875
+  },
+  "A person is catching or throwing frisbee|human_action": {
+    "0": -1.2841796875,
+    "1": -1.7587890625,
+    "2": -0.8076171875,
+    "3": -1.2841796875,
+    "4": -0.958984375
+  },
+  "A person is playing trumpet|human_action": {
+    "0": -1.314453125,
+    "1": -0.91748046875,
+    "2": -0.8916015625,
+    "3": -1.4501953125,
+    "4": -1.7099609375
+  },
+  "A person is flying kite|human_action": {
+    "0": -0.52783203125,
+    "1": -0.83251953125,
+    "2": -1.490234375,
+    "3": -1.275390625,
+    "4": -1.435546875
+  },
+  "A person is filling eyebrows|human_action": {
+    "0": -1.4609375,
+    "1": -0.06787109375,
+    "2": -1.4248046875,
+    "3": -1.91796875,
+    "4": 0.322998046875
+  },
+  "A person is shuffling cards|human_action": {
+    "0": -1.5625,
+    "1": -0.9365234375,
+    "2": -1.486328125,
+    "3": -1.1552734375,
+    "4": -1.3818359375
+  },
+  "A person is folding clothes|human_action": {
+    "0": -1.0205078125,
+    "1": -2.341796875,
+    "2": -0.41845703125,
+    "3": -0.83251953125,
+    "4": -1.3408203125
+  },
+  "A person is smoking|human_action": {
+    "0": -0.4091796875,
+    "1": 0.0814208984375,
+    "2": -0.51708984375,
+    "3": -1.3271484375,
+    "4": -0.338623046875
+  },
+  "A person is tai chi|human_action": {
+    "0": -2.673828125,
+    "1": -1.5263671875,
+    "2": -1.2919921875,
+    "3": -1.2568359375,
+    "4": -1.7236328125
+  },
+  "A person is squat|human_action": {
+    "0": -0.68310546875,
+    "1": -0.98095703125,
+    "2": -0.65771484375,
+    "3": -1.3017578125,
+    "4": -1.4443359375
+  },
+  "A person is playing controller|human_action": {
+    "0": -1.005859375,
+    "1": -0.8984375,
+    "2": -0.051300048828125,
+    "3": -1.0078125,
+    "4": -1.5166015625
+  },
+  "A person is throwing axe|human_action": {
+    "0": -0.6435546875,
+    "1": -1.4521484375,
+    "2": -0.6796875,
+    "3": -1.8046875,
+    "4": -0.60986328125
+  },
+  "A person is giving or receiving award|human_action": {
+    "0": -0.70361328125,
+    "1": -1.642578125,
+    "2": -1.873046875,
+    "3": -0.568359375,
+    "4": -1.978515625
+  },
+  "A person is air drumming|human_action": {
+    "0": -1.5380859375,
+    "1": -1.0498046875,
+    "2": -0.192138671875,
+    "3": -0.1949462890625,
+    "4": 0.35888671875
+  },
+  "A person is taking a shower|human_action": {
+    "0": -0.69970703125,
+    "1": -1.359375,
+    "2": -0.389404296875,
+    "3": -0.348388671875,
+    "4": -0.62353515625
+  },
+  "A person is planting trees|human_action": {
+    "0": -0.56494140625,
+    "1": -0.662109375,
+    "2": -0.301513671875,
+    "3": -1.462890625,
+    "4": -0.81591796875
+  },
+  "A person is sharpening knives|human_action": {
+    "0": -1.2734375,
+    "1": 0.396240234375,
+    "2": -1.5244140625,
+    "3": -0.67919921875,
+    "4": 0.52294921875
+  },
+  "A person is robot dancing|human_action": {
+    "0": -2.044921875,
+    "1": -0.53466796875,
+    "2": -0.93408203125,
+    "3": -1.6103515625,
+    "4": -0.9365234375
+  },
+  "A person is rock climbing|human_action": {
+    "0": -1.2548828125,
+    "1": -1.0869140625,
+    "2": -0.259765625,
+    "3": -0.3994140625,
+    "4": -1.099609375
+  },
+  "A person is hula hooping|human_action": {
+    "0": -0.3466796875,
+    "1": -1.1689453125,
+    "2": -0.03143310546875,
+    "3": -1.2255859375,
+    "4": -1.9765625
+  },
+  "A person is writing|human_action": {
+    "0": -0.10760498046875,
+    "1": -1.0478515625,
+    "2": -1.87890625,
+    "3": -0.167236328125,
+    "4": -1.533203125
+  },
+  "A person is bungee jumping|human_action": {
+    "0": -1.5205078125,
+    "1": -1.705078125,
+    "2": -0.39599609375,
+    "3": -0.08349609375,
+    "4": -0.88232421875
+  },
+  "A person is pushing cart|human_action": {
+    "0": -0.64599609375,
+    "1": -0.2259521484375,
+    "2": -1.8291015625,
+    "3": 0.0733642578125,
+    "4": -2.244140625
+  },
+  "A person is cleaning windows|human_action": {
+    "0": -0.67724609375,
+    "1": -0.74365234375,
+    "2": -1.5400390625,
+    "3": -1.267578125,
+    "4": -0.8623046875
+  },
+  "A person is cutting watermelon|human_action": {
+    "0": -1.578125,
+    "1": -0.935546875,
+    "2": -1.3466796875,
+    "3": -1.4580078125,
+    "4": -2.146484375
+  },
+  "A person is cheerleading|human_action": {
+    "0": -1.0283203125,
+    "1": -1.0224609375,
+    "2": -1.681640625,
+    "3": -0.2177734375,
+    "4": -0.88232421875
+  },
+  "A person is washing hands|human_action": {
+    "0": 0.0174713134765625,
+    "1": -0.168701171875,
+    "2": -1.3203125,
+    "3": -0.73583984375,
+    "4": -0.73876953125
+  },
+  "A person is ironing|human_action": {
+    "0": -0.640625,
+    "1": -0.88134765625,
+    "2": 0.208251953125,
+    "3": -0.279541015625,
+    "4": -1.57421875
+  },
+  "A person is cutting nails|human_action": {
+    "0": -1.6201171875,
+    "1": -1.2255859375,
+    "2": -0.43505859375,
+    "3": -0.5126953125,
+    "4": -1.6015625
+  },
+  "A person is hugging|human_action": {
+    "0": -1.3076171875,
+    "1": -0.2191162109375,
+    "2": -0.394775390625,
+    "3": -1.330078125,
+    "4": -2.15625
+  },
+  "A person is trimming or shaving beard|human_action": {
+    "0": -0.95068359375,
+    "1": -1.12109375,
+    "2": -0.74853515625,
+    "3": -1.244140625,
+    "4": -0.396728515625
+  },
+  "A person is jogging|human_action": {
+    "0": -1.48046875,
+    "1": -1.2236328125,
+    "2": -1.6630859375,
+    "3": -0.72900390625,
+    "4": 0.44482421875
+  },
+  "A person is making bed|human_action": {
+    "0": -1.8330078125,
+    "1": 0.2386474609375,
+    "2": -1.85546875,
+    "3": -0.99755859375,
+    "4": -1.4853515625
+  },
+  "A person is washing dishes|human_action": {
+    "0": -1.1494140625,
+    "1": -1.77734375,
+    "2": -1.5,
+    "3": -1.4404296875,
+    "4": -1.0556640625
+  },
+  "A person is grooming dog|human_action": {
+    "0": -0.64306640625,
+    "1": -1.2490234375,
+    "2": -1.1796875,
+    "3": -2.392578125,
+    "4": -0.5166015625
+  },
+  "A person is doing laundry|human_action": {
+    "0": -1.041015625,
+    "1": -1.689453125,
+    "2": -0.5888671875,
+    "3": -0.57568359375,
+    "4": -1.666015625
+  },
+  "A person is knitting|human_action": {
+    "0": -0.94873046875,
+    "1": -1.376953125,
+    "2": -1.6318359375,
+    "3": 0.31640625,
+    "4": -1.4267578125
+  },
+  "A person is reading book|human_action": {
+    "0": -1.39453125,
+    "1": 0.002796173095703125,
+    "2": -1.6669921875,
+    "3": -0.94921875,
+    "4": -0.435791015625
+  },
+  "A person is baby waking up|human_action": {
+    "0": -1.4580078125,
+    "1": -2.013671875,
+    "2": 0.1697998046875,
+    "3": -0.810546875,
+    "4": -1.015625
+  },
+  "A person is massaging legs|human_action": {
+    "0": -1.35546875,
+    "1": -0.1065673828125,
+    "2": -0.4921875,
+    "3": -1.2744140625,
+    "4": -0.05731201171875
+  },
+  "A person is brushing teeth|human_action": {
+    "0": -1.4658203125,
+    "1": -0.572265625,
+    "2": -1.18359375,
+    "3": -1.1650390625,
+    "4": -0.1966552734375
+  },
+  "A person is crawling baby|human_action": {
+    "0": -0.787109375,
+    "1": -2.013671875,
+    "2": -2.412109375,
+    "3": -1.05859375,
+    "4": -0.826171875
+  },
+  "A person is motorcycling|human_action": {
+    "0": -0.324951171875,
+    "1": -1.595703125,
+    "2": -0.86572265625,
+    "3": -0.6201171875,
+    "4": -1.7353515625
+  },
+  "A person is driving car|human_action": {
+    "0": -0.14892578125,
+    "1": -0.623046875,
+    "2": -1.0869140625,
+    "3": -0.355712890625,
+    "4": -1.17578125
+  },
+  "A person is sticking tongue out|human_action": {
+    "0": -1.126953125,
+    "1": -0.69140625,
+    "2": -1.7119140625,
+    "3": -1.4521484375,
+    "4": -0.129150390625
+  },
+  "A person is shaking head|human_action": {
+    "0": -0.64892578125,
+    "1": -1.9140625,
+    "2": -1.4306640625,
+    "3": -0.9736328125,
+    "4": -2.0703125
+  },
+  "A person is sword fighting|human_action": {
+    "0": -0.2158203125,
+    "1": 0.047576904296875,
+    "2": -1.107421875,
+    "3": -1.26171875,
+    "4": -0.1475830078125
+  },
+  "A person is doing aerobics|human_action": {
+    "0": -0.48779296875,
+    "1": -0.8134765625,
+    "2": -0.425048828125,
+    "3": -0.66455078125,
+    "4": -1.78515625
+  },
+  "A person is strumming guitar|human_action": {
+    "0": 0.2509765625,
+    "1": -0.92236328125,
+    "2": -0.398681640625,
+    "3": -0.29736328125,
+    "4": -1.0009765625
+  },
+  "A person is riding or walking with horse|human_action": {
+    "0": -0.60693359375,
+    "1": -1.537109375,
+    "2": -0.90087890625,
+    "3": -1.0439453125,
+    "4": -1.626953125
+  },
+  "A person is archery|human_action": {
+    "0": -0.460205078125,
+    "1": -1.19140625,
+    "2": -0.047637939453125,
+    "3": -1.1328125,
+    "4": -1.076171875
+  },
+  "A person is catching or throwing baseball|human_action": {
+    "0": -1.4892578125,
+    "1": -0.4296875,
+    "2": -0.96630859375,
+    "3": -0.8115234375,
+    "4": 0.450927734375
+  },
+  "A person is playing chess|human_action": {
+    "0": -1.81640625,
+    "1": -0.346435546875,
+    "2": -1.0615234375,
+    "3": -0.163818359375,
+    "4": -1.166015625
+  },
+  "A person is rock scissors paper|human_action": {
+    "0": -1.2470703125,
+    "1": -2.32421875,
+    "2": -1.4560546875,
+    "3": -0.34765625,
+    "4": -1.552734375
+  },
+  "A person is using computer|human_action": {
+    "0": 0.2386474609375,
+    "1": 0.3994140625,
+    "2": -1.6376953125,
+    "3": -1.208984375,
+    "4": -0.445068359375
+  },
+  "A person is arranging flowers|human_action": {
+    "0": -0.478515625,
+    "1": -2.01171875,
+    "2": -0.12225341796875,
+    "3": -0.94921875,
+    "4": -0.95703125
+  },
+  "A person is bending metal|human_action": {
+    "0": -2.353515625,
+    "1": -0.453125,
+    "2": -1.1337890625,
+    "3": -0.64501953125,
+    "4": -0.291259765625
+  },
+  "A person is ice skating|human_action": {
+    "0": -1.662109375,
+    "1": -0.277587890625,
+    "2": -0.425048828125,
+    "3": -1.1279296875,
+    "4": -1.74609375
+  },
+  "A person is climbing a rope|human_action": {
+    "0": -0.6826171875,
+    "1": -1.197265625,
+    "2": -1.6357421875,
+    "3": -0.58837890625,
+    "4": -0.76171875
+  },
+  "A person is crying|human_action": {
+    "0": -1.4267578125,
+    "1": -0.1815185546875,
+    "2": -0.407958984375,
+    "3": -0.6982421875,
+    "4": -0.68701171875
+  },
+  "A person is dancing ballet|human_action": {
+    "0": -1.33203125,
+    "1": -1.5546875,
+    "2": -1.177734375,
+    "3": -1.640625,
+    "4": -0.5224609375
+  },
+  "A person is getting a haircut|human_action": {
+    "0": -1.2197265625,
+    "1": -1.4541015625,
+    "2": -0.6826171875,
+    "3": -0.39453125,
+    "4": -0.63330078125
+  },
+  "A person is running on treadmill|human_action": {
+    "0": -1.3017578125,
+    "1": -1.0302734375,
+    "2": -1.005859375,
+    "3": -0.09088134765625,
+    "4": -1.775390625
+  },
+  "A person is kissing|human_action": {
+    "0": -0.75048828125,
+    "1": -0.958984375,
+    "2": -1.6064453125,
+    "3": -0.69775390625,
+    "4": -1.232421875
+  },
+  "A person is counting money|human_action": {
+    "0": -1.365234375,
+    "1": -0.388427734375,
+    "2": -0.059326171875,
+    "3": -1.32421875,
+    "4": -1.681640625
+  },
+  "A person is barbequing|human_action": {
+    "0": -1.2314453125,
+    "1": -1.322265625,
+    "2": -0.264892578125,
+    "3": -0.91015625,
+    "4": -1.5107421875
+  },
+  "A person is peeling apples|human_action": {
+    "0": -0.64501953125,
+    "1": -1.8046875,
+    "2": -1.42578125,
+    "3": -0.58984375,
+    "4": -0.1427001953125
+  },
+  "A person is milking cow|human_action": {
+    "0": -0.5517578125,
+    "1": -1.4384765625,
+    "2": -1.1435546875,
+    "3": -1.4267578125,
+    "4": -1.8291015625
+  },
+  "A person is shining shoes|human_action": {
+    "0": -0.8642578125,
+    "1": -0.65478515625,
+    "2": -2.0390625,
+    "3": -1.7109375,
+    "4": -1.556640625
+  },
+  "A person is making snowman|human_action": {
+    "0": -0.425048828125,
+    "1": -1.7548828125,
+    "2": 0.186767578125,
+    "3": -0.7275390625,
+    "4": -2.037109375
+  },
+  "A person is sailing|human_action": {
+    "0": -1.560546875,
+    "1": -0.449462890625,
+    "2": -1.6337890625,
+    "3": -1.8203125,
+    "4": -1.8173828125
+  },
+  "a person swimming in ocean|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.5087890625,
+    "1": -0.425537109375,
+    "2": -0.61572265625,
+    "3": -1.8056640625,
+    "4": -1.17578125
+  },
+  "a person giving a presentation to a room full of colleagues|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.1444091796875,
+    "1": -0.63623046875,
+    "2": -0.451904296875,
+    "3": -0.78466796875,
+    "4": -0.0038509368896484375
+  },
+  "a person washing the dishes|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.751953125,
+    "1": -0.66357421875,
+    "2": -0.91162109375,
+    "3": -0.62939453125,
+    "4": -1.2275390625
+  },
+  "a person eating a burger|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.389892578125,
+    "1": 0.41943359375,
+    "2": -1.7412109375,
+    "3": -0.8359375,
+    "4": -1.1865234375
+  },
+  "a person walking in the snowstorm|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.0478515625,
+    "1": -1.1787109375,
+    "2": -1.0556640625,
+    "3": -0.55712890625,
+    "4": -1.04296875
+  },
+  "a person drinking coffee in a cafe|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.59765625,
+    "1": -1.5263671875,
+    "2": -0.225341796875,
+    "3": -1.6611328125,
+    "4": -0.2177734375
+  },
+  "a person playing guitar|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.76806640625,
+    "1": -1.640625,
+    "2": -0.3798828125,
+    "3": -0.62744140625,
+    "4": -1.349609375
+  },
+  "a bicycle leaning against a tree|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.0452880859375,
+    "1": -0.908203125,
+    "2": -0.86572265625,
+    "3": -0.8759765625,
+    "4": -0.47509765625
+  },
+  "a bicycle gliding through a snowy field|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.779296875,
+    "1": -2.07421875,
+    "2": -0.8564453125,
+    "3": -0.4140625,
+    "4": -1.3896484375
+  },
+  "a bicycle slowing down to stop|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.703125,
+    "1": -0.160400390625,
+    "2": -0.9775390625,
+    "3": -1.61328125,
+    "4": -0.17578125
+  },
+  "a bicycle accelerating to gain speed|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.3857421875,
+    "1": -1.48828125,
+    "2": 0.026275634765625,
+    "3": -0.708984375,
+    "4": -1.1962890625
+  },
+  "a car stuck in traffic during rush hour|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -2.1640625,
+    "1": -0.273681640625,
+    "2": -1.6181640625,
+    "3": -0.91015625,
+    "4": -1.125
+  },
+  "a car turning a corner|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.4833984375,
+    "1": -1.3818359375,
+    "2": -0.82568359375,
+    "3": -1.5625,
+    "4": -1.5380859375
+  },
+  "a car slowing down to stop|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.3056640625,
+    "1": -0.76171875,
+    "2": -1.5166015625,
+    "3": -1.142578125,
+    "4": -1.6298828125
+  },
+  "a car accelerating to gain speed|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.1319580078125,
+    "1": -0.1973876953125,
+    "2": -0.9189453125,
+    "3": -0.325927734375,
+    "4": 0.09332275390625
+  },
+  "a motorcycle cruising along a coastal highway|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.8828125,
+    "1": -1.1142578125,
+    "2": -0.279541015625,
+    "3": -1.1220703125,
+    "4": -1.2255859375
+  },
+  "a motorcycle turning a corner|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.8779296875,
+    "1": -0.53564453125,
+    "2": -2.1640625,
+    "3": -1.37890625,
+    "4": -0.7939453125
+  },
+  "a motorcycle slowing down to stop|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.0810546875,
+    "1": -0.7470703125,
+    "2": -0.5947265625,
+    "3": -1.5478515625,
+    "4": -0.75634765625
+  },
+  "a motorcycle gliding through a snowy field|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.04296875,
+    "1": -1.4384765625,
+    "2": 0.19482421875,
+    "3": -1.2568359375,
+    "4": -0.5908203125
+  },
+  "a motorcycle accelerating to gain speed|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.498046875,
+    "1": 0.0019388198852539062,
+    "2": -0.6689453125,
+    "3": -1.5771484375,
+    "4": -0.7255859375
+  },
+  "an airplane soaring through a clear blue sky|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.8876953125,
+    "1": -1.2646484375,
+    "2": -0.51220703125,
+    "3": -1.08203125,
+    "4": -0.8701171875
+  },
+  "an airplane taking off|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.0078125,
+    "1": -1.884765625,
+    "2": -1.134765625,
+    "3": -0.64990234375,
+    "4": -0.83203125
+  },
+  "an airplane landing smoothly on a runway|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.7666015625,
+    "1": -1.3466796875,
+    "2": -0.2958984375,
+    "3": -0.845703125,
+    "4": -1.708984375
+  },
+  "an airplane accelerating to gain speed|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -2.107421875,
+    "1": 0.197998046875,
+    "2": -0.56494140625,
+    "3": -0.0458984375,
+    "4": -0.1419677734375
+  },
+  "a bus turning a corner|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.7490234375,
+    "1": -0.86279296875,
+    "2": -1.8291015625,
+    "3": -0.97509765625,
+    "4": -1.0908203125
+  },
+  "a bus stuck in traffic during rush hour|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.205078125,
+    "1": -0.90673828125,
+    "2": -1.076171875,
+    "3": -1.4931640625,
+    "4": -0.311767578125
+  },
+  "a bus accelerating to gain speed|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.7333984375,
+    "1": -0.275634765625,
+    "2": -0.67724609375,
+    "3": -1.2470703125,
+    "4": -0.390869140625
+  },
+  "a train speeding down the tracks|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.693359375,
+    "1": -1.5419921875,
+    "2": -0.90673828125,
+    "3": 0.322021484375,
+    "4": -0.78271484375
+  },
+  "a train crossing over a tall bridge|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.2237548828125,
+    "1": -0.279052734375,
+    "2": -0.418701171875,
+    "3": -0.70947265625,
+    "4": -1.6064453125
+  },
+  "a train accelerating to gain speed|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.4404296875,
+    "1": -1.5126953125,
+    "2": -0.89599609375,
+    "3": -0.09307861328125,
+    "4": -1.7294921875
+  },
+  "a truck turning a corner|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.5615234375,
+    "1": -0.1697998046875,
+    "2": -1.6474609375,
+    "3": -1.26953125,
+    "4": -0.431396484375
+  },
+  "a truck anchored in a tranquil bay|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.8056640625,
+    "1": -2.072265625,
+    "2": -0.8984375,
+    "3": -0.373046875,
+    "4": -0.81396484375
+  },
+  "a truck stuck in traffic during rush hour|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.693359375,
+    "1": -0.5966796875,
+    "2": -1.39453125,
+    "3": -1.05078125,
+    "4": -1.0595703125
+  },
+  "a truck slowing down to stop|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.6552734375,
+    "1": 0.339111328125,
+    "2": -0.86474609375,
+    "3": -1.349609375,
+    "4": -1.58203125
+  },
+  "a truck accelerating to gain speed|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.51953125,
+    "1": -0.04620361328125,
+    "2": 0.11944580078125,
+    "3": -1.3359375,
+    "4": -1.2177734375
+  },
+  "a boat sailing smoothly on a calm lake|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.0927734375,
+    "1": -0.1820068359375,
+    "2": -1.693359375,
+    "3": -1.4326171875,
+    "4": -1.6357421875
+  },
+  "a boat slowing down to stop|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.1328125,
+    "1": -1.279296875,
+    "2": -0.348388671875,
+    "3": -1.3505859375,
+    "4": -1.3154296875
+  },
+  "a boat accelerating to gain speed|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.2958984375,
+    "1": 0.38623046875,
+    "2": -0.0535888671875,
+    "3": 0.08447265625,
+    "4": -1.142578125
+  },
+  "a bird soaring gracefully in the sky|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.10986328125,
+    "1": -1.1396484375,
+    "2": -0.88427734375,
+    "3": -0.91064453125,
+    "4": -2.037109375
+  },
+  "a bird building a nest from twigs and leaves|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.470458984375,
+    "1": -1.4736328125,
+    "2": -0.83935546875,
+    "3": -0.2298583984375,
+    "4": -1.1640625
+  },
+  "a bird flying over a snowy forest|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.556640625,
+    "1": -1.62890625,
+    "2": -1.607421875,
+    "3": -0.59716796875,
+    "4": -1.3876953125
+  },
+  "a cat grooming itself meticulously with its tongue|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.0400390625,
+    "1": -1.8447265625,
+    "2": -0.379638671875,
+    "3": -0.96728515625,
+    "4": -0.59716796875
+  },
+  "a cat playing in park|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.457275390625,
+    "1": -0.323974609375,
+    "2": -0.2222900390625,
+    "3": -0.77490234375,
+    "4": -1.2451171875
+  },
+  "a cat drinking water|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.8916015625,
+    "1": -1.4111328125,
+    "2": -0.4140625,
+    "3": -0.9755859375,
+    "4": -1.412109375
+  },
+  "a cat running happily|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.19921875,
+    "1": -0.1676025390625,
+    "2": -0.400146484375,
+    "3": -1.4296875,
+    "4": -1.474609375
+  },
+  "a dog enjoying a peaceful walk|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.26416015625,
+    "1": -0.80810546875,
+    "2": -0.90625,
+    "3": -1.30859375,
+    "4": -0.71630859375
+  },
+  "a dog playing in park|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": 5.0067901611328125e-06,
+    "1": -1.0869140625,
+    "2": -1.4599609375,
+    "3": -0.77587890625,
+    "4": -1.00390625
+  },
+  "a dog drinking water|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.69140625,
+    "1": -0.1328125,
+    "2": -0.96435546875,
+    "3": -1.232421875,
+    "4": 0.11285400390625
+  },
+  "a dog running happily|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.275390625,
+    "1": -1.349609375,
+    "2": -1.1552734375,
+    "3": -1.6201171875,
+    "4": -1.66796875
+  },
+  "a horse bending down to drink water from a river|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.3564453125,
+    "1": -0.9091796875,
+    "2": -1.451171875,
+    "3": -1.3837890625,
+    "4": -1.4169921875
+  },
+  "a horse galloping across an open field|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.2919921875,
+    "1": -1.6142578125,
+    "2": -1.9453125,
+    "3": -1.7490234375,
+    "4": -2.169921875
+  },
+  "a horse taking a peaceful walk|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.505859375,
+    "1": -1.54296875,
+    "2": -1.80859375,
+    "3": -0.219970703125,
+    "4": 0.356689453125
+  },
+  "a horse running to join a herd of its kind|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": 0.5517578125,
+    "1": -1.2353515625,
+    "2": -1.353515625,
+    "3": -1.5771484375,
+    "4": -0.9423828125
+  },
+  "a sheep bending down to drink water from a river|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.134765625,
+    "1": -0.93896484375,
+    "2": -1.3056640625,
+    "3": -0.29736328125,
+    "4": -0.09210205078125
+  },
+  "a sheep taking a peaceful walk|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.59765625,
+    "1": -1.3408203125,
+    "2": -0.78515625,
+    "3": -0.875,
+    "4": -1.4716796875
+  },
+  "a sheep running to join a herd of its kind|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": 0.0849609375,
+    "1": -0.5009765625,
+    "2": -1.7685546875,
+    "3": -1.4052734375,
+    "4": -1.2666015625
+  },
+  "a cow bending down to drink water from a river|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.5302734375,
+    "1": -2.1171875,
+    "2": -1.94921875,
+    "3": -1.40625,
+    "4": -0.350341796875
+  },
+  "a cow chewing cud while resting in a tranquil barn|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.94970703125,
+    "1": -0.5615234375,
+    "2": -0.67822265625,
+    "3": -0.08880615234375,
+    "4": -1.271484375
+  },
+  "a cow running to join a herd of its kind|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.0209808349609375,
+    "1": -0.43408203125,
+    "2": -0.040435791015625,
+    "3": -2.1015625,
+    "4": -1.615234375
+  },
+  "an elephant spraying itself with water using its trunk to cool down|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.888671875,
+    "1": -1.98828125,
+    "2": -1.2041015625,
+    "3": -1.6484375,
+    "4": -1.080078125
+  },
+  "an elephant taking a peaceful walk|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.36669921875,
+    "1": -1.837890625,
+    "2": -0.9951171875,
+    "3": -1.166015625,
+    "4": -0.9453125
+  },
+  "an elephant running to join a herd of its kind|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.10528564453125,
+    "1": -0.1495361328125,
+    "2": -0.90673828125,
+    "3": -2.01953125,
+    "4": -0.372314453125
+  },
+  "a bear catching a salmon in its powerful jaws|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.431640625,
+    "1": -0.71875,
+    "2": 0.354736328125,
+    "3": -0.5361328125,
+    "4": -1.748046875
+  },
+  "a bear sniffing the air for scents of food|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.482421875,
+    "1": -0.517578125,
+    "2": -0.9638671875,
+    "3": -0.748046875,
+    "4": -0.67724609375
+  },
+  "a bear climbing a tree|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -2.158203125,
+    "1": -1.439453125,
+    "2": -2.0078125,
+    "3": -0.62451171875,
+    "4": -0.56201171875
+  },
+  "a bear hunting for prey|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.98681640625,
+    "1": -1.6630859375,
+    "2": -0.93994140625,
+    "3": -1.50390625,
+    "4": -0.544921875
+  },
+  "a zebra bending down to drink water from a river|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.2919921875,
+    "1": -1.3583984375,
+    "2": -0.1553955078125,
+    "3": -1.3857421875,
+    "4": -1.576171875
+  },
+  "a zebra running to join a herd of its kind|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.619140625,
+    "1": -0.1407470703125,
+    "2": -1.072265625,
+    "3": -1.03515625,
+    "4": 0.2301025390625
+  },
+  "a zebra taking a peaceful walk|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.3525390625,
+    "1": -1.4228515625,
+    "2": -0.91455078125,
+    "3": -0.6259765625,
+    "4": 0.1065673828125
+  },
+  "a giraffe bending down to drink water from a river|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.90283203125,
+    "1": -1.951171875,
+    "2": -1.4521484375,
+    "3": -1.1328125,
+    "4": -0.494140625
+  },
+  "a giraffe taking a peaceful walk|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -1.2646484375,
+    "1": -1.4345703125,
+    "2": -1.2265625,
+    "3": 0.05145263671875,
+    "4": -1.2080078125
+  },
+  "a giraffe running to join a herd of its kind|dynamic_degree,motion_smoothness,subject_consistency": {
+    "0": -0.998046875,
+    "1": -0.432861328125,
+    "2": -0.2486572265625,
+    "3": -0.281005859375,
+    "4": -1.45703125
+  },
+  "a person|object_class": {
+    "0": -1.1005859375,
+    "1": -1.240234375,
+    "2": -0.93994140625,
+    "3": -1.5244140625,
+    "4": 0.2210693359375
+  },
+  "a bicycle|object_class": {
+    "0": 0.356689453125,
+    "1": -1.4833984375,
+    "2": -1.83984375,
+    "3": -0.427490234375,
+    "4": -1.951171875
+  },
+  "a car|object_class": {
+    "0": -0.95947265625,
+    "1": -1.5234375,
+    "2": 0.0242919921875,
+    "3": -1.435546875,
+    "4": -1.10546875
+  },
+  "a motorcycle|object_class": {
+    "0": -0.6328125,
+    "1": -0.0323486328125,
+    "2": -1.4375,
+    "3": -0.64990234375,
+    "4": -1.224609375
+  },
+  "an airplane|object_class": {
+    "0": -1.255859375,
+    "1": 0.259033203125,
+    "2": -2.1171875,
+    "3": -0.92578125,
+    "4": -1.5478515625
+  },
+  "a bus|object_class": {
+    "0": -1.4638671875,
+    "1": -2.5,
+    "2": -0.77978515625,
+    "3": -0.29248046875,
+    "4": -2.484375
+  },
+  "a train|object_class": {
+    "0": -1.1025390625,
+    "1": -0.448486328125,
+    "2": -0.091552734375,
+    "3": -0.349609375,
+    "4": -1.306640625
+  },
+  "a truck|object_class": {
+    "0": -1.130859375,
+    "1": 0.1322021484375,
+    "2": -1.0380859375,
+    "3": -1.0146484375,
+    "4": -0.74609375
+  },
+  "a boat|object_class": {
+    "0": -0.7060546875,
+    "1": -1.5078125,
+    "2": -0.41796875,
+    "3": -1.7412109375,
+    "4": -1.107421875
+  },
+  "a traffic light|object_class": {
+    "0": -1.2041015625,
+    "1": 0.053985595703125,
+    "2": -0.12310791015625,
+    "3": -0.87939453125,
+    "4": -1.1298828125
+  },
+  "a fire hydrant|object_class": {
+    "0": -1.47265625,
+    "1": 0.260986328125,
+    "2": -1.736328125,
+    "3": -1.6923828125,
+    "4": -0.11993408203125
+  },
+  "a stop sign|object_class": {
+    "0": -0.89306640625,
+    "1": -0.65869140625,
+    "2": -0.52392578125,
+    "3": -1.1171875,
+    "4": -1.154296875
+  },
+  "a parking meter|object_class": {
+    "0": -1.0322265625,
+    "1": -1.35546875,
+    "2": -1.291015625,
+    "3": -0.7841796875,
+    "4": -1.5390625
+  },
+  "a bench|object_class": {
+    "0": -1.15625,
+    "1": -0.1265869140625,
+    "2": -0.56396484375,
+    "3": -0.2457275390625,
+    "4": -1.158203125
+  },
+  "a bird|object_class": {
+    "0": -1.8125,
+    "1": -1.5205078125,
+    "2": -1.1337890625,
+    "3": -1.333984375,
+    "4": -1.7255859375
+  },
+  "a cat|object_class": {
+    "0": -1.3310546875,
+    "1": -1.4775390625,
+    "2": -2.26953125,
+    "3": -1.3330078125,
+    "4": -1.32421875
+  },
+  "a dog|object_class": {
+    "0": -1.3720703125,
+    "1": -1.443359375,
+    "2": -1.2099609375,
+    "3": -1.005859375,
+    "4": -1.916015625
+  },
+  "a horse|object_class": {
+    "0": -1.5341796875,
+    "1": -0.86474609375,
+    "2": -1.1396484375,
+    "3": -0.478515625,
+    "4": -1.361328125
+  },
+  "a sheep|object_class": {
+    "0": -1.5888671875,
+    "1": -1.8974609375,
+    "2": 0.392333984375,
+    "3": -0.1964111328125,
+    "4": -1.14453125
+  },
+  "a cow|object_class": {
+    "0": -0.499267578125,
+    "1": -0.80810546875,
+    "2": -0.79736328125,
+    "3": 0.131591796875,
+    "4": -1.8837890625
+  },
+  "an elephant|object_class": {
+    "0": -0.1978759765625,
+    "1": -1.3837890625,
+    "2": -0.7744140625,
+    "3": -0.030914306640625,
+    "4": -0.231689453125
+  },
+  "a bear|object_class": {
+    "0": -0.01488494873046875,
+    "1": -0.462890625,
+    "2": -1.27734375,
+    "3": -1.140625,
+    "4": -0.73828125
+  },
+  "a zebra|object_class": {
+    "0": -1.15234375,
+    "1": -1.01953125,
+    "2": -1.0400390625,
+    "3": -1.5185546875,
+    "4": -1.0068359375
+  },
+  "a giraffe|object_class": {
+    "0": -1.884765625,
+    "1": -0.57568359375,
+    "2": -1.2421875,
+    "3": -1.87109375,
+    "4": -1.0498046875
+  },
+  "a backpack|object_class": {
+    "0": -0.86181640625,
+    "1": -1.1494140625,
+    "2": -1.5029296875,
+    "3": -1.3359375,
+    "4": -1.955078125
+  },
+  "an umbrella|object_class": {
+    "0": -1.1044921875,
+    "1": -0.57958984375,
+    "2": -2.130859375,
+    "3": -0.5322265625,
+    "4": -1.185546875
+  },
+  "a handbag|object_class": {
+    "0": -2.185546875,
+    "1": -0.9189453125,
+    "2": -1.109375,
+    "3": -0.4658203125,
+    "4": -0.402587890625
+  },
+  "a tie|object_class": {
+    "0": 0.25146484375,
+    "1": -1.94921875,
+    "2": -1.1884765625,
+    "3": -0.97998046875,
+    "4": -0.410888671875
+  },
+  "a suitcase|object_class": {
+    "0": -0.1815185546875,
+    "1": -0.61474609375,
+    "2": -0.30615234375,
+    "3": -0.197509765625,
+    "4": -0.68359375
+  },
+  "a frisbee|object_class": {
+    "0": -2.046875,
+    "1": -1.5986328125,
+    "2": -0.60888671875,
+    "3": -1.31640625,
+    "4": -1.330078125
+  },
+  "skis|object_class": {
+    "0": -1.05859375,
+    "1": -1.03515625,
+    "2": -0.67431640625,
+    "3": -0.21240234375,
+    "4": 0.08819580078125
+  },
+  "a snowboard|object_class": {
+    "0": -0.65625,
+    "1": -1.564453125,
+    "2": -1.3935546875,
+    "3": -0.796875,
+    "4": -1.462890625
+  },
+  "a sports ball|object_class": {
+    "0": -0.250244140625,
+    "1": -1.4208984375,
+    "2": -0.1483154296875,
+    "3": -0.1329345703125,
+    "4": -1.13671875
+  },
+  "a kite|object_class": {
+    "0": 0.312744140625,
+    "1": -0.82568359375,
+    "2": -0.51953125,
+    "3": -1.814453125,
+    "4": -0.640625
+  },
+  "a baseball bat|object_class": {
+    "0": -1.001953125,
+    "1": -1.75390625,
+    "2": -0.53515625,
+    "3": -1.146484375,
+    "4": -1.1337890625
+  },
+  "a baseball glove|object_class": {
+    "0": -1.7529296875,
+    "1": -0.58056640625,
+    "2": -1.544921875,
+    "3": -1.39453125,
+    "4": -1.4140625
+  },
+  "a skateboard|object_class": {
+    "0": -1.068359375,
+    "1": -1.4365234375,
+    "2": -0.45703125,
+    "3": -1.607421875,
+    "4": -1.8134765625
+  },
+  "a surfboard|object_class": {
+    "0": -1.63671875,
+    "1": -1.3076171875,
+    "2": -1.3564453125,
+    "3": -1.765625,
+    "4": -1.2626953125
+  },
+  "a tennis racket|object_class": {
+    "0": -0.453857421875,
+    "1": -1.30859375,
+    "2": -1.888671875,
+    "3": -0.88525390625,
+    "4": -1.4453125
+  },
+  "a bottle|object_class": {
+    "0": -1.6376953125,
+    "1": -0.0714111328125,
+    "2": -0.50390625,
+    "3": -1.322265625,
+    "4": -0.79638671875
+  },
+  "a wine glass|object_class": {
+    "0": -0.447265625,
+    "1": 0.07305908203125,
+    "2": -1.494140625,
+    "3": -0.70703125,
+    "4": -1.0498046875
+  },
+  "a cup|object_class": {
+    "0": -1.095703125,
+    "1": -1.5283203125,
+    "2": -1.01171875,
+    "3": -0.78369140625,
+    "4": -0.07000732421875
+  },
+  "a fork|object_class": {
+    "0": -1.662109375,
+    "1": -0.85546875,
+    "2": -0.40869140625,
+    "3": -0.27294921875,
+    "4": -1.1796875
+  },
+  "a knife|object_class": {
+    "0": -1.0537109375,
+    "1": -0.60791015625,
+    "2": -0.96533203125,
+    "3": -1.4345703125,
+    "4": -1.490234375
+  },
+  "a spoon|object_class": {
+    "0": -0.6533203125,
+    "1": -1.703125,
+    "2": -0.89990234375,
+    "3": -0.0660400390625,
+    "4": -1.2333984375
+  },
+  "a bowl|object_class": {
+    "0": -0.78857421875,
+    "1": -0.2159423828125,
+    "2": -0.87548828125,
+    "3": -1.5869140625,
+    "4": -1.0224609375
+  },
+  "a banana|object_class": {
+    "0": -1.36328125,
+    "1": -0.533203125,
+    "2": -0.1959228515625,
+    "3": -1.197265625,
+    "4": -1.8544921875
+  },
+  "an apple|object_class": {
+    "0": -1.5205078125,
+    "1": -2.1015625,
+    "2": -0.241455078125,
+    "3": -1.5078125,
+    "4": 0.125732421875
+  },
+  "a sandwich|object_class": {
+    "0": -1.763671875,
+    "1": -1.00390625,
+    "2": -1.6982421875,
+    "3": -0.76025390625,
+    "4": -1.0263671875
+  },
+  "an orange|object_class": {
+    "0": -0.389404296875,
+    "1": -1.82421875,
+    "2": -1.083984375,
+    "3": -1.7421875,
+    "4": -0.67041015625
+  },
+  "broccoli|object_class": {
+    "0": -1.880859375,
+    "1": -1.69140625,
+    "2": -1.2705078125,
+    "3": -0.54638671875,
+    "4": -1.6748046875
+  },
+  "a carrot|object_class": {
+    "0": -1.15234375,
+    "1": -0.224609375,
+    "2": -1.81640625,
+    "3": -0.8095703125,
+    "4": -1.1650390625
+  },
+  "a hot dog|object_class": {
+    "0": -0.94287109375,
+    "1": 0.50634765625,
+    "2": -0.9140625,
+    "3": -1.197265625,
+    "4": -0.2117919921875
+  },
+  "a pizza|object_class": {
+    "0": -0.1959228515625,
+    "1": -1.146484375,
+    "2": -1.5205078125,
+    "3": -0.951171875,
+    "4": -0.59912109375
+  },
+  "a donut|object_class": {
+    "0": -0.44921875,
+    "1": -0.76025390625,
+    "2": -1.4599609375,
+    "3": -0.72021484375,
+    "4": -1.6435546875
+  },
+  "a cake|object_class": {
+    "0": -0.319091796875,
+    "1": -1.09375,
+    "2": 0.4716796875,
+    "3": -0.44189453125,
+    "4": -1.0361328125
+  },
+  "a chair|object_class": {
+    "0": -1.7578125,
+    "1": -0.9521484375,
+    "2": -1.2939453125,
+    "3": -1.5908203125,
+    "4": -0.244384765625
+  },
+  "a couch|object_class": {
+    "0": 0.1575927734375,
+    "1": -1.255859375,
+    "2": -1.3076171875,
+    "3": -0.50341796875,
+    "4": -0.0155029296875
+  },
+  "a potted plant|object_class": {
+    "0": -0.76904296875,
+    "1": -0.517578125,
+    "2": -1.7119140625,
+    "3": -0.58544921875,
+    "4": -0.88427734375
+  },
+  "a bed|object_class": {
+    "0": 0.07440185546875,
+    "1": -0.255126953125,
+    "2": -0.39501953125,
+    "3": -0.5048828125,
+    "4": -0.55712890625
+  },
+  "a dining table|object_class": {
+    "0": -0.447998046875,
+    "1": -0.284912109375,
+    "2": -0.303466796875,
+    "3": -1.3056640625,
+    "4": -1.4287109375
+  },
+  "a toilet|object_class": {
+    "0": -1.30859375,
+    "1": -1.521484375,
+    "2": -0.428955078125,
+    "3": -1.3466796875,
+    "4": 0.03717041015625
+  },
+  "a tv|object_class": {
+    "0": -1.59375,
+    "1": -0.79541015625,
+    "2": -1.302734375,
+    "3": -1.4873046875,
+    "4": -2.087890625
+  },
+  "a laptop|object_class": {
+    "0": -0.155029296875,
+    "1": -1.462890625,
+    "2": -0.5361328125,
+    "3": 0.1591796875,
+    "4": -0.404541015625
+  },
+  "a remote|object_class": {
+    "0": -0.48974609375,
+    "1": -1.3994140625,
+    "2": -2.3125,
+    "3": -1.703125,
+    "4": -0.480224609375
+  },
+  "a keyboard|object_class": {
+    "0": -1.623046875,
+    "1": -0.22216796875,
+    "2": -0.69970703125,
+    "3": -1.7802734375,
+    "4": -0.75048828125
+  },
+  "a cell phone|object_class": {
+    "0": -1.19140625,
+    "1": -1.2470703125,
+    "2": -0.9228515625,
+    "3": -0.67041015625,
+    "4": -0.44384765625
+  },
+  "a microwave|object_class": {
+    "0": -0.8486328125,
+    "1": -1.2041015625,
+    "2": -1.1318359375,
+    "3": -1.8037109375,
+    "4": -1.93359375
+  },
+  "an oven|object_class": {
+    "0": -1.64453125,
+    "1": -0.38916015625,
+    "2": -1.4501953125,
+    "3": -2.025390625,
+    "4": -0.365966796875
+  },
+  "a toaster|object_class": {
+    "0": -1.771484375,
+    "1": -2.271484375,
+    "2": -0.943359375,
+    "3": -1.2333984375,
+    "4": -0.63623046875
+  },
+  "a sink|object_class": {
+    "0": -0.484130859375,
+    "1": -1.5380859375,
+    "2": -0.389892578125,
+    "3": -1.5322265625,
+    "4": -1.0771484375
+  },
+  "a refrigerator|object_class": {
+    "0": -1.1162109375,
+    "1": -0.76025390625,
+    "2": 0.331298828125,
+    "3": -0.39404296875,
+    "4": -1.533203125
+  },
+  "a book|object_class": {
+    "0": -1.201171875,
+    "1": -0.4970703125,
+    "2": -0.447998046875,
+    "3": -1.123046875,
+    "4": -0.3916015625
+  },
+  "a clock|object_class": {
+    "0": -1.7783203125,
+    "1": -0.52783203125,
+    "2": -1.0283203125,
+    "3": -0.318603515625,
+    "4": -1.2353515625
+  },
+  "a vase|object_class": {
+    "0": -0.4033203125,
+    "1": -1.4658203125,
+    "2": -0.52783203125,
+    "3": -0.9814453125,
+    "4": -0.316650390625
+  },
+  "scissors|object_class": {
+    "0": -0.45166015625,
+    "1": -0.52197265625,
+    "2": -1.009765625,
+    "3": -0.9580078125,
+    "4": -1.724609375
+  },
+  "a teddy bear|object_class": {
+    "0": -1.615234375,
+    "1": -2.19921875,
+    "2": -0.2420654296875,
+    "3": -0.014862060546875,
+    "4": -0.385009765625
+  },
+  "a hair drier|object_class": {
+    "0": -1.51171875,
+    "1": -1.060546875,
+    "2": -1.384765625,
+    "3": -1.30078125,
+    "4": -1.6806640625
+  },
+  "a toothbrush|object_class": {
+    "0": -1.2587890625,
+    "1": -1.458984375,
+    "2": -0.1998291015625,
+    "3": -1.59765625,
+    "4": -1.3994140625
+  },
+  "a red bicycle|color": {
+    "0": -1.560546875,
+    "1": -0.135009765625,
+    "2": -0.74267578125,
+    "3": -0.490966796875,
+    "4": -1.9775390625
+  },
+  "a green bicycle|color": {
+    "0": -0.15869140625,
+    "1": -1.392578125,
+    "2": 0.060150146484375,
+    "3": -0.2122802734375,
+    "4": 0.1573486328125
+  },
+  "a blue bicycle|color": {
+    "0": -1.6162109375,
+    "1": -1.36328125,
+    "2": -0.259765625,
+    "3": -0.9775390625,
+    "4": -1.0439453125
+  },
+  "a yellow bicycle|color": {
+    "0": -1.6533203125,
+    "1": -1.1884765625,
+    "2": -0.78515625,
+    "3": -1.2587890625,
+    "4": -0.25732421875
+  },
+  "an orange bicycle|color": {
+    "0": -1.23828125,
+    "1": -1.029296875,
+    "2": -0.04949951171875,
+    "3": -1.25,
+    "4": -2.1015625
+  },
+  "a purple bicycle|color": {
+    "0": -0.0011749267578125,
+    "1": -0.82373046875,
+    "2": -1.6923828125,
+    "3": -1.1201171875,
+    "4": -1.8271484375
+  },
+  "a pink bicycle|color": {
+    "0": -2.033203125,
+    "1": -0.646484375,
+    "2": -1.1015625,
+    "3": -1.58203125,
+    "4": -1.5068359375
+  },
+  "a black bicycle|color": {
+    "0": -0.72216796875,
+    "1": -1.7509765625,
+    "2": -0.06097412109375,
+    "3": -1.6376953125,
+    "4": -0.81298828125
+  },
+  "a white bicycle|color": {
+    "0": -1.48046875,
+    "1": -0.63671875,
+    "2": -2.173828125,
+    "3": -1.3310546875,
+    "4": -1.5283203125
+  },
+  "a red car|color": {
+    "0": -0.2117919921875,
+    "1": -1.029296875,
+    "2": -1.146484375,
+    "3": -1.203125,
+    "4": -1.8212890625
+  },
+  "a green car|color": {
+    "0": -1.08203125,
+    "1": -0.71728515625,
+    "2": -1.025390625,
+    "3": -0.20654296875,
+    "4": -1.1416015625
+  },
+  "a blue car|color": {
+    "0": -1.009765625,
+    "1": -1.787109375,
+    "2": 0.0200958251953125,
+    "3": -0.0113067626953125,
+    "4": -0.84619140625
+  },
+  "a yellow car|color": {
+    "0": -0.611328125,
+    "1": -1.7353515625,
+    "2": -1.501953125,
+    "3": -1.9326171875,
+    "4": -0.2454833984375
+  },
+  "an orange car|color": {
+    "0": -0.57080078125,
+    "1": -1.685546875,
+    "2": -1.2861328125,
+    "3": 0.061859130859375,
+    "4": -0.7392578125
+  },
+  "a purple car|color": {
+    "0": -1.482421875,
+    "1": -1.431640625,
+    "2": -1.4697265625,
+    "3": -0.356201171875,
+    "4": -1.0751953125
+  },
+  "a pink car|color": {
+    "0": -0.583984375,
+    "1": -2.015625,
+    "2": 0.3173828125,
+    "3": -0.994140625,
+    "4": -0.364501953125
+  },
+  "a black car|color": {
+    "0": -0.609375,
+    "1": -0.52490234375,
+    "2": -0.08404541015625,
+    "3": -1.7275390625,
+    "4": -0.64453125
+  },
+  "a white car|color": {
+    "0": -1.001953125,
+    "1": -0.8271484375,
+    "2": -0.7392578125,
+    "3": -1.3642578125,
+    "4": -0.09759521484375
+  },
+  "a red bird|color": {
+    "0": -0.8505859375,
+    "1": -1.4228515625,
+    "2": -2.0078125,
+    "3": -1.6513671875,
+    "4": -1.041015625
+  },
+  "a green bird|color": {
+    "0": -1.931640625,
+    "1": -1.228515625,
+    "2": -1.7666015625,
+    "3": -1.5595703125,
+    "4": -0.3134765625
+  },
+  "a blue bird|color": {
+    "0": -0.1463623046875,
+    "1": -1.8896484375,
+    "2": -0.7216796875,
+    "3": -2.126953125,
+    "4": -0.78759765625
+  },
+  "a yellow bird|color": {
+    "0": -2.009765625,
+    "1": -1.2431640625,
+    "2": -1.7744140625,
+    "3": -2.322265625,
+    "4": -1.064453125
+  },
+  "an orange bird|color": {
+    "0": -0.5419921875,
+    "1": -1.853515625,
+    "2": -1.8447265625,
+    "3": -1.17578125,
+    "4": -0.95654296875
+  },
+  "a purple bird|color": {
+    "0": -1.9150390625,
+    "1": -1.6630859375,
+    "2": -0.268798828125,
+    "3": -0.740234375,
+    "4": 0.498291015625
+  },
+  "a pink bird|color": {
+    "0": -1.6708984375,
+    "1": -2.16796875,
+    "2": -0.7392578125,
+    "3": -1.55859375,
+    "4": -1.0966796875
+  },
+  "a black bird|color": {
+    "0": -0.77294921875,
+    "1": 0.056427001953125,
+    "2": -1.3642578125,
+    "3": -2.078125,
+    "4": -1.0087890625
+  },
+  "a white bird|color": {
+    "0": -0.84912109375,
+    "1": -0.978515625,
+    "2": -1.7431640625,
+    "3": -1.369140625,
+    "4": -1.6875
+  },
+  "a black cat|color": {
+    "0": -1.5986328125,
+    "1": 0.08319091796875,
+    "2": -0.66943359375,
+    "3": -0.7626953125,
+    "4": 0.20849609375
+  },
+  "a white cat|color": {
+    "0": -0.626953125,
+    "1": -0.479248046875,
+    "2": -0.85400390625,
+    "3": -0.96142578125,
+    "4": -0.970703125
+  },
+  "an orange cat|color": {
+    "0": -0.255859375,
+    "1": -0.5224609375,
+    "2": -1.49609375,
+    "3": -2.287109375,
+    "4": -1.310546875
+  },
+  "a yellow cat|color": {
+    "0": -0.486328125,
+    "1": -1.1064453125,
+    "2": -2.06640625,
+    "3": -1.7021484375,
+    "4": -0.6162109375
+  },
+  "a red umbrella|color": {
+    "0": -0.66455078125,
+    "1": -0.7734375,
+    "2": -1.5419921875,
+    "3": -0.53759765625,
+    "4": -0.47900390625
+  },
+  "a green umbrella|color": {
+    "0": -1.3115234375,
+    "1": -0.349609375,
+    "2": -1.5556640625,
+    "3": -0.66943359375,
+    "4": -1.896484375
+  },
+  "a blue umbrella|color": {
+    "0": -1.314453125,
+    "1": -0.62744140625,
+    "2": -0.420654296875,
+    "3": -1.08203125,
+    "4": -0.8115234375
+  },
+  "a yellow umbrella|color": {
+    "0": -1.0517578125,
+    "1": -2.4375,
+    "2": -0.6025390625,
+    "3": -0.36328125,
+    "4": -1.310546875
+  },
+  "an orange umbrella|color": {
+    "0": -1.423828125,
+    "1": -1.34765625,
+    "2": -0.8037109375,
+    "3": -0.35400390625,
+    "4": 0.08343505859375
+  },
+  "a purple umbrella|color": {
+    "0": -0.11553955078125,
+    "1": -1.8681640625,
+    "2": -0.73974609375,
+    "3": -1.0771484375,
+    "4": -2.091796875
+  },
+  "a pink umbrella|color": {
+    "0": 0.50439453125,
+    "1": -1.1103515625,
+    "2": -0.8408203125,
+    "3": -0.1273193359375,
+    "4": 0.266357421875
+  },
+  "a black umbrella|color": {
+    "0": -0.89599609375,
+    "1": -1.9873046875,
+    "2": -0.58935546875,
+    "3": -1.1201171875,
+    "4": -1.5888671875
+  },
+  "a white umbrella|color": {
+    "0": -1.748046875,
+    "1": -1.34375,
+    "2": -2.0546875,
+    "3": -1.7265625,
+    "4": -0.77880859375
+  },
+  "a red suitcase|color": {
+    "0": -1.052734375,
+    "1": -1.5244140625,
+    "2": -0.49853515625,
+    "3": -1.7998046875,
+    "4": -2.2109375
+  },
+  "a green suitcase|color": {
+    "0": -0.525390625,
+    "1": -0.92333984375,
+    "2": -0.89208984375,
+    "3": -2.04296875,
+    "4": -1.6376953125
+  },
+  "a blue suitcase|color": {
+    "0": -1.7861328125,
+    "1": -1.7080078125,
+    "2": -0.09954833984375,
+    "3": -1.0947265625,
+    "4": -1.5
+  },
+  "a yellow suitcase|color": {
+    "0": 1.37890625,
+    "1": -1.7919921875,
+    "2": -1.138671875,
+    "3": -1.9248046875,
+    "4": -1.66015625
+  },
+  "an orange suitcase|color": {
+    "0": -1.6298828125,
+    "1": -1.4384765625,
+    "2": -1.3388671875,
+    "3": -1.7529296875,
+    "4": -1.384765625
+  },
+  "a purple suitcase|color": {
+    "0": -1.529296875,
+    "1": -1.939453125,
+    "2": -1.5576171875,
+    "3": -1.9248046875,
+    "4": -0.039459228515625
+  },
+  "a pink suitcase|color": {
+    "0": -0.7763671875,
+    "1": -0.68017578125,
+    "2": -0.97021484375,
+    "3": -1.185546875,
+    "4": -1.296875
+  },
+  "a black suitcase|color": {
+    "0": -0.54248046875,
+    "1": -1.3173828125,
+    "2": -0.9404296875,
+    "3": 0.02520751953125,
+    "4": -1.220703125
+  },
+  "a white suitcase|color": {
+    "0": -0.62744140625,
+    "1": -0.572265625,
+    "2": -1.33203125,
+    "3": -0.66650390625,
+    "4": -0.9677734375
+  },
+  "a red bowl|color": {
+    "0": -2.55859375,
+    "1": -0.64306640625,
+    "2": -0.8056640625,
+    "3": -0.966796875,
+    "4": -0.58544921875
+  },
+  "a green bowl|color": {
+    "0": 0.73681640625,
+    "1": -1.4248046875,
+    "2": -0.149169921875,
+    "3": -1.0615234375,
+    "4": 0.006763458251953125
+  },
+  "a blue bowl|color": {
+    "0": -1.5380859375,
+    "1": -1.06640625,
+    "2": -1.2568359375,
+    "3": -1.078125,
+    "4": -0.26513671875
+  },
+  "a yellow bowl|color": {
+    "0": -0.424560546875,
+    "1": -2.017578125,
+    "2": -0.494384765625,
+    "3": -1.6083984375,
+    "4": -0.68505859375
+  },
+  "an orange bowl|color": {
+    "0": -1.8544921875,
+    "1": -2.359375,
+    "2": -0.80712890625,
+    "3": -1.7158203125,
+    "4": -1.4462890625
+  },
+  "a purple bowl|color": {
+    "0": -0.9375,
+    "1": -1.2822265625,
+    "2": -1.68359375,
+    "3": -1.087890625,
+    "4": -0.044677734375
+  },
+  "a pink bowl|color": {
+    "0": -1.92578125,
+    "1": -0.96240234375,
+    "2": -1.193359375,
+    "3": -0.54052734375,
+    "4": -1.095703125
+  },
+  "a black bowl|color": {
+    "0": -0.74169921875,
+    "1": -1.4521484375,
+    "2": -0.455322265625,
+    "3": -1.017578125,
+    "4": -0.165771484375
+  },
+  "a white bowl|color": {
+    "0": -0.2398681640625,
+    "1": -1.2021484375,
+    "2": -2.16015625,
+    "3": -0.18115234375,
+    "4": 0.26611328125
+  },
+  "a red chair|color": {
+    "0": -0.97705078125,
+    "1": -1.615234375,
+    "2": -1.0322265625,
+    "3": -1.142578125,
+    "4": 0.0142364501953125
+  },
+  "a green chair|color": {
+    "0": -1.3525390625,
+    "1": -1.5908203125,
+    "2": -1.3544921875,
+    "3": -0.76708984375,
+    "4": -1.3310546875
+  },
+  "a blue chair|color": {
+    "0": -1.0986328125,
+    "1": -0.03411865234375,
+    "2": -1.0830078125,
+    "3": -1.123046875,
+    "4": -0.2257080078125
+  },
+  "a yellow chair|color": {
+    "0": -1.595703125,
+    "1": -0.1136474609375,
+    "2": -0.70703125,
+    "3": -1.6611328125,
+    "4": -0.921875
+  },
+  "an orange chair|color": {
+    "0": -1.3251953125,
+    "1": -0.27490234375,
+    "2": -1.70703125,
+    "3": -1.3671875,
+    "4": -1.8828125
+  },
+  "a purple chair|color": {
+    "0": -1.1728515625,
+    "1": -1.474609375,
+    "2": -0.771484375,
+    "3": -1.8046875,
+    "4": -0.26611328125
+  },
+  "a pink chair|color": {
+    "0": -0.54345703125,
+    "1": -1.4501953125,
+    "2": -0.345947265625,
+    "3": -0.381103515625,
+    "4": -1.2529296875
+  },
+  "a black chair|color": {
+    "0": -0.708984375,
+    "1": -0.27783203125,
+    "2": -0.64306640625,
+    "3": -1.3984375,
+    "4": -0.077392578125
+  },
+  "a white chair|color": {
+    "0": -1.435546875,
+    "1": -1.8232421875,
+    "2": -0.7802734375,
+    "3": -1.001953125,
+    "4": -0.445068359375
+  },
+  "a red clock|color": {
+    "0": -0.2054443359375,
+    "1": -1.09375,
+    "2": -1.3408203125,
+    "3": 0.634765625,
+    "4": -0.900390625
+  },
+  "a green clock|color": {
+    "0": -1.44921875,
+    "1": -0.9990234375,
+    "2": -1.0419921875,
+    "3": -1.361328125,
+    "4": -0.90966796875
+  },
+  "a blue clock|color": {
+    "0": -0.62548828125,
+    "1": -0.32666015625,
+    "2": 0.136962890625,
+    "3": -1.6611328125,
+    "4": -0.99755859375
+  },
+  "a yellow clock|color": {
+    "0": -1.7509765625,
+    "1": -0.7119140625,
+    "2": 0.33056640625,
+    "3": -0.3203125,
+    "4": -0.84033203125
+  },
+  "an orange clock|color": {
+    "0": -0.395751953125,
+    "1": -0.241943359375,
+    "2": -0.88916015625,
+    "3": -1.1103515625,
+    "4": -1.1513671875
+  },
+  "a purple clock|color": {
+    "0": -0.9375,
+    "1": -1.81640625,
+    "2": -0.09686279296875,
+    "3": -2.001953125,
+    "4": -0.84521484375
+  },
+  "a pink clock|color": {
+    "0": -0.83349609375,
+    "1": -1.3095703125,
+    "2": -1.2802734375,
+    "3": -1.9921875,
+    "4": -1.2275390625
+  },
+  "a black clock|color": {
+    "0": -1.0693359375,
+    "1": 0.2261962890625,
+    "2": -0.2130126953125,
+    "3": -1.255859375,
+    "4": -0.890625
+  },
+  "a white clock|color": {
+    "0": -0.734375,
+    "1": -0.0131378173828125,
+    "2": -1.3525390625,
+    "3": -2.361328125,
+    "4": -1.0625
+  },
+  "a red vase|color": {
+    "0": -0.50634765625,
+    "1": -1.154296875,
+    "2": -1.1083984375,
+    "3": -1.7109375,
+    "4": -1.5859375
+  },
+  "a green vase|color": {
+    "0": -1.052734375,
+    "1": -0.814453125,
+    "2": -0.9697265625,
+    "3": -1.56640625,
+    "4": -0.31884765625
+  },
+  "a blue vase|color": {
+    "0": -0.5947265625,
+    "1": -1.826171875,
+    "2": -1.8115234375,
+    "3": -1.4833984375,
+    "4": -0.75341796875
+  },
+  "a yellow vase|color": {
+    "0": -0.354248046875,
+    "1": -2.0,
+    "2": -1.4189453125,
+    "3": -1.083984375,
+    "4": -1.5107421875
+  },
+  "an orange vase|color": {
+    "0": -1.26953125,
+    "1": -1.458984375,
+    "2": -0.76123046875,
+    "3": -1.9580078125,
+    "4": -1.6181640625
+  },
+  "a purple vase|color": {
+    "0": -0.86767578125,
+    "1": -0.424560546875,
+    "2": -1.7490234375,
+    "3": -0.2462158203125,
+    "4": -0.01294708251953125
+  },
+  "a pink vase|color": {
+    "0": -2.357421875,
+    "1": -2.28515625,
+    "2": -0.2237548828125,
+    "3": -1.1533203125,
+    "4": -0.0226287841796875
+  },
+  "a black vase|color": {
+    "0": -0.1844482421875,
+    "1": -0.81640625,
+    "2": -1.4609375,
+    "3": -0.488525390625,
+    "4": -1.7529296875
+  },
+  "a white vase|color": {
+    "0": -1.4384765625,
+    "1": -1.1181640625,
+    "2": -1.7412109375,
+    "3": -0.55078125,
+    "4": -1.6015625
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, Van Gogh style|appearance_style": {
+    "0": -2.021484375,
+    "1": -1.673828125,
+    "2": -1.4404296875,
+    "3": -0.81884765625,
+    "4": -1.21875
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, oil painting|appearance_style": {
+    "0": -1.1396484375,
+    "1": -2.45703125,
+    "2": -1.05078125,
+    "3": -1.931640625,
+    "4": -1.2841796875
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -1.1396484375,
+    "1": -0.1673583984375,
+    "2": 0.08416748046875,
+    "3": -1.5732421875,
+    "4": -0.62255859375
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, black and white|appearance_style": {
+    "0": -2.0390625,
+    "1": -1.6953125,
+    "2": -1.3349609375,
+    "3": -0.34814453125,
+    "4": -0.380615234375
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, pixel art|appearance_style": {
+    "0": -1.3369140625,
+    "1": -1.86328125,
+    "2": -1.7001953125,
+    "3": -0.2371826171875,
+    "4": -0.79736328125
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, in cyberpunk style|appearance_style": {
+    "0": -2.263671875,
+    "1": -1.7109375,
+    "2": -0.51318359375,
+    "3": -0.52978515625,
+    "4": -1.9873046875
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, animated style|appearance_style": {
+    "0": -1.3896484375,
+    "1": -1.4873046875,
+    "2": -1.4345703125,
+    "3": 0.042083740234375,
+    "4": -0.58349609375
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, watercolor painting|appearance_style": {
+    "0": 0.45947265625,
+    "1": -1.3818359375,
+    "2": -0.34619140625,
+    "3": -1.46484375,
+    "4": -0.450927734375
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, surrealism style|appearance_style": {
+    "0": -1.4462890625,
+    "1": -0.876953125,
+    "2": -0.390625,
+    "3": -1.47265625,
+    "4": -1.4658203125
+  },
+  "The bund Shanghai, Van Gogh style|appearance_style": {
+    "0": -0.1563720703125,
+    "1": -1.5908203125,
+    "2": -0.60498046875,
+    "3": -1.5263671875,
+    "4": -0.34765625
+  },
+  "The bund Shanghai, oil painting|appearance_style": {
+    "0": -1.3828125,
+    "1": -0.0084991455078125,
+    "2": -0.7041015625,
+    "3": -0.357666015625,
+    "4": -0.85693359375
+  },
+  "The bund Shanghai by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -1.1357421875,
+    "1": 0.380615234375,
+    "2": -1.01953125,
+    "3": -1.6806640625,
+    "4": -0.9873046875
+  },
+  "The bund Shanghai, black and white|appearance_style": {
+    "0": -0.93798828125,
+    "1": -1.5419921875,
+    "2": -0.5341796875,
+    "3": -1.591796875,
+    "4": -0.9912109375
+  },
+  "The bund Shanghai, pixel art|appearance_style": {
+    "0": -0.693359375,
+    "1": -1.578125,
+    "2": -0.09466552734375,
+    "3": -1.328125,
+    "4": -0.470703125
+  },
+  "The bund Shanghai, in cyberpunk style|appearance_style": {
+    "0": -1.294921875,
+    "1": 0.2880859375,
+    "2": -0.04766845703125,
+    "3": -1.0322265625,
+    "4": -1.3505859375
+  },
+  "The bund Shanghai, animated style|appearance_style": {
+    "0": -2.119140625,
+    "1": -0.62939453125,
+    "2": -0.89111328125,
+    "3": -1.8125,
+    "4": -1.353515625
+  },
+  "The bund Shanghai, watercolor painting|appearance_style": {
+    "0": -0.69091796875,
+    "1": -0.916015625,
+    "2": -0.88037109375,
+    "3": -2.177734375,
+    "4": -0.791015625
+  },
+  "The bund Shanghai, surrealism style|appearance_style": {
+    "0": -0.53857421875,
+    "1": -1.8896484375,
+    "2": -1.6201171875,
+    "3": -1.189453125,
+    "4": -2.05078125
+  },
+  "a shark is swimming in the ocean, Van Gogh style|appearance_style": {
+    "0": -1.6357421875,
+    "1": -1.03125,
+    "2": -0.276611328125,
+    "3": -1.8369140625,
+    "4": -0.8955078125
+  },
+  "a shark is swimming in the ocean, oil painting|appearance_style": {
+    "0": 0.2171630859375,
+    "1": -0.52490234375,
+    "2": -1.4404296875,
+    "3": -1.46484375,
+    "4": 0.03302001953125
+  },
+  "a shark is swimming in the ocean by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -1.794921875,
+    "1": -2.029296875,
+    "2": -1.2021484375,
+    "3": -0.82275390625,
+    "4": -0.99951171875
+  },
+  "a shark is swimming in the ocean, black and white|appearance_style": {
+    "0": -0.94189453125,
+    "1": 0.246337890625,
+    "2": -1.0439453125,
+    "3": -0.8115234375,
+    "4": -0.49658203125
+  },
+  "a shark is swimming in the ocean, pixel art|appearance_style": {
+    "0": -1.4736328125,
+    "1": -1.95703125,
+    "2": 0.10809326171875,
+    "3": -1.8388671875,
+    "4": -2.140625
+  },
+  "a shark is swimming in the ocean, in cyberpunk style|appearance_style": {
+    "0": -0.70849609375,
+    "1": -1.5556640625,
+    "2": -1.4091796875,
+    "3": -1.720703125,
+    "4": -1.33203125
+  },
+  "a shark is swimming in the ocean, animated style|appearance_style": {
+    "0": -2.072265625,
+    "1": -1.138671875,
+    "2": -0.72119140625,
+    "3": -1.15234375,
+    "4": -1.2021484375
+  },
+  "a shark is swimming in the ocean, watercolor painting|appearance_style": {
+    "0": -0.6650390625,
+    "1": -1.3603515625,
+    "2": 0.09429931640625,
+    "3": -1.9033203125,
+    "4": -2.109375
+  },
+  "a shark is swimming in the ocean, surrealism style|appearance_style": {
+    "0": -0.8955078125,
+    "1": -0.157958984375,
+    "2": -2.107421875,
+    "3": -0.89453125,
+    "4": -0.1630859375
+  },
+  "A panda drinking coffee in a cafe in Paris, Van Gogh style|appearance_style": {
+    "0": -0.06976318359375,
+    "1": -0.74609375,
+    "2": -0.302001953125,
+    "3": -1.5556640625,
+    "4": -1.40625
+  },
+  "A panda drinking coffee in a cafe in Paris, oil painting|appearance_style": {
+    "0": -0.5205078125,
+    "1": -1.5517578125,
+    "2": -0.5,
+    "3": -1.373046875,
+    "4": -0.0791015625
+  },
+  "A panda drinking coffee in a cafe in Paris by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -0.10528564453125,
+    "1": -1.51171875,
+    "2": -1.3466796875,
+    "3": -1.6982421875,
+    "4": -0.548828125
+  },
+  "A panda drinking coffee in a cafe in Paris, black and white|appearance_style": {
+    "0": -1.453125,
+    "1": 0.70068359375,
+    "2": -1.578125,
+    "3": -1.7080078125,
+    "4": -0.86376953125
+  },
+  "A panda drinking coffee in a cafe in Paris, pixel art|appearance_style": {
+    "0": -0.50927734375,
+    "1": -1.3125,
+    "2": -2.029296875,
+    "3": -0.5888671875,
+    "4": -1.0205078125
+  },
+  "A panda drinking coffee in a cafe in Paris, in cyberpunk style|appearance_style": {
+    "0": -0.671875,
+    "1": -1.61328125,
+    "2": -1.09375,
+    "3": -0.383544921875,
+    "4": 0.52392578125
+  },
+  "A panda drinking coffee in a cafe in Paris, animated style|appearance_style": {
+    "0": -0.71044921875,
+    "1": -0.34033203125,
+    "2": -1.650390625,
+    "3": -1.08984375,
+    "4": -1.2958984375
+  },
+  "A panda drinking coffee in a cafe in Paris, watercolor painting|appearance_style": {
+    "0": -1.4775390625,
+    "1": -0.73486328125,
+    "2": -0.63330078125,
+    "3": -1.693359375,
+    "4": -1.7734375
+  },
+  "A panda drinking coffee in a cafe in Paris, surrealism style|appearance_style": {
+    "0": -0.441650390625,
+    "1": -1.3193359375,
+    "2": 0.1904296875,
+    "3": -0.72607421875,
+    "4": -0.76904296875
+  },
+  "A cute happy Corgi playing in park, sunset, Van Gogh style|appearance_style": {
+    "0": -1.341796875,
+    "1": -0.24951171875,
+    "2": -1.2734375,
+    "3": -1.8720703125,
+    "4": -1.6171875
+  },
+  "A cute happy Corgi playing in park, sunset, oil painting|appearance_style": {
+    "0": -1.02734375,
+    "1": -1.81640625,
+    "2": -1.947265625,
+    "3": -1.3125,
+    "4": -0.55029296875
+  },
+  "A cute happy Corgi playing in park, sunset by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -0.80126953125,
+    "1": -1.275390625,
+    "2": -0.09954833984375,
+    "3": -1.677734375,
+    "4": -0.98876953125
+  },
+  "A cute happy Corgi playing in park, sunset, black and white|appearance_style": {
+    "0": -1.4189453125,
+    "1": -1.244140625,
+    "2": -1.1259765625,
+    "3": -1.1943359375,
+    "4": -1.240234375
+  },
+  "A cute happy Corgi playing in park, sunset, pixel art|appearance_style": {
+    "0": -0.46875,
+    "1": -0.1943359375,
+    "2": -0.4521484375,
+    "3": -0.67578125,
+    "4": -0.64892578125
+  },
+  "A cute happy Corgi playing in park, sunset, in cyberpunk style|appearance_style": {
+    "0": -1.6865234375,
+    "1": -0.4638671875,
+    "2": -1.40234375,
+    "3": -1.3017578125,
+    "4": -1.447265625
+  },
+  "A cute happy Corgi playing in park, sunset, animated style|appearance_style": {
+    "0": -0.66357421875,
+    "1": -0.69775390625,
+    "2": -0.3212890625,
+    "3": -1.6220703125,
+    "4": -0.9921875
+  },
+  "A cute happy Corgi playing in park, sunset, watercolor painting|appearance_style": {
+    "0": -0.17236328125,
+    "1": -1.0908203125,
+    "2": -0.1441650390625,
+    "3": -0.09539794921875,
+    "4": -0.82275390625
+  },
+  "A cute happy Corgi playing in park, sunset, surrealism style|appearance_style": {
+    "0": -0.91357421875,
+    "1": -0.17333984375,
+    "2": -1.0419921875,
+    "3": -0.33154296875,
+    "4": -0.488037109375
+  },
+  "Gwen Stacy reading a book, Van Gogh style|appearance_style": {
+    "0": -1.619140625,
+    "1": -1.4716796875,
+    "2": -0.10205078125,
+    "3": -1.234375,
+    "4": -0.9013671875
+  },
+  "Gwen Stacy reading a book, oil painting|appearance_style": {
+    "0": -0.2342529296875,
+    "1": -0.82861328125,
+    "2": -0.62744140625,
+    "3": -1.0087890625,
+    "4": -0.5234375
+  },
+  "Gwen Stacy reading a book by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -0.39892578125,
+    "1": -1.11328125,
+    "2": -1.7685546875,
+    "3": -1.140625,
+    "4": -1.3330078125
+  },
+  "Gwen Stacy reading a book, black and white|appearance_style": {
+    "0": -0.61279296875,
+    "1": -1.130859375,
+    "2": -1.728515625,
+    "3": -1.1083984375,
+    "4": -0.37451171875
+  },
+  "Gwen Stacy reading a book, pixel art|appearance_style": {
+    "0": -0.11669921875,
+    "1": -0.42529296875,
+    "2": -1.046875,
+    "3": -1.8857421875,
+    "4": -0.6474609375
+  },
+  "Gwen Stacy reading a book, in cyberpunk style|appearance_style": {
+    "0": -1.7021484375,
+    "1": -0.599609375,
+    "2": -0.97705078125,
+    "3": -0.2763671875,
+    "4": -0.12457275390625
+  },
+  "Gwen Stacy reading a book, animated style|appearance_style": {
+    "0": -0.7392578125,
+    "1": -1.357421875,
+    "2": -0.7529296875,
+    "3": -0.8779296875,
+    "4": -1.228515625
+  },
+  "Gwen Stacy reading a book, watercolor painting|appearance_style": {
+    "0": -0.328857421875,
+    "1": -1.115234375,
+    "2": 0.05169677734375,
+    "3": -1.0380859375,
+    "4": 0.04925537109375
+  },
+  "Gwen Stacy reading a book, surrealism style|appearance_style": {
+    "0": -1.658203125,
+    "1": -0.22998046875,
+    "2": 0.08538818359375,
+    "3": 0.318359375,
+    "4": -0.402099609375
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, Van Gogh style|appearance_style": {
+    "0": -1.2080078125,
+    "1": -1.2294921875,
+    "2": -1.5849609375,
+    "3": -0.67041015625,
+    "4": -0.57666015625
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, oil painting|appearance_style": {
+    "0": -2.0234375,
+    "1": -1.30078125,
+    "2": -1.443359375,
+    "3": -1.2744140625,
+    "4": -1.7333984375
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -1.5185546875,
+    "1": -1.609375,
+    "2": -0.1441650390625,
+    "3": -0.728515625,
+    "4": 0.218017578125
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, black and white|appearance_style": {
+    "0": -1.505859375,
+    "1": -0.24267578125,
+    "2": -0.300048828125,
+    "3": -1.7138671875,
+    "4": -0.2120361328125
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, pixel art|appearance_style": {
+    "0": -1.5068359375,
+    "1": -0.83984375,
+    "2": -2.1796875,
+    "3": -0.95849609375,
+    "4": -0.31640625
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, in cyberpunk style|appearance_style": {
+    "0": -1.4462890625,
+    "1": -1.1552734375,
+    "2": -1.0107421875,
+    "3": -1.078125,
+    "4": -1.1357421875
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, animated style|appearance_style": {
+    "0": -0.369140625,
+    "1": -1.5068359375,
+    "2": -1.984375,
+    "3": -0.01517486572265625,
+    "4": -1.322265625
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, watercolor painting|appearance_style": {
+    "0": -1.515625,
+    "1": -0.96337890625,
+    "2": -1.0537109375,
+    "3": -1.1953125,
+    "4": -1.6064453125
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, surrealism style|appearance_style": {
+    "0": -1.7060546875,
+    "1": -1.109375,
+    "2": -0.78759765625,
+    "3": -1.9921875,
+    "4": -0.830078125
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, Van Gogh style|appearance_style": {
+    "0": 0.6630859375,
+    "1": -0.55029296875,
+    "2": 0.045440673828125,
+    "3": -1.2568359375,
+    "4": -1.3701171875
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, oil painting|appearance_style": {
+    "0": -1.3037109375,
+    "1": -1.1171875,
+    "2": -1.31640625,
+    "3": -0.28759765625,
+    "4": -2.07421875
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -0.9970703125,
+    "1": -1.8466796875,
+    "2": -1.5576171875,
+    "3": -1.849609375,
+    "4": -0.9365234375
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, black and white|appearance_style": {
+    "0": -0.263916015625,
+    "1": -0.67529296875,
+    "2": -2.263671875,
+    "3": -0.94970703125,
+    "4": -0.75439453125
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, pixel art|appearance_style": {
+    "0": -1.3837890625,
+    "1": -1.509765625,
+    "2": -1.123046875,
+    "3": -1.3837890625,
+    "4": -1.8291015625
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, in cyberpunk style|appearance_style": {
+    "0": -1.4521484375,
+    "1": -1.2314453125,
+    "2": -0.595703125,
+    "3": -0.380859375,
+    "4": -0.290771484375
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, animated style|appearance_style": {
+    "0": -0.1629638671875,
+    "1": -0.052825927734375,
+    "2": -1.6669921875,
+    "3": -0.9013671875,
+    "4": -1.220703125
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, watercolor painting|appearance_style": {
+    "0": -1.1103515625,
+    "1": -1.3173828125,
+    "2": -0.86279296875,
+    "3": -1.3818359375,
+    "4": 0.267578125
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, surrealism style|appearance_style": {
+    "0": -1.474609375,
+    "1": -0.50830078125,
+    "2": -1.251953125,
+    "3": -1.2265625,
+    "4": -0.07012939453125
+  },
+  "An astronaut flying in space, Van Gogh style|appearance_style": {
+    "0": -0.583984375,
+    "1": -1.6640625,
+    "2": -0.4404296875,
+    "3": -0.0887451171875,
+    "4": -0.65771484375
+  },
+  "An astronaut flying in space, oil painting|appearance_style": {
+    "0": -0.93408203125,
+    "1": -1.2392578125,
+    "2": -1.5341796875,
+    "3": -1.65234375,
+    "4": -0.291748046875
+  },
+  "An astronaut flying in space by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -2.0625,
+    "1": -0.9287109375,
+    "2": -1.3330078125,
+    "3": -1.57421875,
+    "4": -1.5302734375
+  },
+  "An astronaut flying in space, black and white|appearance_style": {
+    "0": -0.99853515625,
+    "1": -0.057525634765625,
+    "2": -1.509765625,
+    "3": -1.42578125,
+    "4": -0.9306640625
+  },
+  "An astronaut flying in space, pixel art|appearance_style": {
+    "0": -2.03515625,
+    "1": -1.130859375,
+    "2": -2.349609375,
+    "3": -1.2421875,
+    "4": -1.4794921875
+  },
+  "An astronaut flying in space, in cyberpunk style|appearance_style": {
+    "0": -0.72509765625,
+    "1": -1.572265625,
+    "2": -1.56640625,
+    "3": -1.2265625,
+    "4": 0.6337890625
+  },
+  "An astronaut flying in space, animated style|appearance_style": {
+    "0": -2.23828125,
+    "1": 0.09564208984375,
+    "2": -1.353515625,
+    "3": -0.0216522216796875,
+    "4": -0.81689453125
+  },
+  "An astronaut flying in space, watercolor painting|appearance_style": {
+    "0": -0.1512451171875,
+    "1": -1.9365234375,
+    "2": -0.348876953125,
+    "3": 0.041229248046875,
+    "4": -1.189453125
+  },
+  "An astronaut flying in space, surrealism style|appearance_style": {
+    "0": -1.068359375,
+    "1": -0.8759765625,
+    "2": -0.49072265625,
+    "3": -1.2939453125,
+    "4": -0.91455078125
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, Van Gogh style|appearance_style": {
+    "0": -0.326904296875,
+    "1": -1.2783203125,
+    "2": -0.90234375,
+    "3": -0.98046875,
+    "4": -2.291015625
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, oil painting|appearance_style": {
+    "0": -1.6611328125,
+    "1": -1.890625,
+    "2": -1.240234375,
+    "3": -0.351806640625,
+    "4": -0.66357421875
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks by Hokusai, in the style of Ukiyo|appearance_style": {
+    "0": -0.0256195068359375,
+    "1": -0.5185546875,
+    "2": -0.34130859375,
+    "3": -1.3662109375,
+    "4": -1.51171875
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, black and white|appearance_style": {
+    "0": 0.36572265625,
+    "1": -1.0244140625,
+    "2": -0.427978515625,
+    "3": -1.24609375,
+    "4": 0.0188446044921875
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, pixel art|appearance_style": {
+    "0": -0.75537109375,
+    "1": -0.73828125,
+    "2": -1.4716796875,
+    "3": 0.27197265625,
+    "4": -1.1640625
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, in cyberpunk style|appearance_style": {
+    "0": -0.71875,
+    "1": -0.958984375,
+    "2": -1.8125,
+    "3": -1.0673828125,
+    "4": 0.495361328125
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, animated style|appearance_style": {
+    "0": 0.462158203125,
+    "1": -1.150390625,
+    "2": -1.794921875,
+    "3": -1.66796875,
+    "4": -1.037109375
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, watercolor painting|appearance_style": {
+    "0": -1.6181640625,
+    "1": -1.12109375,
+    "2": -0.54345703125,
+    "3": -1.2275390625,
+    "4": -0.00942230224609375
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, surrealism style|appearance_style": {
+    "0": -1.8330078125,
+    "1": -1.0048828125,
+    "2": -1.126953125,
+    "3": -1.2529296875,
+    "4": -0.11419677734375
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, in super slow motion|temporal_style": {
+    "0": -2.130859375,
+    "1": -0.94873046875,
+    "2": -2.00390625,
+    "3": -0.505859375,
+    "4": -0.72705078125
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, zoom in|temporal_style": {
+    "0": -0.191162109375,
+    "1": -0.6875,
+    "2": -1.857421875,
+    "3": -2.11328125,
+    "4": -1.3076171875
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, zoom out|temporal_style": {
+    "0": -1.7236328125,
+    "1": -1.0732421875,
+    "2": -1.7431640625,
+    "3": -0.556640625,
+    "4": -1.509765625
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, pan left|temporal_style": {
+    "0": -0.417724609375,
+    "1": -2.041015625,
+    "2": -1.025390625,
+    "3": -1.162109375,
+    "4": -1.96484375
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, pan right|temporal_style": {
+    "0": -1.0224609375,
+    "1": -0.05755615234375,
+    "2": -1.423828125,
+    "3": -1.7763671875,
+    "4": -1.3505859375
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, tilt up|temporal_style": {
+    "0": -1.650390625,
+    "1": -1.6357421875,
+    "2": -0.65966796875,
+    "3": -1.5732421875,
+    "4": -1.095703125
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, tilt down|temporal_style": {
+    "0": -0.90625,
+    "1": -1.0341796875,
+    "2": -0.7529296875,
+    "3": -0.8798828125,
+    "4": -2.095703125
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, with an intense shaking effect|temporal_style": {
+    "0": -0.96728515625,
+    "1": -1.7353515625,
+    "2": -0.2220458984375,
+    "3": -1.5859375,
+    "4": -1.7861328125
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, featuring a steady and smooth perspective|temporal_style": {
+    "0": -1.4501953125,
+    "1": -1.669921875,
+    "2": -1.140625,
+    "3": -0.1949462890625,
+    "4": -1.9052734375
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand, racking focus|temporal_style": {
+    "0": -0.5,
+    "1": -1.4384765625,
+    "2": -1.6650390625,
+    "3": -1.26171875,
+    "4": -1.365234375
+  },
+  "The bund Shanghai, in super slow motion|temporal_style": {
+    "0": -1.8056640625,
+    "1": -0.439453125,
+    "2": -1.2353515625,
+    "3": 0.0194091796875,
+    "4": -1.244140625
+  },
+  "The bund Shanghai, zoom in|temporal_style": {
+    "0": 0.00859832763671875,
+    "1": -0.61376953125,
+    "2": -1.2490234375,
+    "3": -1.2578125,
+    "4": -1.1689453125
+  },
+  "The bund Shanghai, zoom out|temporal_style": {
+    "0": -0.712890625,
+    "1": -0.74365234375,
+    "2": -0.324951171875,
+    "3": -1.46484375,
+    "4": -0.77197265625
+  },
+  "The bund Shanghai, pan left|temporal_style": {
+    "0": -1.8720703125,
+    "1": -0.65283203125,
+    "2": -1.68359375,
+    "3": -1.3603515625,
+    "4": -2.220703125
+  },
+  "The bund Shanghai, pan right|temporal_style": {
+    "0": -1.4013671875,
+    "1": -1.4189453125,
+    "2": -0.79931640625,
+    "3": -0.3037109375,
+    "4": -0.62109375
+  },
+  "The bund Shanghai, tilt up|temporal_style": {
+    "0": -0.39306640625,
+    "1": -2.02734375,
+    "2": -0.552734375,
+    "3": -1.125,
+    "4": -0.31298828125
+  },
+  "The bund Shanghai, tilt down|temporal_style": {
+    "0": 0.27392578125,
+    "1": -1.203125,
+    "2": -0.30126953125,
+    "3": -1.6044921875,
+    "4": -0.99169921875
+  },
+  "The bund Shanghai, with an intense shaking effect|temporal_style": {
+    "0": -0.5634765625,
+    "1": -0.471923828125,
+    "2": -0.494384765625,
+    "3": -1.6455078125,
+    "4": -0.81494140625
+  },
+  "The bund Shanghai, featuring a steady and smooth perspective|temporal_style": {
+    "0": -0.8408203125,
+    "1": -1.26171875,
+    "2": -2.228515625,
+    "3": -1.0751953125,
+    "4": -0.873046875
+  },
+  "The bund Shanghai, racking focus|temporal_style": {
+    "0": -1.5107421875,
+    "1": -1.6923828125,
+    "2": -0.72265625,
+    "3": -1.46484375,
+    "4": -0.5126953125
+  },
+  "a shark is swimming in the ocean, in super slow motion|temporal_style": {
+    "0": -1.650390625,
+    "1": -1.681640625,
+    "2": -0.8310546875,
+    "3": -0.53662109375,
+    "4": -1.28125
+  },
+  "a shark is swimming in the ocean, zoom in|temporal_style": {
+    "0": -0.490234375,
+    "1": -1.6640625,
+    "2": -1.609375,
+    "3": -1.603515625,
+    "4": -0.1953125
+  },
+  "a shark is swimming in the ocean, zoom out|temporal_style": {
+    "0": -0.52001953125,
+    "1": -0.74462890625,
+    "2": 0.437744140625,
+    "3": -0.986328125,
+    "4": -1.5712890625
+  },
+  "a shark is swimming in the ocean, pan left|temporal_style": {
+    "0": -1.4169921875,
+    "1": -0.2406005859375,
+    "2": -1.2578125,
+    "3": -0.60400390625,
+    "4": -0.459716796875
+  },
+  "a shark is swimming in the ocean, pan right|temporal_style": {
+    "0": -1.0703125,
+    "1": -0.8564453125,
+    "2": -2.021484375,
+    "3": -0.48046875,
+    "4": -1.3291015625
+  },
+  "a shark is swimming in the ocean, tilt up|temporal_style": {
+    "0": -0.1373291015625,
+    "1": -1.69140625,
+    "2": 0.728515625,
+    "3": 0.50439453125,
+    "4": -0.59326171875
+  },
+  "a shark is swimming in the ocean, tilt down|temporal_style": {
+    "0": -0.91162109375,
+    "1": -1.2333984375,
+    "2": -0.040557861328125,
+    "3": -0.402587890625,
+    "4": -0.31884765625
+  },
+  "a shark is swimming in the ocean, with an intense shaking effect|temporal_style": {
+    "0": -1.427734375,
+    "1": -0.62353515625,
+    "2": -0.8974609375,
+    "3": -0.466064453125,
+    "4": -1.6669921875
+  },
+  "a shark is swimming in the ocean, featuring a steady and smooth perspective|temporal_style": {
+    "0": -0.611328125,
+    "1": -1.568359375,
+    "2": -0.64697265625,
+    "3": -0.38623046875,
+    "4": -0.9658203125
+  },
+  "a shark is swimming in the ocean, racking focus|temporal_style": {
+    "0": -1.77734375,
+    "1": -1.6328125,
+    "2": 0.2210693359375,
+    "3": 0.302001953125,
+    "4": -2.103515625
+  },
+  "A panda drinking coffee in a cafe in Paris, in super slow motion|temporal_style": {
+    "0": -1.2158203125,
+    "1": 0.2265625,
+    "2": -1.634765625,
+    "3": -1.3798828125,
+    "4": -0.75341796875
+  },
+  "A panda drinking coffee in a cafe in Paris, zoom in|temporal_style": {
+    "0": -1.46875,
+    "1": -0.76513671875,
+    "2": -0.703125,
+    "3": -1.470703125,
+    "4": -0.7421875
+  },
+  "A panda drinking coffee in a cafe in Paris, zoom out|temporal_style": {
+    "0": 0.06048583984375,
+    "1": -1.513671875,
+    "2": -1.1884765625,
+    "3": -0.693359375,
+    "4": -0.61376953125
+  },
+  "A panda drinking coffee in a cafe in Paris, pan left|temporal_style": {
+    "0": -1.587890625,
+    "1": -1.830078125,
+    "2": -1.0849609375,
+    "3": -1.80078125,
+    "4": -1.48828125
+  },
+  "A panda drinking coffee in a cafe in Paris, pan right|temporal_style": {
+    "0": -1.90234375,
+    "1": -2.23046875,
+    "2": -1.931640625,
+    "3": -0.04388427734375,
+    "4": -0.349365234375
+  },
+  "A panda drinking coffee in a cafe in Paris, tilt up|temporal_style": {
+    "0": -0.7763671875,
+    "1": -1.3125,
+    "2": -0.73046875,
+    "3": -2.099609375,
+    "4": -0.74853515625
+  },
+  "A panda drinking coffee in a cafe in Paris, tilt down|temporal_style": {
+    "0": -1.3701171875,
+    "1": -1.9267578125,
+    "2": -0.9404296875,
+    "3": -1.0244140625,
+    "4": -0.365478515625
+  },
+  "A panda drinking coffee in a cafe in Paris, with an intense shaking effect|temporal_style": {
+    "0": -0.1051025390625,
+    "1": -1.8330078125,
+    "2": -0.474365234375,
+    "3": -0.383056640625,
+    "4": 0.032196044921875
+  },
+  "A panda drinking coffee in a cafe in Paris, featuring a steady and smooth perspective|temporal_style": {
+    "0": -0.90771484375,
+    "1": -1.1728515625,
+    "2": -2.13671875,
+    "3": -0.7509765625,
+    "4": -0.45556640625
+  },
+  "A panda drinking coffee in a cafe in Paris, racking focus|temporal_style": {
+    "0": -1.697265625,
+    "1": -0.213134765625,
+    "2": -1.173828125,
+    "3": -0.9970703125,
+    "4": -0.74560546875
+  },
+  "A cute happy Corgi playing in park, sunset, in super slow motion|temporal_style": {
+    "0": -0.40673828125,
+    "1": -0.29638671875,
+    "2": -1.2392578125,
+    "3": -0.951171875,
+    "4": -0.426513671875
+  },
+  "A cute happy Corgi playing in park, sunset, zoom in|temporal_style": {
+    "0": -0.474365234375,
+    "1": -0.170166015625,
+    "2": -0.2861328125,
+    "3": -1.1064453125,
+    "4": -1.185546875
+  },
+  "A cute happy Corgi playing in park, sunset, zoom out|temporal_style": {
+    "0": -0.3681640625,
+    "1": 0.08172607421875,
+    "2": 0.16552734375,
+    "3": -1.2236328125,
+    "4": -1.7314453125
+  },
+  "A cute happy Corgi playing in park, sunset, pan left|temporal_style": {
+    "0": -0.293701171875,
+    "1": -0.81591796875,
+    "2": -2.166015625,
+    "3": -1.7080078125,
+    "4": -1.099609375
+  },
+  "A cute happy Corgi playing in park, sunset, pan right|temporal_style": {
+    "0": -0.1749267578125,
+    "1": -0.40625,
+    "2": -0.7431640625,
+    "3": -1.091796875,
+    "4": -0.5810546875
+  },
+  "A cute happy Corgi playing in park, sunset, tilt up|temporal_style": {
+    "0": -0.55712890625,
+    "1": -2.580078125,
+    "2": -0.87451171875,
+    "3": -0.1212158203125,
+    "4": -0.410888671875
+  },
+  "A cute happy Corgi playing in park, sunset, tilt down|temporal_style": {
+    "0": -0.53564453125,
+    "1": -0.513671875,
+    "2": -0.96728515625,
+    "3": -0.69384765625,
+    "4": -0.74560546875
+  },
+  "A cute happy Corgi playing in park, sunset, with an intense shaking effect|temporal_style": {
+    "0": -1.525390625,
+    "1": -1.4970703125,
+    "2": -1.5263671875,
+    "3": -1.0908203125,
+    "4": -1.166015625
+  },
+  "A cute happy Corgi playing in park, sunset, featuring a steady and smooth perspective|temporal_style": {
+    "0": -1.55859375,
+    "1": -1.447265625,
+    "2": -0.53759765625,
+    "3": -0.96630859375,
+    "4": 0.5185546875
+  },
+  "A cute happy Corgi playing in park, sunset, racking focus|temporal_style": {
+    "0": 0.09393310546875,
+    "1": -1.822265625,
+    "2": -2.013671875,
+    "3": -0.52490234375,
+    "4": -0.5517578125
+  },
+  "Gwen Stacy reading a book, in super slow motion|temporal_style": {
+    "0": -0.287353515625,
+    "1": -1.267578125,
+    "2": -1.4453125,
+    "3": -2.25,
+    "4": -0.360595703125
+  },
+  "Gwen Stacy reading a book, zoom in|temporal_style": {
+    "0": -0.89013671875,
+    "1": -1.46875,
+    "2": -1.0283203125,
+    "3": -1.056640625,
+    "4": -1.2841796875
+  },
+  "Gwen Stacy reading a book, zoom out|temporal_style": {
+    "0": -0.5185546875,
+    "1": -0.865234375,
+    "2": -0.1005859375,
+    "3": -1.2783203125,
+    "4": -0.82421875
+  },
+  "Gwen Stacy reading a book, pan left|temporal_style": {
+    "0": -0.7177734375,
+    "1": 0.15185546875,
+    "2": -1.46484375,
+    "3": -0.70068359375,
+    "4": -0.56591796875
+  },
+  "Gwen Stacy reading a book, pan right|temporal_style": {
+    "0": -0.88623046875,
+    "1": -1.685546875,
+    "2": -0.95849609375,
+    "3": -0.73046875,
+    "4": -1.52734375
+  },
+  "Gwen Stacy reading a book, tilt up|temporal_style": {
+    "0": -0.043121337890625,
+    "1": -0.7587890625,
+    "2": 0.4326171875,
+    "3": -1.1806640625,
+    "4": -1.6982421875
+  },
+  "Gwen Stacy reading a book, tilt down|temporal_style": {
+    "0": -1.5234375,
+    "1": -1.76953125,
+    "2": -0.56689453125,
+    "3": -1.7275390625,
+    "4": -1.5791015625
+  },
+  "Gwen Stacy reading a book, with an intense shaking effect|temporal_style": {
+    "0": -1.0927734375,
+    "1": -0.355712890625,
+    "2": -0.74462890625,
+    "3": -1.712890625,
+    "4": -1.3408203125
+  },
+  "Gwen Stacy reading a book, featuring a steady and smooth perspective|temporal_style": {
+    "0": -0.90185546875,
+    "1": -1.2685546875,
+    "2": -1.435546875,
+    "3": 0.335693359375,
+    "4": -1.1533203125
+  },
+  "Gwen Stacy reading a book, racking focus|temporal_style": {
+    "0": -1.69140625,
+    "1": -2.203125,
+    "2": -0.120849609375,
+    "3": 0.0771484375,
+    "4": -0.388427734375
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, in super slow motion|temporal_style": {
+    "0": -1.7236328125,
+    "1": 0.34228515625,
+    "2": -1.3134765625,
+    "3": 0.136474609375,
+    "4": -0.953125
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, zoom in|temporal_style": {
+    "0": -1.1376953125,
+    "1": -1.275390625,
+    "2": 0.11175537109375,
+    "3": 0.00011515617370605469,
+    "4": -2.09765625
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, zoom out|temporal_style": {
+    "0": -1.2080078125,
+    "1": -1.9521484375,
+    "2": -0.054412841796875,
+    "3": -1.4326171875,
+    "4": -0.55029296875
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, pan left|temporal_style": {
+    "0": -0.1353759765625,
+    "1": -1.4384765625,
+    "2": -1.6494140625,
+    "3": -0.341796875,
+    "4": -0.62353515625
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, pan right|temporal_style": {
+    "0": -0.2257080078125,
+    "1": -0.5615234375,
+    "2": -0.22900390625,
+    "3": -0.7685546875,
+    "4": -1.109375
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, tilt up|temporal_style": {
+    "0": -1.4169921875,
+    "1": -1.46875,
+    "2": -1.3896484375,
+    "3": -0.544921875,
+    "4": -0.2171630859375
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, tilt down|temporal_style": {
+    "0": -1.0654296875,
+    "1": -0.173583984375,
+    "2": -1.5126953125,
+    "3": -1.888671875,
+    "4": -0.05767822265625
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, with an intense shaking effect|temporal_style": {
+    "0": -0.66064453125,
+    "1": -1.6044921875,
+    "2": -0.47705078125,
+    "3": -1.52734375,
+    "4": -0.81982421875
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, featuring a steady and smooth perspective|temporal_style": {
+    "0": -0.859375,
+    "1": -1.5615234375,
+    "2": -1.3984375,
+    "3": -0.79931640625,
+    "4": -0.6552734375
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background, racking focus|temporal_style": {
+    "0": -0.03662109375,
+    "1": -1.435546875,
+    "2": -1.0751953125,
+    "3": -1.7236328125,
+    "4": 0.1766357421875
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, in super slow motion|temporal_style": {
+    "0": -0.358642578125,
+    "1": -1.416015625,
+    "2": -0.430908203125,
+    "3": -0.978515625,
+    "4": -1.671875
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, zoom in|temporal_style": {
+    "0": 0.00754547119140625,
+    "1": -1.3408203125,
+    "2": -1.263671875,
+    "3": -1.716796875,
+    "4": -0.943359375
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, zoom out|temporal_style": {
+    "0": -0.2342529296875,
+    "1": -1.4189453125,
+    "2": -0.2176513671875,
+    "3": -0.7236328125,
+    "4": -0.307861328125
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, pan left|temporal_style": {
+    "0": -1.6171875,
+    "1": -1.474609375,
+    "2": -1.4287109375,
+    "3": -0.7646484375,
+    "4": -0.955078125
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, pan right|temporal_style": {
+    "0": -0.916015625,
+    "1": -1.16796875,
+    "2": -0.94287109375,
+    "3": -1.5185546875,
+    "4": -1.056640625
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, tilt up|temporal_style": {
+    "0": -1.771484375,
+    "1": -1.6767578125,
+    "2": -0.97216796875,
+    "3": -0.90380859375,
+    "4": -0.9375
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, tilt down|temporal_style": {
+    "0": -0.9892578125,
+    "1": -1.193359375,
+    "2": -0.9599609375,
+    "3": -1.7529296875,
+    "4": -0.36083984375
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, with an intense shaking effect|temporal_style": {
+    "0": -0.197509765625,
+    "1": -0.388671875,
+    "2": -1.14453125,
+    "3": -1.2900390625,
+    "4": -0.044281005859375
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, featuring a steady and smooth perspective|temporal_style": {
+    "0": -1.5087890625,
+    "1": -1.140625,
+    "2": -1.646484375,
+    "3": -0.498291015625,
+    "4": -1.912109375
+  },
+  "A couple in formal evening wear going home get caught in a heavy downpour with umbrellas, racking focus|temporal_style": {
+    "0": -1.341796875,
+    "1": -0.71826171875,
+    "2": -0.1805419921875,
+    "3": -1.51953125,
+    "4": -1.2333984375
+  },
+  "An astronaut flying in space, in super slow motion|temporal_style": {
+    "0": 0.30224609375,
+    "1": -1.978515625,
+    "2": -0.18994140625,
+    "3": -0.6083984375,
+    "4": -0.78759765625
+  },
+  "An astronaut flying in space, zoom in|temporal_style": {
+    "0": -1.775390625,
+    "1": -1.41796875,
+    "2": -0.0887451171875,
+    "3": 0.322509765625,
+    "4": -0.7021484375
+  },
+  "An astronaut flying in space, zoom out|temporal_style": {
+    "0": -2.275390625,
+    "1": -1.865234375,
+    "2": -0.77392578125,
+    "3": -0.8310546875,
+    "4": -0.411865234375
+  },
+  "An astronaut flying in space, pan left|temporal_style": {
+    "0": -1.25390625,
+    "1": -1.669921875,
+    "2": -0.90576171875,
+    "3": -0.7763671875,
+    "4": -0.8525390625
+  },
+  "An astronaut flying in space, pan right|temporal_style": {
+    "0": 0.471923828125,
+    "1": -0.26806640625,
+    "2": -0.97119140625,
+    "3": -1.994140625,
+    "4": 0.74853515625
+  },
+  "An astronaut flying in space, tilt up|temporal_style": {
+    "0": -0.57080078125,
+    "1": -0.947265625,
+    "2": -1.2470703125,
+    "3": -1.1142578125,
+    "4": -1.4130859375
+  },
+  "An astronaut flying in space, tilt down|temporal_style": {
+    "0": -0.091796875,
+    "1": -1.1708984375,
+    "2": -1.3349609375,
+    "3": -1.4287109375,
+    "4": -1.5771484375
+  },
+  "An astronaut flying in space, with an intense shaking effect|temporal_style": {
+    "0": -0.9912109375,
+    "1": -0.1893310546875,
+    "2": -0.6416015625,
+    "3": -0.287109375,
+    "4": -1.892578125
+  },
+  "An astronaut flying in space, featuring a steady and smooth perspective|temporal_style": {
+    "0": 0.07781982421875,
+    "1": -0.047393798828125,
+    "2": -0.8193359375,
+    "3": -1.3916015625,
+    "4": -1.5546875
+  },
+  "An astronaut flying in space, racking focus|temporal_style": {
+    "0": -0.69140625,
+    "1": -0.84912109375,
+    "2": -1.080078125,
+    "3": -1.3388671875,
+    "4": -0.60888671875
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, in super slow motion|temporal_style": {
+    "0": -1.8837890625,
+    "1": -1.0458984375,
+    "2": -0.9716796875,
+    "3": 0.05633544921875,
+    "4": 0.1597900390625
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, zoom in|temporal_style": {
+    "0": -1.3046875,
+    "1": 0.0877685546875,
+    "2": -0.213134765625,
+    "3": -0.365478515625,
+    "4": -0.34375
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, zoom out|temporal_style": {
+    "0": -0.802734375,
+    "1": -1.896484375,
+    "2": -0.0008935928344726562,
+    "3": -0.444091796875,
+    "4": -1.2490234375
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, pan left|temporal_style": {
+    "0": -0.38671875,
+    "1": -0.95654296875,
+    "2": -1.0087890625,
+    "3": -1.6669921875,
+    "4": -1.3486328125
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, pan right|temporal_style": {
+    "0": -1.5693359375,
+    "1": -0.6943359375,
+    "2": 0.0303802490234375,
+    "3": -1.4482421875,
+    "4": -0.90283203125
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, tilt up|temporal_style": {
+    "0": -0.2427978515625,
+    "1": -0.180419921875,
+    "2": -1.1669921875,
+    "3": -0.50244140625,
+    "4": 0.115966796875
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, tilt down|temporal_style": {
+    "0": -1.275390625,
+    "1": -0.5322265625,
+    "2": -1.5615234375,
+    "3": -1.6162109375,
+    "4": -2.109375
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, with an intense shaking effect|temporal_style": {
+    "0": -0.72705078125,
+    "1": 0.393310546875,
+    "2": -2.306640625,
+    "3": -0.96923828125,
+    "4": 0.024261474609375
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, featuring a steady and smooth perspective|temporal_style": {
+    "0": -1.916015625,
+    "1": -0.55712890625,
+    "2": -0.94140625,
+    "3": -1.0537109375,
+    "4": -0.953125
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks, racking focus|temporal_style": {
+    "0": -0.59716796875,
+    "1": -0.93994140625,
+    "2": -1.0283203125,
+    "3": -1.3681640625,
+    "4": -0.740234375
+  },
+  "Close up of grapes on a rotating table.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.4521484375,
+    "1": -0.0504150390625,
+    "2": -0.58447265625,
+    "3": -2.04296875,
+    "4": -1.7158203125
+  },
+  "Turtle swimming in ocean.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.70263671875,
+    "1": -2.1328125,
+    "2": -0.82568359375,
+    "3": -1.2138671875,
+    "4": 0.05804443359375
+  },
+  "A storm trooper vacuuming the beach.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.66943359375,
+    "1": -1.552734375,
+    "2": -0.04736328125,
+    "3": -1.546875,
+    "4": -0.0156707763671875
+  },
+  "A panda standing on a surfboard in the ocean in sunset.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.94921875,
+    "1": -0.288818359375,
+    "2": -1.439453125,
+    "3": -2.14453125,
+    "4": -0.962890625
+  },
+  "An astronaut feeding ducks on a sunny afternoon, reflection from the water.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.2802734375,
+    "1": -0.52685546875,
+    "2": -0.2454833984375,
+    "3": -2.294921875,
+    "4": -1.7138671875
+  },
+  "Two pandas discussing an academic paper.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.2027587890625,
+    "1": -0.88037109375,
+    "2": -1.28515625,
+    "3": -1.1044921875,
+    "4": -1.3427734375
+  },
+  "Sunset time lapse at the beach with moving clouds and colors in the sky.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.0458984375,
+    "1": -0.015594482421875,
+    "2": -1.5888671875,
+    "3": -0.703125,
+    "4": -1.9306640625
+  },
+  "A fat rabbit wearing a purple robe walking through a fantasy landscape.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.12335205078125,
+    "1": -0.88330078125,
+    "2": -0.209716796875,
+    "3": -1.462890625,
+    "4": -0.71435546875
+  },
+  "A koala bear playing piano in the forest.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.8388671875,
+    "1": -0.33056640625,
+    "2": -2.369140625,
+    "3": -0.88525390625,
+    "4": -1.4248046875
+  },
+  "An astronaut flying in space.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.3701171875,
+    "1": -1.841796875,
+    "2": -1.544921875,
+    "3": 0.103515625,
+    "4": -1.615234375
+  },
+  "Fireworks.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.90869140625,
+    "1": -0.6640625,
+    "2": -2.005859375,
+    "3": -0.84521484375,
+    "4": 0.347412109375
+  },
+  "An animated painting of fluffy white clouds moving in sky.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.814453125,
+    "1": -1.4501953125,
+    "2": -0.5263671875,
+    "3": -0.147705078125,
+    "4": -1.05859375
+  },
+  "Flying through fantasy landscapes.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.92138671875,
+    "1": -0.457763671875,
+    "2": -0.615234375,
+    "3": -0.62744140625,
+    "4": -0.1910400390625
+  },
+  "A bigfoot walking in the snowstorm.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.73193359375,
+    "1": -1.3408203125,
+    "2": -0.8251953125,
+    "3": -1.0771484375,
+    "4": 0.75341796875
+  },
+  "A squirrel eating a burger.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.1884765625,
+    "1": -0.44580078125,
+    "2": -1.765625,
+    "3": -1.34765625,
+    "4": -0.5693359375
+  },
+  "A cat wearing sunglasses and working as a lifeguard at a pool.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -2.138671875,
+    "1": -2.12890625,
+    "2": -1.57421875,
+    "3": -1.4658203125,
+    "4": -0.77001953125
+  },
+  "Snow rocky mountains peaks canyon. snow blanketed rocky mountains surround and shadow deep canyons. the canyons twist and bend through the high elevated mountain peaks.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.958984375,
+    "1": -1.08984375,
+    "2": -1.2880859375,
+    "3": -0.052276611328125,
+    "4": -1.1103515625
+  },
+  "Splash of turquoise water in extreme slow motion, alpha channel included.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.415283203125,
+    "1": -1.712890625,
+    "2": -0.284912109375,
+    "3": -0.248291015625,
+    "4": -1.099609375
+  },
+  "an ice cream is melting on the table.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.2275390625,
+    "1": -1.6767578125,
+    "2": -2.263671875,
+    "3": -1.5478515625,
+    "4": -1.08203125
+  },
+  "a drone flying over a snowy forest.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.0029296875,
+    "1": -0.60400390625,
+    "2": -0.231689453125,
+    "3": -0.0784912109375,
+    "4": -0.81494140625
+  },
+  "a shark is swimming in the ocean.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.2255859375,
+    "1": -1.6103515625,
+    "2": 0.4287109375,
+    "3": -1.04296875,
+    "4": -2.431640625
+  },
+  "Aerial panoramic video from a drone of a fantasy land.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.1982421875,
+    "1": -1.55078125,
+    "2": -1.6015625,
+    "3": 0.810546875,
+    "4": -1.0166015625
+  },
+  "a teddy bear is swimming in the ocean.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.3203125,
+    "1": -0.94482421875,
+    "2": -1.2939453125,
+    "3": -1.7119140625,
+    "4": -0.08056640625
+  },
+  "time lapse of sunrise on mars.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.484375,
+    "1": -1.4326171875,
+    "2": -1.216796875,
+    "3": -1.22265625,
+    "4": -1.8310546875
+  },
+  "golden fish swimming in the ocean.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.146484375,
+    "1": -1.33984375,
+    "2": -0.501953125,
+    "3": 0.3798828125,
+    "4": -2.060546875
+  },
+  "An artist brush painting on a canvas close up.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.80615234375,
+    "1": -0.033233642578125,
+    "2": 0.5693359375,
+    "3": -1.056640625,
+    "4": -1.34765625
+  },
+  "A drone view of celebration with Christmas tree and fireworks, starry sky - background.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.9716796875,
+    "1": -1.15234375,
+    "2": -1.6474609375,
+    "3": -0.465087890625,
+    "4": -0.8203125
+  },
+  "happy dog wearing a yellow turtleneck, studio, portrait, facing camera, dark background|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.966796875,
+    "1": -1.7314453125,
+    "2": -0.28857421875,
+    "3": -1.7275390625,
+    "4": -0.552734375
+  },
+  "Origami dancers in white paper, 3D render, on white background, studio shot, dancing modern dance.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.8740234375,
+    "1": -1.35546875,
+    "2": -0.5947265625,
+    "3": -0.351806640625,
+    "4": -2.205078125
+  },
+  "Campfire at night in a snowy forest with starry sky in the background.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.005859375,
+    "1": -0.99658203125,
+    "2": -0.275634765625,
+    "3": -1.1884765625,
+    "4": -1.3916015625
+  },
+  "a fantasy landscape|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.86328125,
+    "1": -0.78173828125,
+    "2": -0.4697265625,
+    "3": -1.8349609375,
+    "4": -1.1279296875
+  },
+  "A 3D model of a 1800s victorian house.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.67724609375,
+    "1": -1.2978515625,
+    "2": -0.6982421875,
+    "3": -1.4091796875,
+    "4": -0.27978515625
+  },
+  "this is how I do makeup in the morning.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.86279296875,
+    "1": -1.47265625,
+    "2": -2.3359375,
+    "3": -0.9443359375,
+    "4": 0.170166015625
+  },
+  "A raccoon that looks like a turtle, digital art.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.337890625,
+    "1": -2.26953125,
+    "2": -0.1279296875,
+    "3": -0.75732421875,
+    "4": -2.126953125
+  },
+  "Robot dancing in Times Square.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -2.35546875,
+    "1": 0.1041259765625,
+    "2": -1.7490234375,
+    "3": -1.3662109375,
+    "4": -1.181640625
+  },
+  "Busy freeway at night.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.2998046875,
+    "1": 0.1978759765625,
+    "2": -1.572265625,
+    "3": -0.7470703125,
+    "4": -0.298095703125
+  },
+  "Balloon full of water exploding in extreme slow motion.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.82421875,
+    "1": -0.810546875,
+    "2": -0.310546875,
+    "3": -0.802734375,
+    "4": -1.8603515625
+  },
+  "An astronaut is riding a horse in the space in a photorealistic style.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.41943359375,
+    "1": -0.395751953125,
+    "2": -0.6630859375,
+    "3": -1.6865234375,
+    "4": -1.3798828125
+  },
+  "Macro slo-mo. Slow motion cropped closeup of roasted coffee beans falling into an empty bowl.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.446044921875,
+    "1": -1.6015625,
+    "2": -0.63134765625,
+    "3": -0.896484375,
+    "4": -1.4140625
+  },
+  "Sewing machine, old sewing machine working.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.6494140625,
+    "1": -0.474609375,
+    "2": -0.6953125,
+    "3": -1.2646484375,
+    "4": -0.19970703125
+  },
+  "Motion colour drop in water, ink swirling in water, colourful ink in water, abstraction fancy dream cloud of ink.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.388671875,
+    "1": -1.4775390625,
+    "2": -0.58984375,
+    "3": -1.873046875,
+    "4": -0.46826171875
+  },
+  "Few big purple plums rotating on the turntable. water drops appear on the skin during rotation. isolated on the white background. close-up. macro.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.220703125,
+    "1": -1.7919921875,
+    "2": -0.24658203125,
+    "3": -1.4755859375,
+    "4": -1.236328125
+  },
+  "Vampire makeup face of beautiful girl, red contact lenses.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.53369140625,
+    "1": -1.0244140625,
+    "2": -1.3564453125,
+    "3": -0.08740234375,
+    "4": -0.96484375
+  },
+  "Ashtray full of butts on table, smoke flowing on black background, close-up|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -2.048828125,
+    "1": 0.22021484375,
+    "2": -0.133544921875,
+    "3": -1.078125,
+    "4": -2.111328125
+  },
+  "Pacific coast, carmel by the sea ocean and waves.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": 0.437744140625,
+    "1": -0.308349609375,
+    "2": -0.59912109375,
+    "3": -1.294921875,
+    "4": -1.4443359375
+  },
+  "A teddy bear is playing drum kit in NYC Times Square.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.458984375,
+    "1": -0.28271484375,
+    "2": 0.055938720703125,
+    "3": -1.3779296875,
+    "4": -0.67919921875
+  },
+  "A corgi is playing drum kit.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.435302734375,
+    "1": -1.0615234375,
+    "2": -0.974609375,
+    "3": -0.33154296875,
+    "4": -0.1488037109375
+  },
+  "An Iron man is playing the electronic guitar, high electronic guitar.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.3212890625,
+    "1": 0.03265380859375,
+    "2": -1.546875,
+    "3": -0.5029296875,
+    "4": -1.056640625
+  },
+  "A raccoon is playing the electronic guitar.|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.78564453125,
+    "1": 0.212890625,
+    "2": -0.7041015625,
+    "3": -0.8525390625,
+    "4": -1.953125
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background by Vincent van Gogh|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.187255859375,
+    "1": -1.9091796875,
+    "2": -0.55078125,
+    "3": 0.0684814453125,
+    "4": -0.441162109375
+  },
+  "A corgi's head depicted as an explosion of a nebula|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.78125,
+    "1": -1.322265625,
+    "2": -0.75048828125,
+    "3": -1.724609375,
+    "4": -0.0250396728515625
+  },
+  "A fantasy landscape|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": 0.64404296875,
+    "1": -1.197265625,
+    "2": -1.1435546875,
+    "3": -0.87109375,
+    "4": -1.384765625
+  },
+  "A future where humans have achieved teleportation technology|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -2.0078125,
+    "1": -1.4169921875,
+    "2": -0.434814453125,
+    "3": -0.388427734375,
+    "4": -1.2373046875
+  },
+  "A jellyfish floating through the ocean, with bioluminescent tentacles|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.49267578125,
+    "1": -0.68017578125,
+    "2": -0.58203125,
+    "3": -0.728515625,
+    "4": -1.41796875
+  },
+  "A Mars rover moving on Mars|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.38623046875,
+    "1": -0.68994140625,
+    "2": -1.5458984375,
+    "3": -0.52880859375,
+    "4": -1.6513671875
+  },
+  "A panda drinking coffee in a cafe in Paris|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.0185546875,
+    "1": -1.33203125,
+    "2": -0.7783203125,
+    "3": -1.4921875,
+    "4": -1.5556640625
+  },
+  "A space shuttle launching into orbit, with flames and smoke billowing out from the engines|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.53125,
+    "1": -1.029296875,
+    "2": 0.1571044921875,
+    "3": -1.5517578125,
+    "4": -0.343505859375
+  },
+  "A steam train moving on a mountainside|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.262451171875,
+    "1": -0.64306640625,
+    "2": -0.66845703125,
+    "3": -0.085205078125,
+    "4": -0.98046875
+  },
+  "A super cool giant robot in Cyberpunk Beijing|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.51611328125,
+    "1": -1.8369140625,
+    "2": -0.56884765625,
+    "3": -0.302001953125,
+    "4": -1.271484375
+  },
+  "A tropical beach at sunrise, with palm trees and crystal-clear water in the foreground|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.3330078125,
+    "1": -0.85009765625,
+    "2": -0.9599609375,
+    "3": 0.0694580078125,
+    "4": -1.6728515625
+  },
+  "Cinematic shot of Van Gogh's selfie, Van Gogh style|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.21044921875,
+    "1": -1.2978515625,
+    "2": -0.97998046875,
+    "3": -0.96240234375,
+    "4": -1.4755859375
+  },
+  "Gwen Stacy reading a book|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.8203125,
+    "1": -0.53955078125,
+    "2": -0.9140625,
+    "3": -1.771484375,
+    "4": -0.9921875
+  },
+  "Iron Man flying in the sky|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.44140625,
+    "1": -1.6435546875,
+    "2": -0.666015625,
+    "3": -1.0947265625,
+    "4": -1.8828125
+  },
+  "The bund Shanghai, oil painting|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.76953125,
+    "1": -1.8603515625,
+    "2": -1.150390625,
+    "3": -0.7783203125,
+    "4": -1.8154296875
+  },
+  "Yoda playing guitar on the stage|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.51171875,
+    "1": -1.71875,
+    "2": -2.048828125,
+    "3": -0.65625,
+    "4": -0.51416015625
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand by Hokusai, in the style of Ukiyo|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.7216796875,
+    "1": -2.13671875,
+    "2": -1.24609375,
+    "3": -1.607421875,
+    "4": -1.603515625
+  },
+  "A beautiful coastal beach in spring, waves lapping on sand by Vincent van Gogh|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.685546875,
+    "1": -1.8447265625,
+    "2": -1.6728515625,
+    "3": -1.576171875,
+    "4": -0.97314453125
+  },
+  "A boat sailing leisurely along the Seine River with the Eiffel Tower in background|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.052093505859375,
+    "1": -1.45703125,
+    "2": 0.1627197265625,
+    "3": -1.9716796875,
+    "4": -1.1533203125
+  },
+  "A car moving slowly on an empty street, rainy evening|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.178466796875,
+    "1": -0.22802734375,
+    "2": -1.1474609375,
+    "3": -1.6796875,
+    "4": 0.0113983154296875
+  },
+  "A cat eating food out of a bowl|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.458984375,
+    "1": -0.38525390625,
+    "2": -0.98828125,
+    "3": -1.4609375,
+    "4": -2.107421875
+  },
+  "A cat wearing sunglasses at a pool|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -2.173828125,
+    "1": -0.615234375,
+    "2": -0.360107421875,
+    "3": -0.87841796875,
+    "4": -0.61474609375
+  },
+  "A confused panda in calculus class|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.98828125,
+    "1": -1.5185546875,
+    "2": -1.203125,
+    "3": -1.634765625,
+    "4": -0.3994140625
+  },
+  "A cute fluffy panda eating Chinese food in a restaurant|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": 0.0321044921875,
+    "1": -1.716796875,
+    "2": -1.0849609375,
+    "3": -0.78564453125,
+    "4": -1.1298828125
+  },
+  "A cute happy Corgi playing in park, sunset|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": 0.23681640625,
+    "1": -0.51708984375,
+    "2": -1.376953125,
+    "3": -1.533203125,
+    "4": -0.81396484375
+  },
+  "A cute raccoon playing guitar in a boat on the ocean|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.9970703125,
+    "1": -0.26611328125,
+    "2": -1.3193359375,
+    "3": -1.4921875,
+    "4": -1.6923828125
+  },
+  "A happy fuzzy panda playing guitar nearby a campfire, snow mountain in the background|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.931640625,
+    "1": -1.6884765625,
+    "2": -1.97265625,
+    "3": -0.85302734375,
+    "4": -0.9267578125
+  },
+  "A lightning striking atop of eiffel tower, dark clouds in the sky|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.79833984375,
+    "1": -1.064453125,
+    "2": -1.17578125,
+    "3": -1.423828125,
+    "4": -0.947265625
+  },
+  "A modern art museum, with colorful paintings|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.7109375,
+    "1": -0.955078125,
+    "2": -1.728515625,
+    "3": -1.2451171875,
+    "4": -1.0947265625
+  },
+  "A panda cooking in the kitchen|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.064453125,
+    "1": -0.1666259765625,
+    "2": -0.0236358642578125,
+    "3": -0.56640625,
+    "4": -0.2144775390625
+  },
+  "A panda playing on a swing set|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.2763671875,
+    "1": -2.1171875,
+    "2": -1.837890625,
+    "3": -1.91015625,
+    "4": -0.435791015625
+  },
+  "A polar bear is playing guitar|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.499267578125,
+    "1": -1.1630859375,
+    "2": -0.469482421875,
+    "3": -1.5673828125,
+    "4": -1.3330078125
+  },
+  "A raccoon dressed in suit playing the trumpet, stage background|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.826171875,
+    "1": -1.6708984375,
+    "2": -0.28564453125,
+    "3": -1.4560546875,
+    "4": -1.580078125
+  },
+  "A robot DJ is playing the turntable, in heavy raining futuristic tokyo rooftop cyberpunk night, sci-fi, fantasy|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.69384765625,
+    "1": -1.9296875,
+    "2": 0.3955078125,
+    "3": -1.1240234375,
+    "4": -0.7783203125
+  },
+  "A shark swimming in clear Caribbean ocean|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.70947265625,
+    "1": -1.3310546875,
+    "2": -1.025390625,
+    "3": -0.044036865234375,
+    "4": -0.7138671875
+  },
+  "A super robot protecting city|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.7490234375,
+    "1": -0.76171875,
+    "2": -1.1455078125,
+    "3": -1.2158203125,
+    "4": -1.119140625
+  },
+  "A teddy bear washing the dishes|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.260009765625,
+    "1": -1.58203125,
+    "2": -1.5322265625,
+    "3": 0.1353759765625,
+    "4": -0.978515625
+  },
+  "An epic tornado attacking above a glowing city at night, the tornado is made of smoke|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.4189453125,
+    "1": -0.53125,
+    "2": -1.50390625,
+    "3": -1.0009765625,
+    "4": -1.1435546875
+  },
+  "An oil painting of a couple in formal evening wear going home get caught in a heavy downpour with umbrellas|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.0693359375,
+    "1": -2.076171875,
+    "2": 0.334228515625,
+    "3": -1.3671875,
+    "4": 0.0285491943359375
+  },
+  "Clown fish swimming through the coral reef|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.892578125,
+    "1": -0.10992431640625,
+    "2": -0.53515625,
+    "3": -1.6748046875,
+    "4": -1.5390625
+  },
+  "Hyper-realistic spaceship landing on Mars|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.91796875,
+    "1": -0.35205078125,
+    "2": -0.0743408203125,
+    "3": -1.2548828125,
+    "4": -0.8154296875
+  },
+  "The bund Shanghai, vibrant color|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.2486572265625,
+    "1": -0.440185546875,
+    "2": -1.296875,
+    "3": -1.6279296875,
+    "4": -0.311767578125
+  },
+  "Vincent van Gogh is painting in the room|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -1.2998046875,
+    "1": -0.912109375,
+    "2": -0.93701171875,
+    "3": -1.921875,
+    "4": -1.1669921875
+  },
+  "Yellow flowers swing in the wind|aesthetic_quality,imaging_quality,overall_consistency": {
+    "0": -0.1964111328125,
+    "1": -1.8671875,
+    "2": -0.7744140625,
+    "3": -1.052734375,
+    "4": -1.916015625
+  },
+  "alley|background_consistency,scene": {
+    "0": -0.8046875,
+    "1": -1.6494140625,
+    "2": 0.30322265625,
+    "3": -1.0625,
+    "4": -0.99462890625
+  },
+  "amusement park|background_consistency,scene": {
+    "0": -0.9287109375,
+    "1": -1.224609375,
+    "2": -1.171875,
+    "3": -1.9052734375,
+    "4": -0.865234375
+  },
+  "aquarium|background_consistency,scene": {
+    "0": -1.76953125,
+    "1": 0.101318359375,
+    "2": -0.98046875,
+    "3": -0.720703125,
+    "4": -0.83203125
+  },
+  "arch|background_consistency,scene": {
+    "0": -0.316650390625,
+    "1": -2.044921875,
+    "2": -1.177734375,
+    "3": -2.412109375,
+    "4": -1.1953125
+  },
+  "art gallery|background_consistency,scene": {
+    "0": -0.33642578125,
+    "1": -0.8125,
+    "2": 0.09881591796875,
+    "3": -2.05859375,
+    "4": -0.4296875
+  },
+  "bathroom|background_consistency,scene": {
+    "0": -0.7705078125,
+    "1": -1.3037109375,
+    "2": -1.625,
+    "3": -1.677734375,
+    "4": 0.26513671875
+  },
+  "bakery shop|background_consistency,scene": {
+    "0": -1.1923828125,
+    "1": -0.63330078125,
+    "2": -0.337890625,
+    "3": -1.6435546875,
+    "4": -1.34375
+  },
+  "ballroom|background_consistency,scene": {
+    "0": -0.46337890625,
+    "1": -1.767578125,
+    "2": -0.8525390625,
+    "3": 0.1134033203125,
+    "4": -1.2919921875
+  },
+  "bar|background_consistency,scene": {
+    "0": -0.3916015625,
+    "1": -1.501953125,
+    "2": -0.031494140625,
+    "3": -0.88720703125,
+    "4": 0.12310791015625
+  },
+  "barn|background_consistency,scene": {
+    "0": -0.45361328125,
+    "1": -1.4345703125,
+    "2": -1.37109375,
+    "3": -1.244140625,
+    "4": 0.06536865234375
+  },
+  "basement|background_consistency,scene": {
+    "0": -0.233154296875,
+    "1": -0.5224609375,
+    "2": -0.50634765625,
+    "3": -0.1832275390625,
+    "4": -0.5390625
+  },
+  "beach|background_consistency,scene": {
+    "0": -1.0087890625,
+    "1": -1.32421875,
+    "2": -1.3994140625,
+    "3": -0.394775390625,
+    "4": -0.10333251953125
+  },
+  "bedroom|background_consistency,scene": {
+    "0": -0.11566162109375,
+    "1": -1.84765625,
+    "2": -0.3720703125,
+    "3": -0.66650390625,
+    "4": 0.1680908203125
+  },
+  "bridge|background_consistency,scene": {
+    "0": -0.240478515625,
+    "1": -1.70703125,
+    "2": 0.177978515625,
+    "3": -1.8408203125,
+    "4": -1.4267578125
+  },
+  "botanical garden|background_consistency,scene": {
+    "0": -0.1673583984375,
+    "1": -0.7587890625,
+    "2": -0.07183837890625,
+    "3": -1.578125,
+    "4": -1.193359375
+  },
+  "cafeteria|background_consistency,scene": {
+    "0": -1.9404296875,
+    "1": -1.19140625,
+    "2": -0.37841796875,
+    "3": -1.3603515625,
+    "4": -1.4814453125
+  },
+  "campsite|background_consistency,scene": {
+    "0": -2.0078125,
+    "1": -1.5888671875,
+    "2": -1.5654296875,
+    "3": -0.355712890625,
+    "4": -1.0009765625
+  },
+  "campus|background_consistency,scene": {
+    "0": -0.29833984375,
+    "1": -1.3271484375,
+    "2": -0.7138671875,
+    "3": -1.9853515625,
+    "4": -0.407470703125
+  },
+  "carrousel|background_consistency,scene": {
+    "0": -0.06561279296875,
+    "1": -0.5439453125,
+    "2": -1.0302734375,
+    "3": -0.1563720703125,
+    "4": -1.2919921875
+  },
+  "castle|background_consistency,scene": {
+    "0": 0.01200103759765625,
+    "1": -2.08984375,
+    "2": -0.489990234375,
+    "3": -1.0869140625,
+    "4": -1.154296875
+  },
+  "cemetery|background_consistency,scene": {
+    "0": -1.8544921875,
+    "1": -0.496826171875,
+    "2": -1.8671875,
+    "3": -1.98828125,
+    "4": -1.5693359375
+  },
+  "classroom|background_consistency,scene": {
+    "0": -2.052734375,
+    "1": -0.955078125,
+    "2": 0.0133819580078125,
+    "3": -0.37109375,
+    "4": -0.62109375
+  },
+  "cliff|background_consistency,scene": {
+    "0": -0.83642578125,
+    "1": -1.267578125,
+    "2": -0.89013671875,
+    "3": -1.3662109375,
+    "4": -0.244873046875
+  },
+  "crosswalk|background_consistency,scene": {
+    "0": -1.5107421875,
+    "1": -0.955078125,
+    "2": -1.5224609375,
+    "3": -0.1273193359375,
+    "4": -0.82275390625
+  },
+  "construction site|background_consistency,scene": {
+    "0": -0.9228515625,
+    "1": -0.48681640625,
+    "2": -1.291015625,
+    "3": -1.376953125,
+    "4": -0.353271484375
+  },
+  "corridor|background_consistency,scene": {
+    "0": -1.724609375,
+    "1": -1.0556640625,
+    "2": -0.465576171875,
+    "3": -0.398193359375,
+    "4": -0.365478515625
+  },
+  "courtyard|background_consistency,scene": {
+    "0": 0.193603515625,
+    "1": -1.2548828125,
+    "2": -0.1978759765625,
+    "3": -0.443603515625,
+    "4": -0.418701171875
+  },
+  "desert|background_consistency,scene": {
+    "0": -1.5498046875,
+    "1": -1.0859375,
+    "2": -0.4921875,
+    "3": -0.11737060546875,
+    "4": -0.2088623046875
+  },
+  "downtown|background_consistency,scene": {
+    "0": -0.92431640625,
+    "1": -0.472900390625,
+    "2": -0.517578125,
+    "3": -1.21484375,
+    "4": -1.3330078125
+  },
+  "driveway|background_consistency,scene": {
+    "0": -0.87060546875,
+    "1": 0.01100921630859375,
+    "2": -0.3857421875,
+    "3": -1.0224609375,
+    "4": -1.4453125
+  },
+  "farm|background_consistency,scene": {
+    "0": -1.986328125,
+    "1": -1.181640625,
+    "2": -1.53515625,
+    "3": 0.0215911865234375,
+    "4": -0.9609375
+  },
+  "food court|background_consistency,scene": {
+    "0": -0.9423828125,
+    "1": -1.3076171875,
+    "2": -2.251953125,
+    "3": -1.6416015625,
+    "4": -1.859375
+  },
+  "football field|background_consistency,scene": {
+    "0": -0.50732421875,
+    "1": -0.4912109375,
+    "2": -0.06640625,
+    "3": 0.0208740234375,
+    "4": -2.013671875
+  },
+  "forest road|background_consistency,scene": {
+    "0": -0.328369140625,
+    "1": -1.7783203125,
+    "2": -0.607421875,
+    "3": -0.3359375,
+    "4": -2.37890625
+  },
+  "fountain|background_consistency,scene": {
+    "0": -0.56103515625,
+    "1": -0.329345703125,
+    "2": -0.517578125,
+    "3": -0.319091796875,
+    "4": 0.0223846435546875
+  },
+  "gas station|background_consistency,scene": {
+    "0": -0.79541015625,
+    "1": -1.5029296875,
+    "2": -1.7001953125,
+    "3": -0.55810546875,
+    "4": -1.2392578125
+  },
+  "glacier|background_consistency,scene": {
+    "0": -1.9638671875,
+    "1": -0.1893310546875,
+    "2": -1.287109375,
+    "3": -1.27734375,
+    "4": -1.2822265625
+  },
+  "golf course|background_consistency,scene": {
+    "0": -1.7294921875,
+    "1": -0.5400390625,
+    "2": -1.0859375,
+    "3": -1.982421875,
+    "4": -1.384765625
+  },
+  "indoor gymnasium|background_consistency,scene": {
+    "0": -1.10546875,
+    "1": -0.470458984375,
+    "2": -1.6484375,
+    "3": -2.103515625,
+    "4": -1.7021484375
+  },
+  "harbor|background_consistency,scene": {
+    "0": -0.37060546875,
+    "1": -0.8203125,
+    "2": 0.03314208984375,
+    "3": -1.9794921875,
+    "4": -0.85205078125
+  },
+  "highway|background_consistency,scene": {
+    "0": -0.984375,
+    "1": -0.86669921875,
+    "2": -1.1669921875,
+    "3": -0.3134765625,
+    "4": -0.9052734375
+  },
+  "hospital|background_consistency,scene": {
+    "0": -0.075439453125,
+    "1": -0.137939453125,
+    "2": -1.1298828125,
+    "3": -0.94091796875,
+    "4": -1.9384765625
+  },
+  "house|background_consistency,scene": {
+    "0": -1.720703125,
+    "1": -1.6318359375,
+    "2": -0.78271484375,
+    "3": -2.30078125,
+    "4": -0.50146484375
+  },
+  "iceberg|background_consistency,scene": {
+    "0": -1.31640625,
+    "1": -1.12109375,
+    "2": -0.9140625,
+    "3": -0.7939453125,
+    "4": -1.24609375
+  },
+  "industrial area|background_consistency,scene": {
+    "0": -0.277099609375,
+    "1": -0.52783203125,
+    "2": -1.2060546875,
+    "3": -1.037109375,
+    "4": -1.9052734375
+  },
+  "jail cell|background_consistency,scene": {
+    "0": -0.994140625,
+    "1": -1.1396484375,
+    "2": -0.2454833984375,
+    "3": 0.30517578125,
+    "4": -1.7744140625
+  },
+  "junkyard|background_consistency,scene": {
+    "0": -0.6689453125,
+    "1": -0.76806640625,
+    "2": -0.87646484375,
+    "3": -0.93701171875,
+    "4": -1.4482421875
+  },
+  "kitchen|background_consistency,scene": {
+    "0": -1.9970703125,
+    "1": -0.982421875,
+    "2": -0.7265625,
+    "3": -1.5546875,
+    "4": -1.8251953125
+  },
+  "indoor library|background_consistency,scene": {
+    "0": -2.220703125,
+    "1": -0.91943359375,
+    "2": -0.45654296875,
+    "3": -1.0458984375,
+    "4": -0.7734375
+  },
+  "lighthouse|background_consistency,scene": {
+    "0": -0.74755859375,
+    "1": -1.8994140625,
+    "2": -1.125,
+    "3": -1.359375,
+    "4": -1.431640625
+  },
+  "laboratory|background_consistency,scene": {
+    "0": -0.677734375,
+    "1": -0.623046875,
+    "2": 0.09814453125,
+    "3": -0.7109375,
+    "4": -0.5712890625
+  },
+  "mansion|background_consistency,scene": {
+    "0": -0.9599609375,
+    "1": -0.6484375,
+    "2": -1.40625,
+    "3": -0.671875,
+    "4": -0.98095703125
+  },
+  "marsh|background_consistency,scene": {
+    "0": -0.61328125,
+    "1": -0.7392578125,
+    "2": -1.5029296875,
+    "3": 0.13623046875,
+    "4": -2.029296875
+  },
+  "mountain|background_consistency,scene": {
+    "0": -1.0654296875,
+    "1": -1.0859375,
+    "2": -0.5576171875,
+    "3": 0.053924560546875,
+    "4": -1.1943359375
+  },
+  "indoor movie theater|background_consistency,scene": {
+    "0": -0.2607421875,
+    "1": -1.580078125,
+    "2": 0.0290374755859375,
+    "3": -1.7861328125,
+    "4": -1.0009765625
+  },
+  "indoor museum|background_consistency,scene": {
+    "0": -1.1318359375,
+    "1": -1.3818359375,
+    "2": -1.955078125,
+    "3": -0.058563232421875,
+    "4": -1.0869140625
+  },
+  "music studio|background_consistency,scene": {
+    "0": -0.7041015625,
+    "1": -1.1923828125,
+    "2": -0.08697509765625,
+    "3": 0.5380859375,
+    "4": -0.88037109375
+  },
+  "nursery|background_consistency,scene": {
+    "0": -0.48486328125,
+    "1": -1.4560546875,
+    "2": -1.580078125,
+    "3": -1.05859375,
+    "4": -0.5654296875
+  },
+  "ocean|background_consistency,scene": {
+    "0": -0.59033203125,
+    "1": -1.51953125,
+    "2": -1.41796875,
+    "3": 0.08465576171875,
+    "4": -1.1767578125
+  },
+  "office|background_consistency,scene": {
+    "0": -0.12347412109375,
+    "1": -0.66796875,
+    "2": -0.378173828125,
+    "3": -2.044921875,
+    "4": -0.91259765625
+  },
+  "palace|background_consistency,scene": {
+    "0": 0.10308837890625,
+    "1": -2.130859375,
+    "2": -1.8046875,
+    "3": -1.16796875,
+    "4": -0.7099609375
+  },
+  "parking lot|background_consistency,scene": {
+    "0": -1.583984375,
+    "1": -1.7412109375,
+    "2": -0.83935546875,
+    "3": -0.09271240234375,
+    "4": -0.8994140625
+  },
+  "pharmacy|background_consistency,scene": {
+    "0": -2.060546875,
+    "1": -0.3486328125,
+    "2": -0.93017578125,
+    "3": -1.984375,
+    "4": -0.199951171875
+  },
+  "phone booth|background_consistency,scene": {
+    "0": 0.0927734375,
+    "1": -1.970703125,
+    "2": -1.1494140625,
+    "3": -0.04290771484375,
+    "4": -1.037109375
+  },
+  "raceway|background_consistency,scene": {
+    "0": -0.477294921875,
+    "1": -1.7470703125,
+    "2": -0.75244140625,
+    "3": -0.705078125,
+    "4": -0.295654296875
+  },
+  "restaurant|background_consistency,scene": {
+    "0": -1.5263671875,
+    "1": -1.037109375,
+    "2": -1.39453125,
+    "3": -1.5087890625,
+    "4": -1.654296875
+  },
+  "river|background_consistency,scene": {
+    "0": -1.259765625,
+    "1": -0.341552734375,
+    "2": -1.2109375,
+    "3": -0.53466796875,
+    "4": -1.423828125
+  },
+  "science museum|background_consistency,scene": {
+    "0": -1.4384765625,
+    "1": -1.9736328125,
+    "2": -0.35693359375,
+    "3": -0.1788330078125,
+    "4": -0.1470947265625
+  },
+  "shower|background_consistency,scene": {
+    "0": -1.42578125,
+    "1": -1.1015625,
+    "2": -1.4326171875,
+    "3": -0.264404296875,
+    "4": -1.369140625
+  },
+  "ski slope|background_consistency,scene": {
+    "0": -1.951171875,
+    "1": -1.126953125,
+    "2": -0.256103515625,
+    "3": -1.287109375,
+    "4": -0.70751953125
+  },
+  "sky|background_consistency,scene": {
+    "0": -0.720703125,
+    "1": -0.7626953125,
+    "2": -0.2462158203125,
+    "3": -0.181396484375,
+    "4": -1.4775390625
+  },
+  "skyscraper|background_consistency,scene": {
+    "0": -2.177734375,
+    "1": -0.5595703125,
+    "2": -1.28125,
+    "3": -0.5791015625,
+    "4": -1.6435546875
+  },
+  "baseball stadium|background_consistency,scene": {
+    "0": -1.6376953125,
+    "1": -1.203125,
+    "2": -1.4609375,
+    "3": -1.4140625,
+    "4": -0.056640625
+  },
+  "staircase|background_consistency,scene": {
+    "0": -2.0625,
+    "1": -1.64453125,
+    "2": -0.50732421875,
+    "3": -1.8779296875,
+    "4": -1.5576171875
+  },
+  "street|background_consistency,scene": {
+    "0": -0.231201171875,
+    "1": -0.349609375,
+    "2": -0.1971435546875,
+    "3": -0.136474609375,
+    "4": -1.443359375
+  },
+  "supermarket|background_consistency,scene": {
+    "0": -1.8125,
+    "1": -1.9482421875,
+    "2": 0.273681640625,
+    "3": -0.90478515625,
+    "4": -1.26953125
+  },
+  "indoor swimming pool|background_consistency,scene": {
+    "0": -0.361328125,
+    "1": -2.197265625,
+    "2": -0.006237030029296875,
+    "3": -1.8212890625,
+    "4": -1.861328125
+  },
+  "tower|background_consistency,scene": {
+    "0": -1.0537109375,
+    "1": -1.2333984375,
+    "2": -0.94384765625,
+    "3": -1.724609375,
+    "4": -0.8193359375
+  },
+  "outdoor track|background_consistency,scene": {
+    "0": -0.73193359375,
+    "1": -1.85546875,
+    "2": -1.017578125,
+    "3": -0.84765625,
+    "4": -1.3359375
+  },
+  "train railway|background_consistency,scene": {
+    "0": 0.2432861328125,
+    "1": -0.8662109375,
+    "2": -1.33203125,
+    "3": -0.564453125,
+    "4": -1.6533203125
+  },
+  "train station platform|background_consistency,scene": {
+    "0": -1.4375,
+    "1": -0.98486328125,
+    "2": -1.1259765625,
+    "3": -1.4892578125,
+    "4": -0.471923828125
+  },
+  "underwater coral reef|background_consistency,scene": {
+    "0": 0.00440216064453125,
+    "1": -0.011810302734375,
+    "2": -1.01171875,
+    "3": -0.225830078125,
+    "4": -1.193359375
+  },
+  "valley|background_consistency,scene": {
+    "0": -0.47119140625,
+    "1": -0.291748046875,
+    "2": -1.138671875,
+    "3": 0.03802490234375,
+    "4": -0.025848388671875
+  },
+  "volcano|background_consistency,scene": {
+    "0": -0.794921875,
+    "1": -0.73779296875,
+    "2": -1.001953125,
+    "3": -1.08984375,
+    "4": -1.6181640625
+  },
+  "waterfall|background_consistency,scene": {
+    "0": -2.037109375,
+    "1": -1.484375,
+    "2": -1.8681640625,
+    "3": -1.4189453125,
+    "4": -1.017578125
+  },
+  "windmill|background_consistency,scene": {
+    "0": -2.169921875,
+    "1": 0.0039005279541015625,
+    "2": -1.8125,
+    "3": -1.7470703125,
+    "4": -1.6572265625
+  },
+  "a bicycle on the left of a car, front view|spatial_relationship": {
+    "0": -1.6943359375,
+    "1": -1.6328125,
+    "2": -1.8896484375,
+    "3": -0.207275390625,
+    "4": -0.7099609375
+  },
+  "a car on the right of a motorcycle, front view|spatial_relationship": {
+    "0": 0.0625,
+    "1": -1.171875,
+    "2": -2.00390625,
+    "3": -1.2373046875,
+    "4": 0.05657958984375
+  },
+  "a motorcycle on the left of a bus, front view|spatial_relationship": {
+    "0": -1.7021484375,
+    "1": -0.420166015625,
+    "2": -1.6982421875,
+    "3": -0.97412109375,
+    "4": -1.44921875
+  },
+  "a bus on the right of a traffic light, front view|spatial_relationship": {
+    "0": -1.4072265625,
+    "1": 0.1884765625,
+    "2": -2.07421875,
+    "3": -1.52734375,
+    "4": -0.462646484375
+  },
+  "a traffic light on the left of a fire hydrant, front view|spatial_relationship": {
+    "0": -0.576171875,
+    "1": -1.7021484375,
+    "2": -1.8095703125,
+    "3": -0.93408203125,
+    "4": -1.1025390625
+  },
+  "a fire hydrant on the right of a stop sign, front view|spatial_relationship": {
+    "0": -2.09765625,
+    "1": -2.03515625,
+    "2": -0.287353515625,
+    "3": -0.7255859375,
+    "4": -0.51611328125
+  },
+  "a stop sign on the left of a parking meter, front view|spatial_relationship": {
+    "0": -0.08184814453125,
+    "1": -0.546875,
+    "2": -0.337646484375,
+    "3": -0.38232421875,
+    "4": -1.0302734375
+  },
+  "a parking meter on the right of a bench, front view|spatial_relationship": {
+    "0": -1.701171875,
+    "1": -1.9267578125,
+    "2": -1.3798828125,
+    "3": -1.2470703125,
+    "4": -2.50390625
+  },
+  "a bench on the left of a truck, front view|spatial_relationship": {
+    "0": -1.39453125,
+    "1": 0.019775390625,
+    "2": -1.2294921875,
+    "3": -0.1563720703125,
+    "4": -1.208984375
+  },
+  "a truck on the right of a bicycle, front view|spatial_relationship": {
+    "0": -1.7666015625,
+    "1": -1.3935546875,
+    "2": -1.58984375,
+    "3": -0.95947265625,
+    "4": -1.5439453125
+  },
+  "a bird on the left of a cat, front view|spatial_relationship": {
+    "0": -1.48828125,
+    "1": -0.222412109375,
+    "2": -1.5625,
+    "3": -0.42822265625,
+    "4": -1.6484375
+  },
+  "a cat on the right of a dog, front view|spatial_relationship": {
+    "0": -0.654296875,
+    "1": -1.123046875,
+    "2": -0.266845703125,
+    "3": -0.244384765625,
+    "4": -1.310546875
+  },
+  "a dog on the left of a horse, front view|spatial_relationship": {
+    "0": -2.134765625,
+    "1": -1.01953125,
+    "2": -1.2724609375,
+    "3": 0.15625,
+    "4": -1.2109375
+  },
+  "a horse on the right of a sheep, front view|spatial_relationship": {
+    "0": -1.32421875,
+    "1": 0.39404296875,
+    "2": -1.6611328125,
+    "3": -0.595703125,
+    "4": -0.32763671875
+  },
+  "a sheep on the left of a cow, front view|spatial_relationship": {
+    "0": -0.2044677734375,
+    "1": -1.7373046875,
+    "2": -0.75732421875,
+    "3": -1.4609375,
+    "4": -0.120849609375
+  },
+  "a cow on the right of an elephant, front view|spatial_relationship": {
+    "0": -2.001953125,
+    "1": -0.29638671875,
+    "2": -0.84619140625,
+    "3": -1.5947265625,
+    "4": -0.89453125
+  },
+  "an elephant on the left of a bear, front view|spatial_relationship": {
+    "0": 0.2364501953125,
+    "1": -0.067626953125,
+    "2": -1.33203125,
+    "3": -1.56640625,
+    "4": -0.50537109375
+  },
+  "a bear on the right of a zebra, front view|spatial_relationship": {
+    "0": -0.53662109375,
+    "1": -0.15966796875,
+    "2": -0.383056640625,
+    "3": -1.0751953125,
+    "4": -0.67822265625
+  },
+  "a zebra on the left of a giraffe, front view|spatial_relationship": {
+    "0": -1.4287109375,
+    "1": -0.99560546875,
+    "2": -1.626953125,
+    "3": -0.7978515625,
+    "4": -0.361572265625
+  },
+  "a giraffe on the right of a bird, front view|spatial_relationship": {
+    "0": -0.67138671875,
+    "1": -1.5654296875,
+    "2": -0.32666015625,
+    "3": -1.2138671875,
+    "4": -1.8515625
+  },
+  "a bottle on the left of a wine glass, front view|spatial_relationship": {
+    "0": -0.60546875,
+    "1": -0.343017578125,
+    "2": -0.66845703125,
+    "3": -1.30859375,
+    "4": -1.765625
+  },
+  "a wine glass on the right of a cup, front view|spatial_relationship": {
+    "0": 0.229248046875,
+    "1": -0.342041015625,
+    "2": -0.578125,
+    "3": -0.1146240234375,
+    "4": -1.6357421875
+  },
+  "a cup on the left of a fork, front view|spatial_relationship": {
+    "0": -1.609375,
+    "1": -1.537109375,
+    "2": -1.044921875,
+    "3": -1.6708984375,
+    "4": -1.5224609375
+  },
+  "a fork on the right of a knife, front view|spatial_relationship": {
+    "0": -1.1396484375,
+    "1": -0.399169921875,
+    "2": -0.84130859375,
+    "3": 0.00849151611328125,
+    "4": -1.9091796875
+  },
+  "a knife on the left of a spoon, front view|spatial_relationship": {
+    "0": -0.5439453125,
+    "1": -1.7119140625,
+    "2": -0.265869140625,
+    "3": -1.2822265625,
+    "4": -1.2412109375
+  },
+  "a spoon on the right of a bowl, front view|spatial_relationship": {
+    "0": 0.2464599609375,
+    "1": -1.7705078125,
+    "2": -1.560546875,
+    "3": -0.16162109375,
+    "4": -0.34423828125
+  },
+  "a bowl on the left of a bottle, front view|spatial_relationship": {
+    "0": -1.3662109375,
+    "1": -1.951171875,
+    "2": -1.9169921875,
+    "3": -0.21044921875,
+    "4": -2.142578125
+  },
+  "a potted plant on the left of a remote, front view|spatial_relationship": {
+    "0": -1.708984375,
+    "1": -0.85546875,
+    "2": 0.2032470703125,
+    "3": -0.55419921875,
+    "4": -0.296142578125
+  },
+  "a remote on the right of a clock, front view|spatial_relationship": {
+    "0": -1.28515625,
+    "1": -1.0615234375,
+    "2": -1.3515625,
+    "3": -0.459228515625,
+    "4": -0.60888671875
+  },
+  "a clock on the left of a vase, front view|spatial_relationship": {
+    "0": -2.28515625,
+    "1": -1.138671875,
+    "2": -1.212890625,
+    "3": -2.1875,
+    "4": -1.51953125
+  },
+  "a vase on the right of scissors, front view|spatial_relationship": {
+    "0": -1.1875,
+    "1": -0.236328125,
+    "2": -0.54345703125,
+    "3": -1.0693359375,
+    "4": -0.080078125
+  },
+  "scissors on the left of a teddy bear, front view|spatial_relationship": {
+    "0": -0.321044921875,
+    "1": -0.138916015625,
+    "2": -1.5751953125,
+    "3": -0.67431640625,
+    "4": 0.133544921875
+  },
+  "a teddy bear on the right of a potted plant, front view|spatial_relationship": {
+    "0": -0.2880859375,
+    "1": -0.455322265625,
+    "2": -1.015625,
+    "3": -1.056640625,
+    "4": -1.9736328125
+  },
+  "a frisbee on the left of a sports ball, front view|spatial_relationship": {
+    "0": -0.06390380859375,
+    "1": -1.5888671875,
+    "2": 0.202392578125,
+    "3": -1.8828125,
+    "4": -1.740234375
+  },
+  "a sports ball on the right of a baseball bat, front view|spatial_relationship": {
+    "0": -0.320068359375,
+    "1": -1.1552734375,
+    "2": -0.357177734375,
+    "3": -1.8837890625,
+    "4": 0.1986083984375
+  },
+  "a baseball bat on the left of a baseball glove, front view|spatial_relationship": {
+    "0": -0.4912109375,
+    "1": -1.22265625,
+    "2": -0.82470703125,
+    "3": -1.4296875,
+    "4": -0.72265625
+  },
+  "a baseball glove on the right of a tennis racket, front view|spatial_relationship": {
+    "0": -1.455078125,
+    "1": -1.8916015625,
+    "2": -0.4697265625,
+    "3": -1.021484375,
+    "4": -0.63134765625
+  },
+  "a tennis racket on the left of a frisbee, front view|spatial_relationship": {
+    "0": -0.396240234375,
+    "1": -0.81201171875,
+    "2": -1.486328125,
+    "3": -1.1572265625,
+    "4": -0.68896484375
+  },
+  "a toilet on the left of a hair drier, front view|spatial_relationship": {
+    "0": -1.5517578125,
+    "1": -2.06640625,
+    "2": -0.67138671875,
+    "3": -1.3525390625,
+    "4": -0.28955078125
+  },
+  "a hair drier on the right of a toothbrush, front view|spatial_relationship": {
+    "0": -0.5556640625,
+    "1": -0.51513671875,
+    "2": -1.3720703125,
+    "3": -0.3544921875,
+    "4": -1.5380859375
+  },
+  "a toothbrush on the left of a sink, front view|spatial_relationship": {
+    "0": -0.59814453125,
+    "1": -0.37841796875,
+    "2": -1.9521484375,
+    "3": -1.6416015625,
+    "4": -0.66650390625
+  },
+  "a sink on the right of a toilet, front view|spatial_relationship": {
+    "0": -1.033203125,
+    "1": -2.21484375,
+    "2": -0.5390625,
+    "3": -1.5498046875,
+    "4": -0.482421875
+  },
+  "a chair on the left of a couch, front view|spatial_relationship": {
+    "0": -0.8837890625,
+    "1": -1.7861328125,
+    "2": -0.6123046875,
+    "3": -0.287353515625,
+    "4": -1.1220703125
+  },
+  "a couch on the right of a bed, front view|spatial_relationship": {
+    "0": -0.83349609375,
+    "1": -0.267578125,
+    "2": -0.52490234375,
+    "3": -0.51025390625,
+    "4": -0.98291015625
+  },
+  "a bed on the left of a tv, front view|spatial_relationship": {
+    "0": -0.58251953125,
+    "1": -0.9794921875,
+    "2": -0.65673828125,
+    "3": 0.143310546875,
+    "4": -0.5048828125
+  },
+  "a tv on the right of a dining table, front view|spatial_relationship": {
+    "0": -0.426513671875,
+    "1": -1.2021484375,
+    "2": -1.73046875,
+    "3": -0.29931640625,
+    "4": -1.9921875
+  },
+  "a dining table on the left of a chair, front view|spatial_relationship": {
+    "0": -0.654296875,
+    "1": -0.277587890625,
+    "2": -1.4619140625,
+    "3": -1.755859375,
+    "4": -1.50390625
+  },
+  "an airplane on the left of a train, front view|spatial_relationship": {
+    "0": -0.88525390625,
+    "1": -0.57470703125,
+    "2": -2.318359375,
+    "3": -0.5361328125,
+    "4": -1.4443359375
+  },
+  "a train on the right of a boat, front view|spatial_relationship": {
+    "0": -1.96484375,
+    "1": -1.76953125,
+    "2": -2.19140625,
+    "3": -1.306640625,
+    "4": -0.191650390625
+  },
+  "a boat on the left of an airplane, front view|spatial_relationship": {
+    "0": -1.1162109375,
+    "1": -0.41064453125,
+    "2": -2.365234375,
+    "3": -0.654296875,
+    "4": -1.341796875
+  },
+  "an oven on the top of a toaster, front view|spatial_relationship": {
+    "0": -1.009765625,
+    "1": -0.175537109375,
+    "2": -1.078125,
+    "3": -1.3701171875,
+    "4": -1.16796875
+  },
+  "an oven on the bottom of a toaster, front view|spatial_relationship": {
+    "0": -1.8623046875,
+    "1": -1.1904296875,
+    "2": -0.65185546875,
+    "3": -0.9931640625,
+    "4": -2.248046875
+  },
+  "a toaster on the top of a microwave, front view|spatial_relationship": {
+    "0": -1.2548828125,
+    "1": -0.061614990234375,
+    "2": -0.42626953125,
+    "3": -0.2489013671875,
+    "4": -1.0556640625
+  },
+  "a toaster on the bottom of a microwave, front view|spatial_relationship": {
+    "0": -1.62890625,
+    "1": -1.3017578125,
+    "2": -1.36328125,
+    "3": -1.140625,
+    "4": -1.009765625
+  },
+  "a microwave on the top of an oven, front view|spatial_relationship": {
+    "0": -1.4296875,
+    "1": -0.10833740234375,
+    "2": -2.12109375,
+    "3": -1.4521484375,
+    "4": -0.359375
+  },
+  "a microwave on the bottom of an oven, front view|spatial_relationship": {
+    "0": -0.580078125,
+    "1": -2.021484375,
+    "2": 0.134521484375,
+    "3": -1.5302734375,
+    "4": -1.037109375
+  },
+  "a banana on the top of an apple, front view|spatial_relationship": {
+    "0": -1.42578125,
+    "1": -1.30078125,
+    "2": -1.5517578125,
+    "3": -0.7421875,
+    "4": -2.0390625
+  },
+  "a banana on the bottom of an apple, front view|spatial_relationship": {
+    "0": -0.791015625,
+    "1": -1.986328125,
+    "2": -1.2529296875,
+    "3": -1.265625,
+    "4": -0.23095703125
+  },
+  "an apple on the top of a sandwich, front view|spatial_relationship": {
+    "0": -1.4326171875,
+    "1": -0.65283203125,
+    "2": -1.984375,
+    "3": -0.8388671875,
+    "4": -1.04296875
+  },
+  "an apple on the bottom of a sandwich, front view|spatial_relationship": {
+    "0": -0.1634521484375,
+    "1": -0.52880859375,
+    "2": 0.11700439453125,
+    "3": -1.0947265625,
+    "4": -1.552734375
+  },
+  "a sandwich on the top of an orange, front view|spatial_relationship": {
+    "0": -1.3779296875,
+    "1": -0.64404296875,
+    "2": -1.3662109375,
+    "3": -0.908203125,
+    "4": -0.580078125
+  },
+  "a sandwich on the bottom of an orange, front view|spatial_relationship": {
+    "0": -1.1591796875,
+    "1": -0.54248046875,
+    "2": -1.7763671875,
+    "3": -0.0183868408203125,
+    "4": -1.123046875
+  },
+  "an orange on the top of a carrot, front view|spatial_relationship": {
+    "0": -0.3681640625,
+    "1": -2.04296875,
+    "2": -1.802734375,
+    "3": -0.548828125,
+    "4": -0.195556640625
+  },
+  "an orange on the bottom of a carrot, front view|spatial_relationship": {
+    "0": -1.78515625,
+    "1": -1.740234375,
+    "2": -1.9521484375,
+    "3": -2.1171875,
+    "4": -0.66015625
+  },
+  "a carrot on the top of a hot dog, front view|spatial_relationship": {
+    "0": -1.5126953125,
+    "1": -1.1083984375,
+    "2": -1.4833984375,
+    "3": -1.974609375,
+    "4": -1.4453125
+  },
+  "a carrot on the bottom of a hot dog, front view|spatial_relationship": {
+    "0": -1.7822265625,
+    "1": -1.291015625,
+    "2": -2.076171875,
+    "3": -0.76220703125,
+    "4": -0.1337890625
+  },
+  "a hot dog on the top of a pizza, front view|spatial_relationship": {
+    "0": -1.029296875,
+    "1": -0.08837890625,
+    "2": -0.73388671875,
+    "3": -0.62890625,
+    "4": -0.39013671875
+  },
+  "a hot dog on the bottom of a pizza, front view|spatial_relationship": {
+    "0": -0.5732421875,
+    "1": -0.352294921875,
+    "2": -0.921875,
+    "3": -2.17578125,
+    "4": 0.10833740234375
+  },
+  "a pizza on the top of a donut, front view|spatial_relationship": {
+    "0": -1.740234375,
+    "1": -0.35888671875,
+    "2": 0.394287109375,
+    "3": -0.94921875,
+    "4": -0.36328125
+  },
+  "a pizza on the bottom of a donut, front view|spatial_relationship": {
+    "0": -0.98779296875,
+    "1": -0.5107421875,
+    "2": -1.8271484375,
+    "3": -0.84716796875,
+    "4": -0.463134765625
+  },
+  "a donut on the top of broccoli, front view|spatial_relationship": {
+    "0": -2.130859375,
+    "1": -1.49609375,
+    "2": -1.5908203125,
+    "3": -1.046875,
+    "4": -1.375
+  },
+  "a donut on the bottom of broccoli, front view|spatial_relationship": {
+    "0": -0.62060546875,
+    "1": -0.496337890625,
+    "2": -0.5703125,
+    "3": -1.1796875,
+    "4": -1.0107421875
+  },
+  "broccoli on the top of a banana, front view|spatial_relationship": {
+    "0": -0.75537109375,
+    "1": -1.4912109375,
+    "2": -0.051666259765625,
+    "3": -0.7861328125,
+    "4": -2.30859375
+  },
+  "broccoli on the bottom of a banana, front view|spatial_relationship": {
+    "0": -1.732421875,
+    "1": -1.6728515625,
+    "2": -1.65625,
+    "3": -0.64404296875,
+    "4": -1.0537109375
+  },
+  "skis on the top of a snowboard, front view|spatial_relationship": {
+    "0": 0.469970703125,
+    "1": -1.9140625,
+    "2": -1.431640625,
+    "3": -0.54931640625,
+    "4": -0.65234375
+  },
+  "skis on the bottom of a snowboard, front view|spatial_relationship": {
+    "0": -1.7138671875,
+    "1": -1.361328125,
+    "2": -1.0625,
+    "3": -1.0849609375,
+    "4": -1.3583984375
+  },
+  "a snowboard on the top of a kite, front view|spatial_relationship": {
+    "0": -1.5634765625,
+    "1": -0.53271484375,
+    "2": -0.80419921875,
+    "3": -0.458740234375,
+    "4": -0.775390625
+  },
+  "a snowboard on the bottom of a kite, front view|spatial_relationship": {
+    "0": -0.8017578125,
+    "1": -1.7890625,
+    "2": -0.46875,
+    "3": -2.0390625,
+    "4": -0.92333984375
+  },
+  "a kite on the top of a skateboard, front view|spatial_relationship": {
+    "0": -0.9951171875,
+    "1": -1.259765625,
+    "2": -1.9228515625,
+    "3": -0.90576171875,
+    "4": -0.65478515625
+  },
+  "a kite on the bottom of a skateboard, front view|spatial_relationship": {
+    "0": -1.21875,
+    "1": -1.8291015625,
+    "2": -0.1629638671875,
+    "3": -0.23583984375,
+    "4": 0.174072265625
+  },
+  "a skateboard on the top of a surfboard, front view|spatial_relationship": {
+    "0": -0.77197265625,
+    "1": -1.5625,
+    "2": -1.31640625,
+    "3": -1.892578125,
+    "4": -1.96484375
+  },
+  "a skateboard on the bottom of a surfboard, front view|spatial_relationship": {
+    "0": -1.349609375,
+    "1": -0.3681640625,
+    "2": -0.12200927734375,
+    "3": -1.5048828125,
+    "4": -0.9267578125
+  },
+  "a surfboard on the top of skis, front view|spatial_relationship": {
+    "0": -1.23828125,
+    "1": -1.423828125,
+    "2": -0.99853515625,
+    "3": -1.45703125,
+    "4": -1.6845703125
+  },
+  "a surfboard on the bottom of skis, front view|spatial_relationship": {
+    "0": -1.9365234375,
+    "1": -0.8759765625,
+    "2": -0.5,
+    "3": -0.455810546875,
+    "4": -1.89453125
+  }
+}

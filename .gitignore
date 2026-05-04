@@ -1,4 +1,6 @@
 local_scripts/
+custom_eval.sh
+custom_scripts/group_infer_output/id_dimensions.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

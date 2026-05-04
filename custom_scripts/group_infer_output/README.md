@@ -4,7 +4,7 @@
 
 ## 背景约定
 
-- **推理输入**：`resources/prompt_map_vbench_gpt.json`（id → `prompt`、`prompt_en` 等）。
+- **推理输入**：`resources/vbench_prompt_align_gpt.json`（id → 官方对齐短句 `prompt`、长叙述 `prompt_en`；与 VBench 文件名相关的是 **`prompt`**，须与 `VBench_full_info.json` 的 `prompt_en` 一致）。id 一般为字符串 `"0"`, `"1"`, …，与推理目录名一致。
 - **推理目录**：`{infer_root}/{id}/0.mp4` … `{id}/4.mp4`（默认五个样本）。
 - **对齐规则**：用 map 里的 **`prompt` 字段** 与 `vbench/VBench_full_info.json` 中的 **`prompt_en`** 做**完全一致**匹配，得到该 id 对应的官方句子与 `dimension` 列表（若 full_info 中同句多行，会合并维度并集）。
 - **输出布局**：`{out_base}/{model}/{folder}/{prompt_en}-{i}.mp4`；`folder` 与根目录 `evaluate.sh` 中「维度 → 子目录」一致（见 `evaluate_layout.py`）。
@@ -30,7 +30,7 @@ python3 custom_scripts/group_infer_output/map_infer_ids.py \
 
 可选参数：
 
-- `--prompt-map`：默认 `resources/prompt_map_vbench_gpt.json`
+- `--prompt-map`：默认 `resources/vbench_prompt_align_gpt.json`（若仍用旧表可显式传 `resources/prompt_map_vbench_gpt.json`）
 - `--full-info`：默认 `vbench/VBench_full_info.json`
 
 输出 JSON 含 `entries`、`unmatched`（`prompt` 在 full_info 中找不到同句）、`collisions`（同句在 full_info 多行已合并维度）、`stats`。

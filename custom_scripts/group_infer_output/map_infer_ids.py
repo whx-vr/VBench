@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
-Build id -> VBench prompt_en + dimensions by matching prompt_map["prompt"]
-to VBench_full_info.json["prompt_en"].
+Build id -> VBench prompt_en + dimensions by matching the align map's
+``prompt`` field to VBench_full_info.json ``prompt_en`` (exact string match).
 
+Default align file: resources/vbench_prompt_align_gpt.json
 If multiple full_info rows share the same prompt_en, dimension lists are merged.
 """
 from __future__ import annotations
@@ -35,8 +36,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Map infer prompt ids to VBench dimensions")
     parser.add_argument(
         "--prompt-map",
-        default=os.path.join(root, "resources", "prompt_map_vbench_gpt.json"),
-        help="prompt_map JSON (id -> {prompt, prompt_en, ...})",
+        default=os.path.join(root, "resources", "vbench_prompt_align_gpt.json"),
+        help="Align JSON: id -> {prompt, prompt_en, ...} (prompt must match full_info prompt_en)",
     )
     parser.add_argument(
         "--full-info",
@@ -80,9 +81,6 @@ def main() -> None:
     for pid, meta in sorted(prompt_map.items(), key=_pid_sort_key):
         if not isinstance(meta, dict):
             continue
-        if str(meta.get("source", "")) and meta.get("source") != "VBench_GPT":
-            pass  # still map if prompt matches; source is informational
-
         prompt_key = meta.get("prompt")
         if prompt_key is None or str(prompt_key).strip() == "":
             unmatched.append({"id": pid, "reason": "missing_or_empty_prompt_field"})

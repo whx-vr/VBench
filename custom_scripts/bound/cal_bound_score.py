@@ -1,0 +1,125 @@
+#!/usr/bin/env python3
+"""
+Compute VBench-style total / quality / semantic scores using per-prompt
+max or min over samples (from *_full_info.json + *_eval_results.json pairs).
+
+Example:
+  python custom_scripts/bound/cal_bound_score.py \\
+    --results_dir ./evaluation_results --bound max
+
+  python custom_scripts/bound/cal_bound_score.py \\
+    --pair ./evaluation_results/results_2025-01-01_full_info.json \\
+          ./evaluation_results/results_2025-01-01_eval_results.json \\
+    --bound min --write_submission ./bound_submission_min.json
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import sys
+
+_THIS_DIR = os.path.dirname(os.path.abspath(__file__))
+_REPO_ROOT = os.path.abspath(os.path.join(_THIS_DIR, "..", ".."))
+_SCRIPTS_DIR = os.path.join(_REPO_ROOT, "scripts")
+if _SCRIPTS_DIR not in sys.path:
+    sys.path.insert(0, _SCRIPTS_DIR)
+
+from bound_scoring import (  # noqa: E402
+    bound_scores_from_pair,
+    merge_bound_maps,
+    pair_paths_in_dir,
+)
+from constant import TASK_INFO  # noqa: E402
+from cal_final_score import (  # noqa: E402
+    get_final_score,
+    get_nomalized_score,
+    get_quality_score,
+    get_semantic_score,
+)
+
+
+def upload_dict_from_dim_scores(dim_scores: dict) -> dict:
+    """TASK_INFO keys (spaces); missing dims -> 0.0 like leaderboard submission."""
+    upload: dict = {}
+    for key in TASK_INFO:
+        # eval JSON uses underscores
+        under = key.replace(" ", "_")
+        upload[key] = float(dim_scores.get(under, 0.0))
+    return upload
+
+
+def write_submission_json(path: str, dim_scores: dict) -> None:
+    """Format compatible with scripts/cal_final_score.py (value[0] is scalar)."""
+    payload = {}
+    for k, v in dim_scores.items():
+        payload[k] = [float(v), []]
+    os.makedirs(os.path.dirname(os.path.abspath(path)) or ".", exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Per-prompt max/min bound scores for VBench")
+    src = parser.add_mutually_exclusive_group(required=True)
+    src.add_argument(
+        "--results_dir",
+        type=str,
+        help="Directory containing paired *_eval_results.json and *_full_info.json",
+    )
+    src.add_argument(
+        "--pair",
+        nargs=2,
+        metavar=("FULL_INFO", "EVAL_RESULTS"),
+        help="Single full_info.json and eval_results.json path",
+    )
+    parser.add_argument(
+        "--bound",
+        choices=("max", "min"),
+        required=True,
+        help="Within each prompt, take max or min over available sample videos",
+    )
+    parser.add_argument(
+        "--write_submission",
+        type=str,
+        default="",
+        help="Optional path to write JSON {dim: [scalar, []]} for zip / cal_final_score.py",
+    )
+    args = parser.parse_args()
+
+    if args.pair:
+        full_info_path, eval_path = args.pair
+        merged = bound_scores_from_pair(full_info_path, eval_path, args.bound)
+    else:
+        pairs = pair_paths_in_dir(args.results_dir)
+        if not pairs:
+            raise SystemExit(
+                f"No paired *_eval_results.json + *_full_info.json under {args.results_dir!r}"
+            )
+        maps = [bound_scores_from_pair(fp, ep, args.bound) for fp, ep in sorted(pairs)]
+        merged = merge_bound_maps(maps)
+
+    upload = upload_dict_from_dim_scores(merged)
+    normalized = get_nomalized_score(upload)
+    quality = get_quality_score(normalized)
+    semantic = get_semantic_score(normalized)
+    final = get_final_score(quality, semantic)
+
+    print(f"bound mode: {args.bound}")
+    print(f"dimensions with non-zero re-aggregated raw scores: {len(merged)}")
+    if len(merged) < len(TASK_INFO):
+        missing = [k.replace(" ", "_") for k in TASK_INFO if k.replace(" ", "_") not in merged]
+        print(f"warning: missing {len(missing)} dimensions in merged eval; they count as 0.0")
+    print("+------------------|------------------+")
+    print(f"|     quality score|{quality}|")
+    print(f"|    semantic score|{semantic}|")
+    print(f"|       total score|{final}|")
+    print("+------------------|------------------+")
+
+    if args.write_submission:
+        write_submission_json(args.write_submission, merged)
+        print(f"wrote submission-style json: {args.write_submission}")
+
+
+if __name__ == "__main__":
+    main()

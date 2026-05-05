@@ -92,6 +92,18 @@ def main() -> None:
         help="Use merged official [0] from *_eval_results.json only (same as cal_final_score_from_eval_dir.py)",
     )
     parser.add_argument(
+        "--index_lo",
+        type=int,
+        default=None,
+        help="Inclusive low sample index from basename ...-{i}.mp4 (bound mode only).",
+    )
+    parser.add_argument(
+        "--index_hi",
+        type=int,
+        default=None,
+        help="Inclusive high sample index from basename ...-{i}.mp4 (bound mode only).",
+    )
+    parser.add_argument(
         "--write_submission",
         type=str,
         default="",
@@ -99,9 +111,14 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    if (args.index_lo is None) ^ (args.index_hi is None):
+        parser.error("Provide both --index_lo and --index_hi, or neither.")
+
     if args.eval_scalars_only:
         if args.bound is not None:
             parser.error("Do not pass --bound together with --eval-scalars-only")
+        if args.index_lo is not None or args.index_hi is not None:
+            parser.error("--index_lo/--index_hi are only valid in --bound mode")
         from cal_final_score_from_eval_dir import load_from_eval_output  # noqa: E402
 
         if args.pair:
@@ -121,16 +138,33 @@ def main() -> None:
             parser.error("Pass --bound max|min, or use --eval-scalars-only")
         if args.pair:
             full_info_path, eval_path = args.pair
-            merged = bound_scores_from_pair(full_info_path, eval_path, args.bound)
+            merged = bound_scores_from_pair(
+                full_info_path,
+                eval_path,
+                args.bound,
+                index_lo=args.index_lo,
+                index_hi=args.index_hi,
+            )
         else:
             pairs = pair_paths_in_dir(args.results_dir)
             if not pairs:
                 raise SystemExit(
                     f"No paired *_eval_results.json + *_full_info.json under {args.results_dir!r}"
                 )
-            maps = [bound_scores_from_pair(fp, ep, args.bound) for fp, ep in sorted(pairs)]
+            maps = [
+                bound_scores_from_pair(
+                    fp,
+                    ep,
+                    args.bound,
+                    index_lo=args.index_lo,
+                    index_hi=args.index_hi,
+                )
+                for fp, ep in sorted(pairs)
+            ]
             merged = merge_bound_maps(maps)
         print(f"bound mode: {args.bound} (with official [0] fallback when per-video bound is unavailable)")
+        if args.index_lo is not None:
+            print(f"sample index filter: [{args.index_lo}, {args.index_hi}]")
 
     upload = upload_dict_from_dim_scores(merged)
     normalized = get_nomalized_score(upload)

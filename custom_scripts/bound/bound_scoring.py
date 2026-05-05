@@ -9,13 +9,24 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from typing import Any, Callable, Dict, List, Literal, Optional, Tuple
 
 BoundMode = Literal["max", "min"]
+_SAMPLE_INDEX_RE = re.compile(r"-(\d+)(\.[^.]+)$")
 
 
 def normalize_path(p: str) -> str:
     return os.path.normcase(os.path.normpath(os.path.abspath(os.path.expanduser(p))))
+
+
+def sample_index_from_video_path(path: str) -> Optional[int]:
+    """Parse trailing sample index from basename: ...-3.mp4 -> 3."""
+    base = os.path.basename(path)
+    m = _SAMPLE_INDEX_RE.search(base)
+    if not m:
+        return None
+    return int(m.group(1))
 
 
 def _scalar_from_video_results(raw: Any) -> Optional[float]:
@@ -97,6 +108,9 @@ def aggregate_one_dimension(
     full_info: List[dict],
     video_to_score: Dict[str, float],
     mode: BoundMode,
+    *,
+    index_lo: Optional[int] = None,
+    index_hi: Optional[int] = None,
 ) -> Optional[float]:
     """
     For one dimension: for each prompt row in full_info, take max or min of
@@ -105,6 +119,16 @@ def aggregate_one_dimension(
     """
     pick = _pick_agg(mode)
     per_prompt_values: List[float] = []
+
+    def in_range(path: str) -> bool:
+        if index_lo is None and index_hi is None:
+            return True
+        assert index_lo is not None and index_hi is not None
+        si = sample_index_from_video_path(path)
+        if si is None:
+            return False
+        return index_lo <= si <= index_hi
+
     for row in full_info:
         if not isinstance(row, dict):
             continue
@@ -113,6 +137,8 @@ def aggregate_one_dimension(
             vlist = [vlist]
         scores: List[float] = []
         for p in vlist:
+            if not in_range(str(p)):
+                continue
             key = normalize_path(str(p))
             if key in video_to_score:
                 scores.append(video_to_score[key])
@@ -130,6 +156,8 @@ def bound_scores_from_pair(
     mode: BoundMode,
     *,
     fallback_official_scalar: bool = True,
+    index_lo: Optional[int] = None,
+    index_hi: Optional[int] = None,
 ) -> Dict[str, float]:
     """
     Return dimension_name (underscore) -> scalar for each dim in eval JSON.
@@ -157,7 +185,9 @@ def bound_scores_from_pair(
         official, video_map = _video_dict_from_dimension_result(dim_result, dim_key)
         agg: Optional[float] = None
         if video_map:
-            agg = aggregate_one_dimension(full_info, video_map, mode)
+            agg = aggregate_one_dimension(
+                full_info, video_map, mode, index_lo=index_lo, index_hi=index_hi
+            )
         if agg is not None:
             out[dim_key] = agg
         elif fallback_official_scalar and official is not None:

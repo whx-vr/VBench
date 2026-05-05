@@ -56,6 +56,12 @@ python3 custom_scripts/bound/cal_bound_score.py \
   --results_dir ./evaluation_results \
   --bound min
 
+# 仅使用样本 index 0~2 参与 bound 聚合
+python3 custom_scripts/bound/cal_bound_score.py \
+  --results_dir ./evaluation_results \
+  --bound max \
+  --index_lo 0 --index_hi 2
+
 # 与 cal_final_score_from_eval_dir 完全一致（只合并各维官方 [0]）
 python3 custom_scripts/bound/cal_bound_score.py \
   --results_dir ./evaluation_results \
@@ -69,4 +75,5 @@ python3 custom_scripts/bound/cal_bound_score.py \
 - `--results_dir` 会合并目录下**所有**成对文件；请避免把不相关评测混在同一目录导致维度被错误覆盖。
 - 与官方总分不一致时：若要对齐 leaderboard 口径，请用 **`--eval-scalars-only`** 或直接用 `scripts/cal_final_score_from_eval_dir.py`。
 - 使用 **`--bound`** 时请在报告里标明为 **bound 重聚合**；与官方 `[0]` 对比差异大时，先确认是否属于上面说的定义差异。
+- `--index_lo/--index_hi` 仅在 `--bound` 下生效：按文件名结尾 `...-i.mp4` 过滤参与聚合的样本索引区间（闭区间）。
 - **`imaging_quality`**：`eval_results` 里逐视频的 `video_results` 与 `vbench/imaging_quality.py` 一致，为 **MUSIQ 原始 0–100 分**；官方标量 `[0]` 在代码里会 `/100`。`bound_scoring` 已对逐视频分做 **`/100`** 再参与 max/min，避免与 `cal_final_score_from_eval_dir` 混用同一归一化区间时出现数量级错误。

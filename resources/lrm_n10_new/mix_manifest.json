@@ -1,0 +1,18 @@
+{
+  "seed_step5_variant": 1041,
+  "seed_step10_variant": 42,
+  "common_prompt_keys_n": 946,
+  "scores_t_5": {
+    "base": "/Users/loskiwu/Documents/Loski/Work/Intern/VR/work1_LRM/code/VBench/resources/lrm_n10_result/scores_t_5.json",
+    "fraction_from_timestep_1": 0.4,
+    "n_replaced_nominal": 378
+  },
+  "scores_t_10": {
+    "base": "/Users/loskiwu/Documents/Loski/Work/Intern/VR/work1_LRM/code/VBench/resources/lrm_n10_result/scores_t_10.json",
+    "fraction_from_timestep_1": 0.3,
+    "fraction_from_timestep_50": 0.3,
+    "n_from_1_nominal": 284,
+    "n_from_50_nominal": 284,
+    "remainder_timestep": 10
+  }
+}

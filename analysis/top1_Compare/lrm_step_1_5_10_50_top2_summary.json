@@ -1,0 +1,144 @@
+{
+  "dataset": "resources/lrm_result/scores_t_{1,5,10,50}.json",
+  "prompt_count": 946,
+  "steps": [
+    1,
+    5,
+    10,
+    50
+  ],
+  "definition": {
+    "top2": "top2 seeds by score for each prompt/step",
+    "tie_break": "score desc then seed id asc"
+  },
+  "unordered_set_based": {
+    "1-5": {
+      "exact_same_top2_set_count": 102,
+      "exact_same_top2_set_ratio": 0.10782241014799154,
+      "mean_overlap_ratio_intersection_over_2": 0.39482029598308666,
+      "mean_jaccard": 0.29915433403805586,
+      "intersection_size_distribution": {
+        "0": 301,
+        "1": 543,
+        "2": 102
+      }
+    },
+    "1-10": {
+      "exact_same_top2_set_count": 89,
+      "exact_same_top2_set_ratio": 0.09408033826638477,
+      "mean_overlap_ratio_intersection_over_2": 0.39799154334038056,
+      "mean_jaccard": 0.29668780831571623,
+      "intersection_size_distribution": {
+        "0": 282,
+        "1": 575,
+        "2": 89
+      }
+    },
+    "1-50": {
+      "exact_same_top2_set_count": 113,
+      "exact_same_top2_set_ratio": 0.11945031712473574,
+      "mean_overlap_ratio_intersection_over_2": 0.42441860465116277,
+      "mean_jaccard": 0.32276250880902063,
+      "intersection_size_distribution": {
+        "0": 256,
+        "1": 577,
+        "2": 113
+      }
+    },
+    "5-10": {
+      "exact_same_top2_set_count": 105,
+      "exact_same_top2_set_ratio": 0.1109936575052854,
+      "mean_overlap_ratio_intersection_over_2": 0.4090909090909091,
+      "mean_jaccard": 0.309725158562368,
+      "intersection_size_distribution": {
+        "0": 277,
+        "1": 564,
+        "2": 105
+      }
+    },
+    "5-50": {
+      "exact_same_top2_set_count": 93,
+      "exact_same_top2_set_ratio": 0.09830866807610994,
+      "mean_overlap_ratio_intersection_over_2": 0.4001057082452431,
+      "mean_jaccard": 0.2995066948555329,
+      "intersection_size_distribution": {
+        "0": 282,
+        "1": 571,
+        "2": 93
+      }
+    },
+    "10-50": {
+      "exact_same_top2_set_count": 90,
+      "exact_same_top2_set_ratio": 0.09513742071881606,
+      "mean_overlap_ratio_intersection_over_2": 0.40169133192389006,
+      "mean_jaccard": 0.2995066948555333,
+      "intersection_size_distribution": {
+        "0": 276,
+        "1": 580,
+        "2": 90
+      }
+    }
+  },
+  "ordered_sequence_based": {
+    "1-5": {
+      "exact_ordered_match_count": 53,
+      "exact_ordered_match_ratio": 0.056025369978858354,
+      "same_top1_count": 182,
+      "same_top1_ratio": 0.19238900634249473,
+      "same_top2_count": 207,
+      "same_top2_ratio": 0.21881606765327696,
+      "reversed_order_count": 49,
+      "reversed_order_ratio": 0.05179704016913319
+    },
+    "1-10": {
+      "exact_ordered_match_count": 47,
+      "exact_ordered_match_ratio": 0.049682875264270614,
+      "same_top1_count": 190,
+      "same_top1_ratio": 0.20084566596194503,
+      "same_top2_count": 205,
+      "same_top2_ratio": 0.2167019027484144,
+      "reversed_order_count": 42,
+      "reversed_order_ratio": 0.04439746300211417
+    },
+    "1-50": {
+      "exact_ordered_match_count": 59,
+      "exact_ordered_match_ratio": 0.06236786469344609,
+      "same_top1_count": 204,
+      "same_top1_ratio": 0.2156448202959831,
+      "same_top2_count": 201,
+      "same_top2_ratio": 0.2124735729386892,
+      "reversed_order_count": 54,
+      "reversed_order_ratio": 0.05708245243128964
+    },
+    "5-10": {
+      "exact_ordered_match_count": 60,
+      "exact_ordered_match_ratio": 0.06342494714587738,
+      "same_top1_count": 195,
+      "same_top1_ratio": 0.20613107822410148,
+      "same_top2_count": 192,
+      "same_top2_ratio": 0.2029598308668076,
+      "reversed_order_count": 45,
+      "reversed_order_ratio": 0.04756871035940803
+    },
+    "5-50": {
+      "exact_ordered_match_count": 35,
+      "exact_ordered_match_ratio": 0.03699788583509514,
+      "same_top1_count": 170,
+      "same_top1_ratio": 0.17970401691331925,
+      "same_top2_count": 199,
+      "same_top2_ratio": 0.21035940803382663,
+      "reversed_order_count": 58,
+      "reversed_order_ratio": 0.0613107822410148
+    },
+    "10-50": {
+      "exact_ordered_match_count": 42,
+      "exact_ordered_match_ratio": 0.04439746300211417,
+      "same_top1_count": 190,
+      "same_top1_ratio": 0.20084566596194503,
+      "same_top2_count": 167,
+      "same_top2_ratio": 0.17653276955602537,
+      "reversed_order_count": 48,
+      "reversed_order_ratio": 0.0507399577167019
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "dataset": "resources/lrm_result/scores_t_{1,5,10}.json",
+  "rule": "Top2 overlap is true if two top2 sets share at least one seed.",
+  "prompt_count": 946,
+  "pairwise": {
+    "1-5": {
+      "overlap_at_least_one_count": 645,
+      "overlap_at_least_one_ratio": 0.6818181818181818,
+      "no_overlap_count": 301,
+      "no_overlap_ratio": 0.3181818181818182
+    },
+    "1-10": {
+      "overlap_at_least_one_count": 664,
+      "overlap_at_least_one_ratio": 0.7019027484143763,
+      "no_overlap_count": 282,
+      "no_overlap_ratio": 0.29809725158562367
+    },
+    "5-10": {
+      "overlap_at_least_one_count": 669,
+      "overlap_at_least_one_ratio": 0.7071881606765328,
+      "no_overlap_count": 277,
+      "no_overlap_ratio": 0.2928118393234672
+    }
+  },
+  "three_way": {
+    "all_three_share_at_least_one_seed_count": 289,
+    "all_three_share_at_least_one_seed_ratio": 0.3054968287526427
+  }
+}

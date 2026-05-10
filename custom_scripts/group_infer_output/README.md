@@ -5,7 +5,7 @@
 ## 背景约定
 
 - **推理输入**：`resources/vbench_prompt_align_gpt.json`（id → 官方对齐短句 `prompt`、长叙述 `prompt_en`；与 VBench 文件名相关的是 **`prompt`**，须与 `VBench_full_info.json` 的 `prompt_en` 一致）。id 一般为字符串 `"0"`, `"1"`, …，与推理目录名一致。
-- **推理目录**：`{infer_root}/{id}/0.mp4` … `{id}/4.mp4`（默认五个样本）。
+- **推理目录**：`{infer_root}/{id}/{i}.mp4`；`i` 由 `materialize_eval_layout.py` 的 **`--indices`** 指定（默认 `0..4`，可改为 `0..9` 等）。
 - **对齐规则**：用 map 里的 **`prompt` 字段** 与 `vbench/VBench_full_info.json` 中的 **`prompt_en`** 做**完全一致**匹配，得到该 id 对应的官方句子与 `dimension` 列表（若 full_info 中同句多行，会合并维度并集）。
 - **输出布局**：`{out_base}/{model}/{folder}/{prompt_en}-{i}.mp4`；`folder` 与根目录 `evaluate.sh` 中「维度 → 子目录」一致（见 `evaluate_layout.py`）。
 
@@ -16,7 +16,8 @@
 | `evaluate_layout.py` | 与 `evaluate.sh` 对齐的 `dimension → folder` 及反向查询（某 folder 服务哪些维度）。 |
 | `map_infer_ids.py` | 生成 id → `prompt_en_vbench`、`dimensions` 等汇总 JSON（含 `unmatched`、`collisions`）。 |
 | `materialize_eval_layout.py` | 从 `{infer_root}/{id}/{i}.mp4` 复制或软链到上述 VBench 布局。 |
-| `run_prepare.sh` | 依次调用上述两步的示例脚本。 |
+| `run_prepare.sh` | 依次调用上述两步的示例脚本（默认 indices `0..4`）。 |
+| `run_prepare_with_indices.sh` | 同上，第 5 个参数传入 `--indices` 列表（如 `0,1,...,9`）。 |
 
 ## 使用方法
 
@@ -61,6 +62,15 @@ bash custom_scripts/group_infer_output/run_prepare.sh /path/to/infer_root 模型
 ```
 
 默认 `out_base` 为仓库下 `./vbench_videos`，默认 mapping 为 `custom_scripts/group_infer_output/id_dimensions.json`。
+
+**更多样本（如 BoN=10，铺 `0..9`）**：
+
+```bash
+bash custom_scripts/group_infer_output/run_prepare_with_indices.sh \
+  /path/to/infer_root 模型名 ./vbench_videos "" "0,1,2,3,4,5,6,7,8,9"
+```
+
+铺完后请用 `custom_scripts/eval_custom/evaluate_custom.py` 的 **`--seed_start` / `--seed_end`** 与 indices 对齐（官方 `evaluate.py` 仍只认 `0..4`）。
 
 完成后可用根目录 `evaluate.sh` 或 `custom_scripts/bound/run_evaluate_bounds.sh` 指向同一 `{out_base}/{model}/...` 做评测。
 

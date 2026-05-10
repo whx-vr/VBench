@@ -89,3 +89,11 @@ python3 custom_scripts/lrm_result/materialize_lrm_tie_jsons.py
 ```
 
 This writes one file per timestep under `resources/lrm_result/` (default names `scores_t_<timestep>.json`), in the **same outer/inner key layout** as `previous_rm_result/prompt_idx/`, so each file can be passed directly to `cal_custom_score.py --tie_json`.
+
+To merge timestep files that only contain sample indices `"0"`…`"4"` with a second reward dump keyed by `<id>/result.json` and `seed_5.pt`…`seed_9.pt` (indices 5–9), producing `"0"`…`"9"` for the **same outer keys**:
+
+```bash
+python3 custom_scripts/lrm_result/merge_lrm_extra_seed_jsons.py
+```
+
+Default output directory is `resources/lrm_n10_result/`. Pass that file via `--tie_json` together with **`--index_lo 0 --index_hi 9`** whenever your evaluation `full_info` lists ten videos per prompt.

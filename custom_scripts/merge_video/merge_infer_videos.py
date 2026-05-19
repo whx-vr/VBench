@@ -1,18 +1,16 @@
 #!/usr/bin/env python3
 """
-Merge multiple infer result roots into one combined videos tree.
+Merge multiple infer video directories into one output tree.
 
-Each source root is expected to contain one or more top-level directories named
-like ``videos*`` (default: any name starting with ``videos``). Under each:
+Each --src is a directory whose layout is already:
 
-  videos*/<prompt_id>/<seed-id>.mp4
+  <src>/<prompt_id>/<seed-id>.mp4
 
-All files are merged into:
+e.g. videoa_b/42/0.mp4 and videoc_d/42/5.mp4 from different seed runs.
 
-  <out>/<out_videos_dir>/<prompt_id>/<seed-id>.mp4
+Merged output:
 
-Typical use: several runs with different random seeds, each holding a disjoint
-subset of seed indices (e.g. 0–4 in one run, 5–9 in another).
+  <out>/<prompt_id>/<seed-id>.mp4
 """
 from __future__ import annotations
 
@@ -26,62 +24,68 @@ from typing import Dict, Iterable, List, Tuple
 MEDIA_EXTS = {".mp4", ".gif", ".webm", ".avi", ".mov", ".mkv"}
 
 
-def find_videos_dirs(infer_root: str, videos_glob: str) -> List[str]:
-    """Top-level directories under infer_root matching videos_glob (fnmatch)."""
-    infer_root = os.path.abspath(os.path.expanduser(infer_root))
-    if not os.path.isdir(infer_root):
-        raise FileNotFoundError(f"not a directory: {infer_root}")
-
-    matches: List[str] = []
-    for name in sorted(os.listdir(infer_root)):
-        path = os.path.join(infer_root, name)
-        if not os.path.isdir(path):
-            continue
-        if fnmatch.fnmatch(name, videos_glob):
-            matches.append(path)
-    return matches
-
-
-def iter_media_under_videos_dir(videos_dir: str) -> Iterable[Tuple[str, str]]:
-    """
-    Yield (absolute_path, relative_path_under_videos_dir) for media files.
-    e.g. videos_dir/prompt_1/0.mp4 -> rel_path prompt_1/0.mp4
-    """
-    videos_dir = os.path.abspath(videos_dir)
-    for cur_dir, _, files in os.walk(videos_dir):
+def iter_media_under_root(root: str) -> Iterable[Tuple[str, str]]:
+    """Yield (absolute_path, rel_path) for media under root (prompt_id/seed.mp4)."""
+    root = os.path.abspath(os.path.expanduser(root))
+    for cur_dir, _, files in os.walk(root):
         for name in files:
             ext = os.path.splitext(name)[1].lower()
             if ext not in MEDIA_EXTS:
                 continue
             abs_path = os.path.join(cur_dir, name)
-            rel_path = os.path.relpath(abs_path, videos_dir)
+            rel_path = os.path.relpath(abs_path, root)
             yield abs_path, rel_path
 
 
-def collect_from_sources(
-    src_roots: List[str],
+def resolve_src_dirs(
+    src_dirs: List[str] | None,
     *,
-    videos_glob: str,
-) -> Tuple[List[Tuple[str, str, str]], List[str]]:
-    """
-    Walk all src roots. Return (items, warnings).
+    src_parent: str | None,
+    src_glob: str | None,
+) -> List[str]:
+    """Return absolute paths of source video directories to merge."""
+    if src_dirs and src_parent:
+        raise ValueError("Use either --src or --src-parent, not both")
 
-    Each item is (abs_path, rel_key, source_label) where rel_key is
-    prompt_id/seed-id.mp4 shared across all videos* dirs.
-    """
+    if src_parent:
+        parent = os.path.abspath(os.path.expanduser(src_parent))
+        if not os.path.isdir(parent):
+            raise FileNotFoundError(f"not a directory: {parent}")
+        pattern = src_glob or "*"
+        found: List[str] = []
+        for name in sorted(os.listdir(parent)):
+            path = os.path.join(parent, name)
+            if os.path.isdir(path) and fnmatch.fnmatch(name, pattern):
+                found.append(path)
+        if not found:
+            raise RuntimeError(
+                f"No subdirs matching {pattern!r} under {parent!r}"
+            )
+        return found
+
+    if not src_dirs:
+        raise ValueError("Provide --src and/or --src-parent")
+
+    resolved: List[str] = []
+    for src in src_dirs:
+        path = os.path.abspath(os.path.expanduser(src))
+        if not os.path.isdir(path):
+            raise FileNotFoundError(f"not a directory: {path}")
+        resolved.append(path)
+    return resolved
+
+
+def collect_from_sources(src_roots: List[str]) -> Tuple[List[Tuple[str, str, str]], List[str]]:
     items: List[Tuple[str, str, str]] = []
     warnings: List[str] = []
 
     for src in src_roots:
-        src = os.path.abspath(os.path.expanduser(src))
-        label = src
-        videos_dirs = find_videos_dirs(src, videos_glob)
-        if not videos_dirs:
-            warnings.append(f"no videos* dirs under {src!r} (glob={videos_glob!r})")
-            continue
-        for vdir in videos_dirs:
-            for abs_path, rel_path in iter_media_under_videos_dir(vdir):
-                items.append((abs_path, rel_path, label))
+        count = 0
+        for abs_path, rel_path in iter_media_under_root(src):
+            items.append((abs_path, rel_path, src))
+            count += 1
+        if count == 0:
+            warnings.append(f"no media files under {src!r}")
 
     return items, warnings
 
@@ -90,26 +94,20 @@ def merge_sources(
     src_roots: List[str],
     dst: str,
     *,
-    videos_glob: str,
-    out_videos_dir: str,
     method: str,
     overwrite: bool,
     dry_run: bool,
 ) -> Dict[str, int]:
-    dst = os.path.abspath(os.path.expanduser(dst))
-    out_root = os.path.join(dst, out_videos_dir)
+    out_root = os.path.abspath(os.path.expanduser(dst))
 
-    items, warnings = collect_from_sources(src_roots, videos_glob=videos_glob)
+    items, warnings = collect_from_sources(src_roots)
 
     for w in warnings:
         print(w, file=sys.stderr)
 
     if not items:
-        raise RuntimeError(
-            "No media files found. Check --src paths and --videos-glob."
-        )
+        raise RuntimeError("No media files found. Check --src paths.")
 
-    # rel_key -> (abs_path, source_label); detect conflicts
     rel_to_item: Dict[str, Tuple[str, str]] = {}
     conflicts: List[str] = []
 
@@ -159,7 +157,7 @@ def merge_sources(
         created += 1
 
     return {
-        "src_roots": len(src_roots),
+        "src_dirs": len(src_roots),
         "source_files": len(items),
         "unique_keys": len(rel_to_item),
         "created": created,
@@ -173,30 +171,29 @@ def merge_sources(
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Merge videos*/prompt_id/seed-id.mp4 from multiple infer roots "
-            "into one output tree."
+            "Merge <src>/prompt_id/seed-id.mp4 from multiple video dirs "
+            "(e.g. videoa_b, videoc_d) into one output dir."
         )
     )
     parser.add_argument(
         "--src",
-        nargs="+",
-        required=True,
-        help="One or more infer result root directories",
+        nargs="*",
+        default=[],
+        help="Video dirs to merge, each already prompt_id/seed-id.mp4",
+    )
+    parser.add_argument(
+        "--src-parent",
+        help="Parent dir; merge all immediate subdirs matching --src-glob",
+    )
+    parser.add_argument(
+        "--src-glob",
+        default="*",
+        help="fnmatch for subdir names under --src-parent (default: *)",
     )
     parser.add_argument(
         "--out",
         required=True,
-        help="Output infer root; merged tree is written to {out}/{out_videos_dir}/",
-    )
-    parser.add_argument(
-        "--out-videos-dir",
-        default="videos",
-        help="Name of merged videos directory under --out (default: videos)",
-    )
-    parser.add_argument(
-        "--videos-glob",
-        default="videos*",
-        help="fnmatch pattern for top-level videos dirs under each --src (default: videos*)",
+        help="Output directory: {out}/prompt_id/seed-id.mp4",
     )
     parser.add_argument(
         "--method",
@@ -216,11 +213,15 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    src_roots = resolve_src_dirs(
+        args.src or None,
+        src_parent=args.src_parent,
+        src_glob=args.src_glob,
+    )
+
     stats = merge_sources(
-        args.src,
+        src_roots,
         args.out,
-        videos_glob=args.videos_glob,
-        out_videos_dir=args.out_videos_dir,
         method=args.method,
         overwrite=args.overwrite,
         dry_run=args.dry_run,
